@@ -103,15 +103,3 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if(dialogid == DIALOG_UNUSED) return 1;
 		return 1;
 }
-
-//-----------------------------------------------------
-
-
-AntiDeAMX()
-{
-    new a[][] = {
-        "Unarmed (Fist)",
-        "Brass K"
-    };
-    #pragma unused a
-}
