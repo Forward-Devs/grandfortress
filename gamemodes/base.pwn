@@ -55,9 +55,13 @@ public OnGameModeInit()
 		}
 		else
 		{
-			print("Conexión exitosa con MariaDB");
+			print("Conexiï¿½n exitosa con MariaDB");
 		}
-		
+		DisableInteriorEnterExits();
+		EnableStuntBonusForAll(0);
+
+		SetNameTagDrawDistance(10.0);
+		ShowPlayerMarkers(0);
 		return 1;
 }
 

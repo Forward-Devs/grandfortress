@@ -59,19 +59,19 @@ hook OnPlayerConnect(playerid)
 	GetPlayerName(playerid, Player[playerid][name], MAX_PLAYER_NAME);
 
 	// create orm instance and register all needed variables
-	new ORM: ormid = Player[playerid][ORM_ID] = orm_create("players", g_SQL);
+	new ORM: ormid = Player[playerid][ORM_ID] = orm_create("users", g_SQL);
 
 	orm_addvar_int(ormid, Player[playerid][id], "id");
 	orm_addvar_string(ormid, Player[playerid][name], MAX_PLAYER_NAME, "name");
 	orm_addvar_string(ormid, Player[playerid][password], BCRYPT_HASH_LENGTH, "password");
 	orm_addvar_int(ormid, Player[playerid][kills], "kills");
 	orm_addvar_int(ormid, Player[playerid][deaths], "deaths");
-	orm_addvar_float(ormid, Player[playerid][xPos], "x");
-	orm_addvar_float(ormid, Player[playerid][yPos], "y");
-	orm_addvar_float(ormid, Player[playerid][zPos], "z");
-	orm_addvar_float(ormid, Player[playerid][aPos], "angle");
+	orm_addvar_float(ormid, Player[playerid][xPos], "xPos");
+	orm_addvar_float(ormid, Player[playerid][yPos], "yPos");
+	orm_addvar_float(ormid, Player[playerid][zPos], "zPos");
+	orm_addvar_float(ormid, Player[playerid][aPos], "aPos");
 	orm_addvar_int(ormid, Player[playerid][interior], "interior");
-	orm_setkey(ormid, "username");
+	orm_setkey(ormid, "name");
 
 	// tell the orm system to load all data, assign it to our variables and call our callback when ready
 	orm_load(ormid, "Login_OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
