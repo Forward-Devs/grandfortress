@@ -739,3 +739,4 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [17:01:15] [part] Jim_Street has left the server (0:1)
 [17:01:51] [connection] incoming connection: 192.168.0.22:52185 id: 0
 [17:01:51] [join] Jim_Street has joined the server (0:192.168.0.22)
+[17:18:49] [part] Jim_Street has left the server (0:1)
