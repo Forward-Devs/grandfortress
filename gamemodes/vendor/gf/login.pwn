@@ -58,7 +58,7 @@ hook OnPlayerConnect(playerid)
 
 	GetPlayerName(playerid, Player[playerid][name], MAX_PLAYER_NAME);
 
-	// create orm instance and register all needed variables
+	// Crea una instancia orm y carga todas las variables requeridas
 	new ORM: ormid = Player[playerid][ORM_ID] = orm_create("users", g_SQL);
 
 	orm_addvar_int(ormid, Player[playerid][id], "id");
@@ -73,7 +73,6 @@ hook OnPlayerConnect(playerid)
 	orm_addvar_int(ormid, Player[playerid][interior], "interior");
 	orm_setkey(ormid, "name");
 
-	// tell the orm system to load all data, assign it to our variables and call our callback when ready
 	orm_load(ormid, "Login_OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
 	return 1;
 }
@@ -84,21 +83,21 @@ hook OnPlayerDisconnect(playerid, reason)
 
 	UpdatePlayerData(playerid, reason);
 
-  	// if the player was kicked before the time expires (30 seconds), kill the timer
+  // Si el jugador fue kickeado por timeout, elimina el timer
 	if (Player[playerid][LoginTimer])
 	{
   	KillTimer(Player[playerid][LoginTimer]);
   	Player[playerid][LoginTimer] = 0;
   }
 
-  	// sets "IsLoggedIn" to false when the player disconnects, it prevents from saving the player data twice when "gmx" is used
+  // setea "IsLoggedIn" en false cuando el jugador se desconecta, esto previene guardar la información cuando se usa el "gmx"
 	Player[playerid][IsLoggedIn] = false;
 	return 1;
 }
 
 hook OnPlayerSpawn(playerid)
 {
-	// spawn the player to their last saved position
+	// spawnea el jugador en su ultima ubicación.
 	SetPlayerInterior(playerid, Player[playerid][interior]);
 	SetPlayerPos(playerid, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos]);
 	SetPlayerFacingAngle(playerid, Player[playerid][aPos]);
@@ -144,7 +143,7 @@ Login::OnPlayerDataLoaded(playerid, race_check)
 			format(string, sizeof string, "This account (%s) is registered. Please login by entering your password in the field below:", Player[playerid][name]);
 			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", string, "Login", "Abort");
 
-			// from now on, the player has 30 seconds to login
+			// A partir de ahora tiene 30 segundos para loguear
 			Player[playerid][LoginTimer] = SetTimerEx("Login_OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "d", playerid);
 		}
 		case ERROR_NO_DATA:
@@ -158,17 +157,17 @@ Login::OnPlayerDataLoaded(playerid, race_check)
 
 Login::OnLoginTimeout(playerid)
 {
-	// reset the variable that stores the timerid
+	// Resetea la variable que contiene el timer
 	Player[playerid][LoginTimer] = 0;
 
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "You have been kicked for taking too long to login successfully to your account.", "Okay", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fuiste kickeado por permanecer mucho tiempo sin loguear", "Aceptar", "");
 	DelayedKick(playerid);
 	return 1;
 }
 
 Login::OnPlayerRegister(playerid)
 {
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Registration", "Account successfully registered, you have been automatically logged in.", "Okay", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Registro", "Registraste una cuenta e ingresaste automáticamente.", "Aceptar", "");
 
 	Player[playerid][IsLoggedIn] = true;
 
@@ -192,7 +191,7 @@ Login::OnPasswordHashed(playerid)
 {
 	bcrypt_get_hash(Player[playerid][password]);
 
-  // sends an INSERT query
+  // envia un INSERT
   orm_save(Player[playerid][ORM_ID], "Login_OnPlayerRegister", "d", playerid);
 	return 1;
 }
@@ -204,14 +203,13 @@ Login::OnPasswordChecked(playerid)
 
   if (match)
   {
-    //correct password, spawn the player
-    ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "You have been successfully logged in.", "Okay", "");
+    //Contraseña correcta, spawnea al jugador
+    ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Ingresaste correctamente al servidor.", "Aceptar", "");
 
     KillTimer(Player[playerid][LoginTimer]);
     Player[playerid][LoginTimer] = 0;
     Player[playerid][IsLoggedIn] = true;
 
-    // spawn the player to their last saved position after login
     SetSpawnInfo(playerid, NO_TEAM, 0, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos], Player[playerid][aPos], 0, 0, 0, 0, 0, 0);
     SpawnPlayer(playerid);
   }
@@ -221,10 +219,10 @@ Login::OnPasswordChecked(playerid)
 
     if (Player[playerid][LoginAttempts] >= 3)
     {
-      ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "You have mistyped your password too often (3 times).", "Okay", "");
+      ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fallaste muchas veces la contraseña (3 veces).", "Aceptar", "");
       DelayedKick(playerid);
     }
-    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "Wrong password!\nPlease enter your password in the field below:", "Login", "Abort");
+    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "¡Contraseña incorrecta!\nPor favor intentelo nuevamente:", "Aceptar", "Salir");
   }
 	return 1;
 }
@@ -243,18 +241,18 @@ UpdatePlayerData(playerid, reason)
 {
 	if (Player[playerid][IsLoggedIn] == false) return 0;
 
-	// if the client crashed, it's not possible to get the player's position in OnPlayerDisconnect callback
-	// so we will use the last saved position (in case of a player who registered and crashed/kicked, the position will be the default spawn point)
+	// si se crashea el cliente no es posible recuperar la posición en la que estaba
+	// asi que se usa la ultima posición guardada (en caso de que crashee en el registro, la posición es la predeterminada)
 	if (reason == 1)
 	{
 		GetPlayerPos(playerid, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos]);
 		GetPlayerFacingAngle(playerid, Player[playerid][aPos]);
 	}
 
-	// it is important to store everything in the variables registered in ORM instance
+	// Esto es importante para guardar todas las variables en el ORM
 	Player[playerid][interior] = GetPlayerInterior(playerid);
 
-	// orm_save sends an UPDATE query
+	// se guardan los datos
 	orm_save(Player[playerid][ORM_ID]);
 	orm_destroy(Player[playerid][ORM_ID]);
 	return 1;
@@ -272,7 +270,7 @@ UpdatePlayerDeaths(playerid)
 
 UpdatePlayerKills(killerid)
 {
-	// we must check before if the killer wasn't valid (connected) player to avoid run time error 4
+	// checkea si el asesino esta logueado
 	if (killerid == INVALID_PLAYER_ID) return 0;
 	if (Player[killerid][IsLoggedIn] == false) return 0;
 
