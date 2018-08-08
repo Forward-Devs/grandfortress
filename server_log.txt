@@ -1,0 +1,398 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[12:23:27] filterscripts = ""  (string)
+[12:23:27] 
+[12:23:27] Server Plugins
+[12:23:27] --------------
+[12:23:27]  Loading plugin: nativechecker
+[12:23:27]   Loaded.
+[12:23:27]  Loading plugin: sscanf
+[12:23:27] 
+
+[12:23:27]  ===============================
+
+[12:23:27]       sscanf plugin loaded.     
+
+[12:23:27]          Version:  2.8.1        
+
+[12:23:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:23:27]  ===============================
+
+[12:23:27]   Loaded.
+[12:23:27]  Loading plugin: streamer
+[12:23:27] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[12:23:27]   Loaded.
+[12:23:27]  Loading plugin: Whirlpool
+[12:23:28]  
+[12:23:28]  ==================
+[12:23:28]  
+[12:23:28]   Whirlpool loaded
+[12:23:28]  
+[12:23:28]  ==================
+[12:23:28]  
+[12:23:28]   Loaded.
+[12:23:28]  Loading plugin: mysql
+[12:23:28]   Failed.
+[12:23:28]  Loading plugin: crashdetect
+[12:23:28]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[12:23:28]   CrashDetect v4.12 is OK.
+[12:23:28]   Loaded.
+[12:23:28]  Loaded 5 plugins.
+
+[12:23:28] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[12:23:28] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[12:23:28] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[12:23:28] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[12:23:28] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[12:23:28] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[12:23:30] 
+[12:23:30] Filterscripts
+[12:23:30] ---------------
+[12:23:30]   Loaded 0 filterscripts.
+
+[12:23:33] Loaded 1 vehicles from: vehicles/trains.txt
+[12:23:33] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:23:33] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:23:33] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:23:33] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:23:33] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:23:33] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:23:33] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:23:33] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:23:33] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:23:33] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:23:33] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:23:33] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:23:33] Loaded 168 vehicles from: vehicles/bone.txt
+[12:23:33] Loaded 61 vehicles from: vehicles/flint.txt
+[12:23:33] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:23:33] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:23:33] Total vehicles from files: 1779
+[12:23:33] 
+---------------------------------------
+[12:23:33] Running Grand Larceny - by the SA-MP team
+
+[12:23:33] ---------------------------------------
+
+[12:23:33] Number of vehicle models: 173
+[12:23:34] New version of CrashDetect is available for download (4.13)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:24:27] filterscripts = ""  (string)
+[16:24:27] 
+[16:24:27] Server Plugins
+[16:24:27] --------------
+[16:24:27]  Loading plugin: nativechecker
+[16:24:27]   Loaded.
+[16:24:27]  Loading plugin: sscanf
+[16:24:27] 
+
+[16:24:27]  ===============================
+
+[16:24:27]       sscanf plugin loaded.     
+
+[16:24:27]          Version:  2.8.1        
+
+[16:24:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:24:27]  ===============================
+
+[16:24:27]   Loaded.
+[16:24:27]  Loading plugin: streamer
+[16:24:27] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:24:27]   Loaded.
+[16:24:27]  Loading plugin: Whirlpool
+[16:24:28]  
+[16:24:28]  ==================
+[16:24:28]  
+[16:24:28]   Whirlpool loaded
+[16:24:28]  
+[16:24:28]  ==================
+[16:24:28]  
+[16:24:28]   Loaded.
+[16:24:28]  Loading plugin: mysql
+[16:24:29]  >> plugin.mysql: R41-4 successfully loaded.
+[16:24:29]   Loaded.
+[16:24:29]  Loading plugin: crashdetect
+[16:24:30]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[16:24:30]   CrashDetect v4.12 is OK.
+[16:24:30]   Loaded.
+[16:24:30]  Loaded 6 plugins.
+
+[16:24:30] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:24:30] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:24:30] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:24:31] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:24:31] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:24:31] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:24:31] 
+[16:24:31] Filterscripts
+[16:24:31] ---------------
+[16:24:31]   Loaded 0 filterscripts.
+
+[16:24:31]    Error: Function not registered: 'SSCANF_Init'
+[16:24:31]    Error: Function not registered: 'SSCANF_IsConnected'
+[16:24:31]    Error: Function not registered: 'SSCANF_Join'
+[16:24:31]    Error: Function not registered: 'SSCANF_Leave'
+[16:24:31]    Error: Function not registered: 'Streamer_CallbackHook'
+[16:24:31]    Error: Function not registered: 'orm_create'
+[16:24:31]    Error: Function not registered: 'orm_addvar_int'
+[16:24:31]    Error: Function not registered: 'orm_addvar_string'
+[16:24:31]    Error: Function not registered: 'orm_addvar_float'
+[16:24:31]    Error: Function not registered: 'orm_setkey'
+[16:24:31]    Error: Function not registered: 'orm_select'
+[16:24:31]    Error: Function not registered: 'bcrypt_check'
+[16:24:31]    Error: Function not registered: 'bcrypt_hash'
+[16:24:31]    Error: Function not registered: 'orm_errno'
+[16:24:31]    Error: Function not registered: 'bcrypt_get_hash'
+[16:24:31]    Error: Function not registered: 'orm_save'
+[16:24:31]    Error: Function not registered: 'bcrypt_is_equal'
+[16:24:31]    Error: Function not registered: 'orm_destroy'
+[16:24:31]    Error: Function not registered: 'orm_update'
+[16:24:31]    Error: Function not registered: 'mysql_init_options'
+[16:24:31]    Error: Function not registered: 'mysql_set_option'
+[16:24:31]    Error: Function not registered: 'mysql_connect'
+[16:24:31]    Error: Function not registered: 'mysql_errno'
+[16:24:31]    Error: Function not registered: 'mysql_close'
+[16:24:31] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:24:33] Script[gamemodes/base.amx]: Run time error 19: "File or function is not found"
+[16:24:33] Number of vehicle models: 0
+[16:24:33] New version of CrashDetect is available for download (4.13)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:26:29] filterscripts = ""  (string)
+[16:26:29] 
+[16:26:29] Server Plugins
+[16:26:29] --------------
+[16:26:29]  Loading plugin: nativechecker
+[16:26:29]   Loaded.
+[16:26:29]  Loading plugin: sscanf
+[16:26:29] 
+
+[16:26:29]  ===============================
+
+[16:26:29]       sscanf plugin loaded.     
+
+[16:26:29]          Version:  2.8.1        
+
+[16:26:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:26:29]  ===============================
+
+[16:26:29]   Loaded.
+[16:26:29]  Loading plugin: streamer
+[16:26:29] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:26:29]   Loaded.
+[16:26:29]  Loading plugin: Whirlpool
+[16:26:29]  
+[16:26:29]  ==================
+[16:26:29]  
+[16:26:29]   Whirlpool loaded
+[16:26:29]  
+[16:26:29]  ==================
+[16:26:29]  
+[16:26:29]   Loaded.
+[16:26:29]  Loading plugin: mysql
+[16:26:30]  >> plugin.mysql: R41-4 successfully loaded.
+[16:26:30]   Loaded.
+[16:26:30]  Loading plugin: bcrypt-samp
+[16:26:30]   plugin.bcrypt v2.2.3 was loaded.
+[16:26:30]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:26:30]   Loaded.
+[16:26:30]  Loading plugin: crashdetect
+[16:26:30]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[16:26:30]   CrashDetect v4.12 is OK.
+[16:26:30]   Loaded.
+[16:26:30]  Loaded 7 plugins.
+
+[16:26:30] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:26:30] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:26:30] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:26:30] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:26:30] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:26:30] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:26:30] 
+[16:26:30] Filterscripts
+[16:26:30] ---------------
+[16:26:30]   Loaded 0 filterscripts.
+
+[16:26:30]    Error: Function not registered: 'SSCANF_Init'
+[16:26:30]    Error: Function not registered: 'SSCANF_IsConnected'
+[16:26:30]    Error: Function not registered: 'SSCANF_Join'
+[16:26:30]    Error: Function not registered: 'SSCANF_Leave'
+[16:26:30]    Error: Function not registered: 'Streamer_CallbackHook'
+[16:26:30]    Error: Function not registered: 'orm_create'
+[16:26:30]    Error: Function not registered: 'orm_addvar_int'
+[16:26:30]    Error: Function not registered: 'orm_addvar_string'
+[16:26:30]    Error: Function not registered: 'orm_addvar_float'
+[16:26:30]    Error: Function not registered: 'orm_setkey'
+[16:26:30]    Error: Function not registered: 'orm_select'
+[16:26:30]    Error: Function not registered: 'bcrypt_check'
+[16:26:30]    Error: Function not registered: 'bcrypt_hash'
+[16:26:30]    Error: Function not registered: 'orm_errno'
+[16:26:30]    Error: Function not registered: 'bcrypt_get_hash'
+[16:26:30]    Error: Function not registered: 'orm_save'
+[16:26:30]    Error: Function not registered: 'bcrypt_is_equal'
+[16:26:30]    Error: Function not registered: 'orm_destroy'
+[16:26:30]    Error: Function not registered: 'orm_update'
+[16:26:30]    Error: Function not registered: 'mysql_init_options'
+[16:26:30]    Error: Function not registered: 'mysql_set_option'
+[16:26:30]    Error: Function not registered: 'mysql_connect'
+[16:26:30]    Error: Function not registered: 'mysql_errno'
+[16:26:30]    Error: Function not registered: 'mysql_close'
+[16:26:30] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:26:30]  
+[16:26:30]  
+[16:26:30]  
+[16:26:30]  ======================================= 
+[16:26:30]  |                                     | 
+[16:26:30]  |        YSI version 3.09.0684        | 
+[16:26:30]  |        By Alex "Y_Less" Cole        | 
+[16:26:30]  |                                     | 
+[16:26:30]  ======================================= 
+[16:26:30]  
+[16:26:30]  
+[16:26:30]  
+[16:26:31] Number of vehicle models: 0
+[16:26:31] plugin.bcrypt: Version check failed.
+[16:26:31] New version of CrashDetect is available for download (4.13)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:27:32] filterscripts = ""  (string)
+[16:27:32] 
+[16:27:32] Server Plugins
+[16:27:32] --------------
+[16:27:32]  Loading plugin: nativechecker
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: sscanf
+[16:27:32] 
+
+[16:27:32]  ===============================
+
+[16:27:32]       sscanf plugin loaded.     
+
+[16:27:32]          Version:  2.8.1        
+
+[16:27:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:27:32]  ===============================
+
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: streamer
+[16:27:32] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: Whirlpool
+[16:27:32]  
+[16:27:32]  ==================
+[16:27:32]  
+[16:27:32]   Whirlpool loaded
+[16:27:32]  
+[16:27:32]  ==================
+[16:27:32]  
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: mysql
+[16:27:32]  >> plugin.mysql: R41-4 successfully loaded.
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: bcrypt-samp
+[16:27:32]   plugin.bcrypt v2.2.3 was loaded.
+[16:27:32]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:27:32]   Loaded.
+[16:27:32]  Loading plugin: crashdetect
+[16:27:32]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[16:27:32]   CrashDetect v4.12 is OK.
+[16:27:32]   Loaded.
+[16:27:32]  Loaded 7 plugins.
+
+[16:27:32] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:27:32] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:27:32] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:27:32] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:27:32] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:27:32] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:27:33] 
+[16:27:33] Filterscripts
+[16:27:33] ---------------
+[16:27:33]   Loaded 0 filterscripts.
+
+[16:27:33]    Error: Function not registered: 'SSCANF_Init'
+[16:27:33]    Error: Function not registered: 'SSCANF_IsConnected'
+[16:27:33]    Error: Function not registered: 'SSCANF_Join'
+[16:27:33]    Error: Function not registered: 'SSCANF_Leave'
+[16:27:33]    Error: Function not registered: 'Streamer_CallbackHook'
+[16:27:33]    Error: Function not registered: 'orm_create'
+[16:27:33]    Error: Function not registered: 'orm_addvar_int'
+[16:27:33]    Error: Function not registered: 'orm_addvar_string'
+[16:27:33]    Error: Function not registered: 'orm_addvar_float'
+[16:27:33]    Error: Function not registered: 'orm_setkey'
+[16:27:33]    Error: Function not registered: 'orm_select'
+[16:27:33]    Error: Function not registered: 'bcrypt_check'
+[16:27:33]    Error: Function not registered: 'bcrypt_hash'
+[16:27:33]    Error: Function not registered: 'orm_errno'
+[16:27:33]    Error: Function not registered: 'bcrypt_get_hash'
+[16:27:33]    Error: Function not registered: 'orm_save'
+[16:27:33]    Error: Function not registered: 'bcrypt_is_equal'
+[16:27:33]    Error: Function not registered: 'orm_destroy'
+[16:27:33]    Error: Function not registered: 'orm_update'
+[16:27:33]    Error: Function not registered: 'mysql_init_options'
+[16:27:33]    Error: Function not registered: 'mysql_set_option'
+[16:27:33]    Error: Function not registered: 'mysql_connect'
+[16:27:33]    Error: Function not registered: 'mysql_errno'
+[16:27:33]    Error: Function not registered: 'mysql_close'
+[16:27:33] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:27:33]  
+[16:27:33]  
+[16:27:33]  
+[16:27:33]  ======================================= 
+[16:27:33]  |                                     | 
+[16:27:33]  |        YSI version 3.09.0684        | 
+[16:27:33]  |        By Alex "Y_Less" Cole        | 
+[16:27:33]  |                                     | 
+[16:27:33]  ======================================= 
+[16:27:33]  
+[16:27:33]  
+[16:27:33]  
+[16:27:33] Conexión exitosa con MariaDB
+[16:27:33] Number of vehicle models: 0
+[16:27:33] New version of CrashDetect is available for download (4.13)
+[16:27:33] plugin.bcrypt: Version check failed.
