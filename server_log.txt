@@ -740,3 +740,405 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [17:01:51] [connection] incoming connection: 192.168.0.22:52185 id: 0
 [17:01:51] [join] Jim_Street has joined the server (0:192.168.0.22)
 [17:18:49] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[23:46:55] filterscripts = ""  (string)
+[23:46:55] 
+[23:46:55] Server Plugins
+[23:46:55] --------------
+[23:46:55]  Loading plugin: nativechecker
+[23:46:55]   Loaded.
+[23:46:55]  Loading plugin: sscanf
+[23:46:56] 
+
+[23:46:56]  ===============================
+
+[23:46:56]       sscanf plugin loaded.     
+
+[23:46:56]          Version:  2.8.1        
+
+[23:46:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:46:56]  ===============================
+
+[23:46:56]   Loaded.
+[23:46:56]  Loading plugin: streamer
+[23:46:56] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[23:46:56]   Loaded.
+[23:46:56]  Loading plugin: Whirlpool
+[23:46:56]  
+[23:46:56]  ==================
+[23:46:56]  
+[23:46:56]   Whirlpool loaded
+[23:46:56]  
+[23:46:56]  ==================
+[23:46:56]  
+[23:46:56]   Loaded.
+[23:46:56]  Loading plugin: mysql
+[23:46:57]  >> plugin.mysql: R41-4 successfully loaded.
+[23:46:57]   Loaded.
+[23:46:57]  Loading plugin: bcrypt-samp
+[23:46:58]   plugin.bcrypt v2.2.3 was loaded.
+[23:46:58]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[23:46:58]   Loaded.
+[23:46:58]  Loading plugin: crashdetect
+[23:46:58]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[23:46:58]   CrashDetect v4.12 is OK.
+[23:46:58]   Loaded.
+[23:46:58]  Loaded 7 plugins.
+
+[23:46:58] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[23:46:58] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[23:46:58] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[23:46:58] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[23:46:58] [artwork:crc] inv.dff CRC = 0xC7C21095
+[23:46:58] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[23:46:58] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[23:46:58] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[23:46:58] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[23:46:59] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[23:46:59] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[23:46:59] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[23:46:59] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[23:46:59] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[23:46:59] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[23:47:00] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[23:47:00] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[23:47:00] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[23:47:00] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[23:47:00] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[23:47:00] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[23:47:00] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[23:47:00] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[23:47:00] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[23:47:00] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[23:47:00] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[23:47:00] 
+[23:47:00] Filterscripts
+[23:47:00] ---------------
+[23:47:00]   Loaded 0 filterscripts.
+
+[23:47:00]    Error: Function not registered: 'SSCANF_Init'
+[23:47:00]    Error: Function not registered: 'SSCANF_IsConnected'
+[23:47:00]    Error: Function not registered: 'SSCANF_Join'
+[23:47:00]    Error: Function not registered: 'SSCANF_Leave'
+[23:47:00]    Error: Function not registered: 'Streamer_CallbackHook'
+[23:47:00]    Error: Function not registered: 'orm_create'
+[23:47:00]    Error: Function not registered: 'orm_addvar_int'
+[23:47:00]    Error: Function not registered: 'orm_addvar_string'
+[23:47:00]    Error: Function not registered: 'orm_addvar_float'
+[23:47:00]    Error: Function not registered: 'orm_setkey'
+[23:47:00]    Error: Function not registered: 'orm_select'
+[23:47:00]    Error: Function not registered: 'bcrypt_check'
+[23:47:00]    Error: Function not registered: 'bcrypt_hash'
+[23:47:00]    Error: Function not registered: 'orm_errno'
+[23:47:00]    Error: Function not registered: 'bcrypt_get_hash'
+[23:47:00]    Error: Function not registered: 'orm_save'
+[23:47:00]    Error: Function not registered: 'bcrypt_is_equal'
+[23:47:00]    Error: Function not registered: 'orm_destroy'
+[23:47:00]    Error: Function not registered: 'orm_update'
+[23:47:00]    Error: Function not registered: 'mysql_init_options'
+[23:47:00]    Error: Function not registered: 'mysql_set_option'
+[23:47:00]    Error: Function not registered: 'mysql_connect'
+[23:47:00]    Error: Function not registered: 'mysql_errno'
+[23:47:00]    Error: Function not registered: 'mysql_close'
+[23:47:00] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[23:47:06]  
+[23:47:06]  
+[23:47:06]  
+[23:47:06]  ======================================= 
+[23:47:06]  |                                     | 
+[23:47:06]  |        YSI version 3.09.0684        | 
+[23:47:06]  |        By Alex "Y_Less" Cole        | 
+[23:47:06]  |                                     | 
+[23:47:06]  ======================================= 
+[23:47:06]  
+[23:47:06]  
+[23:47:06]  
+[23:47:10] Conexión exitosa con MariaDB
+[23:47:10] Number of vehicle models: 0
+[23:47:10] plugin.bcrypt: Version check failed.
+[23:47:10] New version of CrashDetect is available for download (4.13)
+[23:48:44] [connection] incoming connection: 192.168.0.22:52756 id: 0
+[23:48:44] [join] Jim_Street has joined the server (0:192.168.0.22)
+[23:49:28] [part] Jim_Street has left the server (0:2)
+[23:50:41] [connection] incoming connection: 192.168.0.22:65064 id: 0
+[23:50:41] [join] Jim_Street has joined the server (0:192.168.0.22)
+[23:51:21] [part] Jim_Street has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[01:46:05] filterscripts = ""  (string)
+[01:46:05] 
+[01:46:05] Server Plugins
+[01:46:05] --------------
+[01:46:05]  Loading plugin: nativechecker
+[01:46:06]   Loaded.
+[01:46:06]  Loading plugin: sscanf
+[01:46:06] 
+
+[01:46:06]  ===============================
+
+[01:46:06]       sscanf plugin loaded.     
+
+[01:46:06]          Version:  2.8.1        
+
+[01:46:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:46:06]  ===============================
+
+[01:46:06]   Loaded.
+[01:46:06]  Loading plugin: streamer
+[01:46:06] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[01:46:06]   Loaded.
+[01:46:06]  Loading plugin: Whirlpool
+[01:46:06]  
+[01:46:06]  ==================
+[01:46:06]  
+[01:46:06]   Whirlpool loaded
+[01:46:06]  
+[01:46:06]  ==================
+[01:46:06]  
+[01:46:06]   Loaded.
+[01:46:06]  Loading plugin: mysql
+[01:46:07]  >> plugin.mysql: R41-4 successfully loaded.
+[01:46:07]   Loaded.
+[01:46:07]  Loading plugin: bcrypt-samp
+[01:46:07]   plugin.bcrypt v2.2.3 was loaded.
+[01:46:07]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[01:46:07]   Loaded.
+[01:46:07]  Loading plugin: crashdetect
+[01:46:07]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[01:46:07]   CrashDetect v4.12 is OK.
+[01:46:07]   Loaded.
+[01:46:07]  Loaded 7 plugins.
+
+[01:46:08] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[01:46:08] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[01:46:08] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[01:46:08] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[01:46:08] [artwork:crc] inv.dff CRC = 0xC7C21095
+[01:46:08] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[01:46:08] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[01:46:09] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[01:46:09] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[01:46:09] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[01:46:09] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[01:46:09] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[01:46:10] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[01:46:10] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[01:46:10] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[01:46:10] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[01:46:10] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[01:46:10] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[01:46:10] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[01:46:10] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[01:46:11] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[01:46:11] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[01:46:11] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[01:46:11] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[01:46:11] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[01:46:11] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[01:46:11] 
+[01:46:11] Filterscripts
+[01:46:11] ---------------
+[01:46:11]   Loaded 0 filterscripts.
+
+[01:46:11]    Error: Function not registered: 'SSCANF_Init'
+[01:46:11]    Error: Function not registered: 'SSCANF_IsConnected'
+[01:46:11]    Error: Function not registered: 'SSCANF_Join'
+[01:46:11]    Error: Function not registered: 'SSCANF_Leave'
+[01:46:11]    Error: Function not registered: 'Streamer_CallbackHook'
+[01:46:11]    Error: Function not registered: 'orm_create'
+[01:46:11]    Error: Function not registered: 'orm_addvar_int'
+[01:46:11]    Error: Function not registered: 'orm_addvar_string'
+[01:46:11]    Error: Function not registered: 'orm_addvar_float'
+[01:46:11]    Error: Function not registered: 'orm_setkey'
+[01:46:11]    Error: Function not registered: 'orm_select'
+[01:46:11]    Error: Function not registered: 'bcrypt_check'
+[01:46:11]    Error: Function not registered: 'bcrypt_hash'
+[01:46:11]    Error: Function not registered: 'orm_errno'
+[01:46:11]    Error: Function not registered: 'bcrypt_get_hash'
+[01:46:11]    Error: Function not registered: 'orm_save'
+[01:46:11]    Error: Function not registered: 'bcrypt_is_equal'
+[01:46:11]    Error: Function not registered: 'orm_destroy'
+[01:46:11]    Error: Function not registered: 'orm_update'
+[01:46:11]    Error: Function not registered: 'mysql_init_options'
+[01:46:11]    Error: Function not registered: 'mysql_set_option'
+[01:46:11]    Error: Function not registered: 'mysql_connect'
+[01:46:11]    Error: Function not registered: 'mysql_errno'
+[01:46:11]    Error: Function not registered: 'mysql_close'
+[01:46:11] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[01:46:13]  
+[01:46:13]  
+[01:46:13]  
+[01:46:13]  ======================================= 
+[01:46:13]  |                                     | 
+[01:46:13]  |        YSI version 3.09.0684        | 
+[01:46:13]  |        By Alex "Y_Less" Cole        | 
+[01:46:13]  |                                     | 
+[01:46:13]  ======================================= 
+[01:46:13]  
+[01:46:13]  
+[01:46:13]  
+[01:46:13] Conexión exitosa con MariaDB
+[01:46:13] Number of vehicle models: 0
+[01:46:13] New version of CrashDetect is available for download (4.13)
+[01:46:13] plugin.bcrypt: Version check failed.
+[01:47:16] [connection] incoming connection: 192.168.0.22:58551 id: 0
+[01:47:16] [join] Jim_Street has joined the server (0:192.168.0.22)
+[01:48:12] [part] Jim_Street has left the server (0:1)
+[01:48:47] [connection] incoming connection: 192.168.0.22:62747 id: 0
+[01:48:47] [join] Jim_Street has joined the server (0:192.168.0.22)
+[01:49:06] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[01:51:30] filterscripts = ""  (string)
+[01:51:30] 
+[01:51:30] Server Plugins
+[01:51:30] --------------
+[01:51:30]  Loading plugin: nativechecker
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: sscanf
+[01:51:30] 
+
+[01:51:30]  ===============================
+
+[01:51:30]       sscanf plugin loaded.     
+
+[01:51:30]          Version:  2.8.1        
+
+[01:51:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[01:51:30]  ===============================
+
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: streamer
+[01:51:30] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: Whirlpool
+[01:51:30]  
+[01:51:30]  ==================
+[01:51:30]  
+[01:51:30]   Whirlpool loaded
+[01:51:30]  
+[01:51:30]  ==================
+[01:51:30]  
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: mysql
+[01:51:30]  >> plugin.mysql: R41-4 successfully loaded.
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: bcrypt-samp
+[01:51:30]   plugin.bcrypt v2.2.3 was loaded.
+[01:51:30]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[01:51:30]   Loaded.
+[01:51:30]  Loading plugin: crashdetect
+[01:51:30]   AMX errors won't be tracked because 'streamer.DLL' has been loaded before CrashDetect.
+[01:51:30]   CrashDetect v4.12 is OK.
+[01:51:30]   Loaded.
+[01:51:30]  Loaded 7 plugins.
+
+[01:51:30] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[01:51:30] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[01:51:30] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[01:51:30] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[01:51:30] [artwork:crc] inv.dff CRC = 0xC7C21095
+[01:51:30] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[01:51:30] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[01:51:30] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[01:51:30] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[01:51:30] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[01:51:30] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[01:51:31] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[01:51:31] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[01:51:31] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[01:51:31] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[01:51:31] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[01:51:31] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[01:51:31] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[01:51:31] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[01:51:31] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[01:51:31] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[01:51:31] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[01:51:31] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[01:51:31] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[01:51:31] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[01:51:31] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[01:51:31] 
+[01:51:31] Filterscripts
+[01:51:31] ---------------
+[01:51:31]   Loaded 0 filterscripts.
+
+[01:51:31]    Error: Function not registered: 'SSCANF_Init'
+[01:51:31]    Error: Function not registered: 'SSCANF_IsConnected'
+[01:51:31]    Error: Function not registered: 'SSCANF_Join'
+[01:51:31]    Error: Function not registered: 'SSCANF_Leave'
+[01:51:31]    Error: Function not registered: 'Streamer_CallbackHook'
+[01:51:31]    Error: Function not registered: 'orm_create'
+[01:51:31]    Error: Function not registered: 'orm_addvar_int'
+[01:51:31]    Error: Function not registered: 'orm_addvar_string'
+[01:51:31]    Error: Function not registered: 'orm_addvar_float'
+[01:51:31]    Error: Function not registered: 'orm_setkey'
+[01:51:31]    Error: Function not registered: 'orm_select'
+[01:51:31]    Error: Function not registered: 'bcrypt_check'
+[01:51:31]    Error: Function not registered: 'bcrypt_hash'
+[01:51:31]    Error: Function not registered: 'orm_errno'
+[01:51:31]    Error: Function not registered: 'bcrypt_get_hash'
+[01:51:31]    Error: Function not registered: 'orm_save'
+[01:51:31]    Error: Function not registered: 'bcrypt_is_equal'
+[01:51:31]    Error: Function not registered: 'orm_destroy'
+[01:51:31]    Error: Function not registered: 'orm_update'
+[01:51:31]    Error: Function not registered: 'mysql_init_options'
+[01:51:31]    Error: Function not registered: 'mysql_set_option'
+[01:51:31]    Error: Function not registered: 'mysql_connect'
+[01:51:31]    Error: Function not registered: 'mysql_errno'
+[01:51:31]    Error: Function not registered: 'mysql_close'
+[01:51:31] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[01:51:31]  
+[01:51:31]  
+[01:51:31]  
+[01:51:31]  ======================================= 
+[01:51:31]  |                                     | 
+[01:51:31]  |        YSI version 3.09.0684        | 
+[01:51:31]  |        By Alex "Y_Less" Cole        | 
+[01:51:31]  |                                     | 
+[01:51:31]  ======================================= 
+[01:51:31]  
+[01:51:31]  
+[01:51:31]  
+[01:51:31] Conexión exitosa con MariaDB
+[01:51:31] Number of vehicle models: 0
+[01:51:39] New version of CrashDetect is available for download (4.13)
+[01:51:51] plugin.bcrypt: Version check failed.
+[01:52:09] [connection] incoming connection: 192.168.0.22:64063 id: 0
+[01:52:09] [join] Jim_Street has joined the server (0:192.168.0.22)
+[01:53:49] [part] Jim_Street has left the server (0:1)

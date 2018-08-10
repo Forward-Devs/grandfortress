@@ -1,0 +1,13 @@
+{
+    "cmd": [
+        "pawncc.exe", 
+        "$file", 
+        "-o$file_path/$file_base_name", 
+        "-;+", 
+        "-(+", 
+        "-d3"
+    ], 
+    "working_dir": "C:/Users/Forward/Documents/GitHub/grandfortress/pawno/", 
+    "file_regex": "(.*?)\\(([0-9]*)[- 0-9]*\\)", 
+    "selector": "base.pwn"
+}

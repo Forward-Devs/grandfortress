@@ -8,7 +8,7 @@
 #define 	MAX_PLAYERS 		50
 
 // how many seconds until it kicks the player for taking too long to login
-#define	 SECONDS_TO_LOGIN 		30
+#define	 SECONDS_TO_LOGIN 		120
 
 // default spawn point
 #define 	DEFAULT_POS_X 		-2113.0093

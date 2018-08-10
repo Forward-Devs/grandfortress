@@ -37,23 +37,23 @@ new g_MysqlRaceCheck[MAX_PLAYERS];
 
 hook OnGameModeExit()
 {
-  for (new i = 0, j = GetPlayerPoolSize(); i <= j; i++) // GetPlayerPoolSize fue añadida en la 0.3.7 y su función es tomar el id más alto en uso.
-  {
-  	if (IsPlayerConnected(i))
-  	{
-      // La razón es 1 para una salida normal
-    	OnPlayerDisconnect(i, 1);
-    }
-  }
+	for (new i = 0, j = GetPlayerPoolSize(); i <= j; i++) // GetPlayerPoolSize fue añadida en la 0.3.7 y su función es tomar el id más alto en uso.
+	{
+		if (IsPlayerConnected(i))
+		{
+	      	// La razón es 1 para una salida normal
+	    	OnPlayerDisconnect(i, 1);
+	    }
+	  }
 	return 1;
 }
 
 hook OnPlayerConnect(playerid)
 {
-  g_MysqlRaceCheck[playerid]++;
+  	g_MysqlRaceCheck[playerid]++;
 
-  // reset player data
-  static const empty_player[E_PLAYERS];
+  	// reset player data
+  	static const empty_player[E_PLAYERS];
 	Player[playerid] = empty_player;
 
 	GetPlayerName(playerid, Player[playerid][name], MAX_PLAYER_NAME);
@@ -191,8 +191,8 @@ Login::OnPasswordHashed(playerid)
 {
 	bcrypt_get_hash(Player[playerid][password]);
 
-  // envia un INSERT
-  orm_save(Player[playerid][ORM_ID], "Login_OnPlayerRegister", "d", playerid);
+  	// envia un INSERT
+  	orm_save(Player[playerid][ORM_ID], "Login_OnPlayerRegister", "d", playerid);
 	return 1;
 }
 
@@ -201,29 +201,27 @@ Login::OnPasswordChecked(playerid)
 	new bool:match = bcrypt_is_equal();
 
 
-  if (match)
-  {
-    //Contraseña correcta, spawnea al jugador
-    ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Ingresaste correctamente al servidor.", "Aceptar", "");
+  	if (match)
+	{
+	    //Contraseña correcta, spawnea al jugador
+	  	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Ingresaste correctamente al servidor.", "Aceptar", "");
+		KillTimer(Player[playerid][LoginTimer]);
+	    Player[playerid][LoginTimer] = 0;
+	    Player[playerid][IsLoggedIn] = true;
+	    SetSpawnInfo(playerid, NO_TEAM, 20011, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos], Player[playerid][aPos], 0, 0, 0, 0, 0, 0);
+	    SpawnPlayer(playerid);
+	}
+	else
+	{
+		Player[playerid][LoginAttempts]++;
 
-    KillTimer(Player[playerid][LoginTimer]);
-    Player[playerid][LoginTimer] = 0;
-    Player[playerid][IsLoggedIn] = true;
-
-    SetSpawnInfo(playerid, NO_TEAM, 0, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos], Player[playerid][aPos], 0, 0, 0, 0, 0, 0);
-    SpawnPlayer(playerid);
-  }
-  else
-  {
-    Player[playerid][LoginAttempts]++;
-
-    if (Player[playerid][LoginAttempts] >= 3)
-    {
-      ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fallaste muchas veces la contraseña (3 veces).", "Aceptar", "");
-      DelayedKick(playerid);
-    }
-    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "¡Contraseña incorrecta!\nPor favor intentelo nuevamente:", "Aceptar", "Salir");
-  }
+	    if (Player[playerid][LoginAttempts] >= 3)
+	    {
+			ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fallaste muchas veces la contraseña (3 veces).", "Aceptar", "");
+	      	DelayedKick(playerid);
+	    }
+	    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "¡Contraseña incorrecta!\nPor favor intentelo nuevamente:", "Aceptar", "Salir");
+	}
 	return 1;
 }
 
@@ -278,4 +276,9 @@ UpdatePlayerKills(killerid)
 
 	orm_update(Player[killerid][ORM_ID]);
 	return 1;
+}
+hook OnPlayerFinishedDownloading(playerid, virtualworld)
+{
+    SendClientMessage(playerid, 0xffffffff, "Downloads finished.");
+    return 1;
 }

@@ -10,7 +10,6 @@ Desarrollador: FR0Z3NH34R7
 #include <foreach>
 #include <easyDialog>
 #include <bcrypt> // 2.2.3 Descarga: https://github.com/lassir/bcrypt-samp/releases/tag/v2.2.3
-#include <progress2>
 #include <sscanf2>
 #include <streamer>
 #include <a_actor>
@@ -30,7 +29,7 @@ main()
 
 public OnGameModeInit()
 {
-
+		/*
 		#if defined GetPlayerPoolSize
 		new
 			LAST_PLAYER_ID = GetPlayerPoolSize() + 1,
@@ -40,7 +39,7 @@ public OnGameModeInit()
 			#define LAST_PLAYER_ID  MAX_PLAYERS
 			#define LAST_VEHICLE_ID MAX_VEHICLES
 			#define LAST_ACTOR_ID   MAX_ACTORS
-		#endif
+		#endif*/
 
 		new MySQLOpt: option_id = mysql_init_options();
 
@@ -49,13 +48,13 @@ public OnGameModeInit()
 		g_SQL = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE, option_id); // AUTO_RECONNECT is enabled for this connection handle only
 		if (g_SQL == MYSQL_INVALID_HANDLE || mysql_errno(g_SQL) != 0)
 		{
-				print("MySQL connection failed. Server is shutting down.");
+				print("MySQL: conexión fallida, cerrando Gamemode.");
 				SendRconCommand("exit"); // close the server if there is no connection
 				return 1;
 		}
 		else
 		{
-			print("Conexi�n exitosa con MariaDB");
+			print("Conexión exitosa con MariaDB");
 		}
 		DisableInteriorEnterExits();
 		EnableStuntBonusForAll(0);
