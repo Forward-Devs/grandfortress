@@ -1,4 +1,4 @@
-#include <YSI\y_hooks>
+
 
 #define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1)
 #define BCRYPT_COST 12
@@ -16,6 +16,10 @@ enum E_PLAYERS
 	Float: zPos,
 	Float: aPos,
 	interior,
+	skin,
+	gender,
+	level,
+	exp,
 
 	bool: IsLoggedIn,
 	LoginAttempts,
@@ -71,6 +75,10 @@ hook OnPlayerConnect(playerid)
 	orm_addvar_float(ormid, Player[playerid][zPos], "zPos");
 	orm_addvar_float(ormid, Player[playerid][aPos], "aPos");
 	orm_addvar_int(ormid, Player[playerid][interior], "interior");
+	orm_addvar_int(ormid, Player[playerid][skin], "skin");
+	orm_addvar_int(ormid, Player[playerid][gender], "gender");
+	orm_addvar_int(ormid, Player[playerid][level], "level");
+	orm_addvar_int(ormid, Player[playerid][exp], "exp");
 	orm_setkey(ormid, "name");
 
 	orm_load(ormid, "Login_OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
@@ -101,7 +109,7 @@ hook OnPlayerSpawn(playerid)
 	SetPlayerInterior(playerid, Player[playerid][interior]);
 	SetPlayerPos(playerid, Player[playerid][xPos], Player[playerid][yPos], Player[playerid][zPos]);
 	SetPlayerFacingAngle(playerid, Player[playerid][aPos]);
-
+	SetPlayerSkin(playerid, Player[playerid][skin]);
 	SetCameraBehindPlayer(playerid);
 	return 1;
 }
@@ -126,6 +134,11 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
     bcrypt_hash(inputtext, BCRYPT_COST, "Login_OnPasswordHashed", "d", playerid);
 	}
   return 1;
+}
+Login::OnComponentInit()
+{
+	print("Component: Login (FR0Z3NH34R7) loaded.");
+	return 1;
 }
 
 Login::OnPlayerDataLoaded(playerid, race_check)
@@ -261,7 +274,7 @@ UpdatePlayerDeaths(playerid)
 	if (Player[playerid][IsLoggedIn] == false) return 0;
 
 	Player[playerid][deaths]++;
-
+	
 	orm_update(Player[playerid][ORM_ID]);
 	return 1;
 }

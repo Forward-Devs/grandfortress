@@ -14,12 +14,15 @@ Desarrollador: FR0Z3NH34R7
 #include <streamer>
 #include <a_actor>
 #include <zcmd>
-
+#include <YSI\y_hooks>
 // Codigo
 #include "./vendor/config.pwn"
 #include "./vendor/gf/login.pwn" // Login by FR0Z3NH34R7 | table "users" | use bcrypt
-
-
+#include "./vendor/gf/levels.pwn" // Levels by FR0Z3NH34R7 | table "levels"
+#include "./vendor/gf/actors.pwn" // Actors by FR0Z3NH34R7 | table "actors"
+#if defined _Actors_Included
+    #error Will not get called
+#endif
 
 
 main()
@@ -43,13 +46,13 @@ public OnGameModeInit()
 
 		new MySQLOpt: option_id = mysql_init_options();
 
-		mysql_set_option(option_id, AUTO_RECONNECT, true); // it automatically reconnects when loosing connection to mysql server
+		mysql_set_option(option_id, AUTO_RECONNECT, true); // Reconecta automáticamente al perder la conexión.
 
-		g_SQL = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE, option_id); // AUTO_RECONNECT is enabled for this connection handle only
+		g_SQL = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE, option_id); // AUTO_RECONNECT esta activado solo para esta conexión.
 		if (g_SQL == MYSQL_INVALID_HANDLE || mysql_errno(g_SQL) != 0)
 		{
-				print("MySQL: conexión fallida, cerrando Gamemode.");
-				SendRconCommand("exit"); // close the server if there is no connection
+				print("MariaDB: conexión fallida, cerrando Gamemode.");
+				SendRconCommand("exit"); // Cierra el servidor si no se estableció conexión con Maria DB
 				return 1;
 		}
 		else
@@ -61,6 +64,12 @@ public OnGameModeInit()
 
 		SetNameTagDrawDistance(10.0);
 		ShowPlayerMarkers(0);
+		//Hook
+		#if defined _Actors_Component
+		CallLocalFunction("Actor_OnGameModeInit", "");
+		#endif
+		
+		CallLocalFunction("Level_OnGameModeInit", "");
 		return 1;
 }
 
@@ -101,4 +110,23 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 		if(dialogid == DIALOG_UNUSED) return 1;
 		return 1;
+}
+CMD:level(playerid,params[]) {
+	new idd;
+	if(sscanf(params,"i",idd)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /changeactoranim [actorid]");
+	new string[128];
+	format(string,sizeof(string), "Level %d Exp: %d",Level[idd+1][level],Level[idd+1][exp]);
+	SendClientMessage(playerid,0xFFFFFFFF,string);
+
+	return true;
+}
+CMD:setskin(playerid,params[]) {
+	new target, skinn;
+	if(sscanf(params,"id",target, skinn)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /setskin [userid] [skin]");
+	SetPlayerSkin(target, skinn);
+	new string[128];
+	format(string,sizeof(string), "New Skin %d To player: %d",skinn,target);
+	SendClientMessage(playerid,0xFFFFFFFF,string);
+
+	return true;
 }
