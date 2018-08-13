@@ -1,4 +1,8 @@
 
+#if defined _Login_Component
+    #endinput
+#endif
+#define _Login_Component
 
 #define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1)
 #define BCRYPT_COST 12

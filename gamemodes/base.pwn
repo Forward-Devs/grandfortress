@@ -20,9 +20,6 @@ Desarrollador: FR0Z3NH34R7
 #include "./vendor/gf/login.pwn" // Login by FR0Z3NH34R7 | table "users" | use bcrypt
 #include "./vendor/gf/levels.pwn" // Levels by FR0Z3NH34R7 | table "levels"
 #include "./vendor/gf/actors.pwn" // Actors by FR0Z3NH34R7 | table "actors"
-#if defined _Actors_Included
-    #error Will not get called
-#endif
 
 
 main()
@@ -66,10 +63,14 @@ public OnGameModeInit()
 		ShowPlayerMarkers(0);
 		//Hook
 		#if defined _Actors_Component
-		CallLocalFunction("Actor_OnGameModeInit", "");
+		CallLocalFunction("Actor_OnComponentInit", "");
 		#endif
-		
-		CallLocalFunction("Level_OnGameModeInit", "");
+		#if defined _Login_Component
+		CallLocalFunction("Login_OnComponentInit", "");
+		#endif
+		#if defined _Levels_Component
+		CallLocalFunction("Level_OnComponentInit", "");
+		#endif
 		return 1;
 }
 

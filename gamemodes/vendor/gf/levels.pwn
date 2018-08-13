@@ -1,4 +1,7 @@
-
+#if defined _Levels_Component
+    #endinput
+#endif
+#define _Levels_Component
 
 #define Level::%0(%1) forward Level_%0(%1);public Level_%0(%1)
 
