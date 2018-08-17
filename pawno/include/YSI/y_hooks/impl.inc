@@ -180,8 +180,8 @@ stock Hooks_RedirectPublic(from[], to[], final = 1)
 
 /**--------------------------------------------------------------------------**\
 <summary>Hooks_AddOne</summary>
-<param name="idx">Public function table index.</param>
-<param name="&toaddidx">Current slot in the global array.</param>
+<param ysiname="idx">Public function table index.</param>
+<param ysiname="&toaddidx">Current slot in the global array.</param>
 <returns>
 	-
 </returns>
@@ -209,10 +209,10 @@ static Hooks_AddOne(idx, &toaddidx)
 
 /**--------------------------------------------------------------------------**\
 <summary>Hooks_FindAll</summary>
-<param name="name[]">Callback to find.</param>
-<param name="&toaddidx">Current slot in the global array.</param>
-<param name="&start">Where to store the start index.</param>
-<param name="&end">Where to store the end index.</param>
+<param ysiname="ysiname[]">Callback to find.</param>
+<param ysiname="&toaddidx">Current slot in the global array.</param>
+<param ysiname="&start">Where to store the start index.</param>
+<param ysiname="&end">Where to store the end index.</param>
 <returns>
 	-
 </returns>
@@ -222,19 +222,19 @@ static Hooks_AddOne(idx, &toaddidx)
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-static Hooks_FindAll(name[], &toaddidx, &start, &end)
+static Hooks_FindAll(ysiname[], &toaddidx, &start, &end)
 {
-	P:4("Hooks_FindAll called: %s %d", name, toaddidx);
-	P:4("Hooks_FindAll called: %s %d", name, toaddidx);
+	P:4("Hooks_FindAll called: %s %d", ysiname, toaddidx);
+	P:4("Hooks_FindAll called: %s %d", ysiname, toaddidx);
 	new
 		buffer[32],
-		len = strlen(name),
+		len = strlen(ysiname),
 		idx;
 	start = toaddidx - 1;
 	// Find all the y_hooks "hook" callbacks.
 	while ((idx = AMX_GetPublicNamePrefix(idx, buffer, _A<@yH_>)))
 	{
-		if (!strcmp(name, buffer[1], false, len) && ('0' <= buffer{4 + len} <= '9'))
+		if (!strcmp(ysiname, buffer[1], false, len) && ('0' <= buffer{4 + len} <= '9'))
 		{
 			P:6("%d (%d) %s", idx, toaddidx, unpack(buffer));
 			Hooks_AddOne(idx, toaddidx);
@@ -242,7 +242,7 @@ static Hooks_FindAll(name[], &toaddidx, &start, &end)
 	}
 	// Find the next item in the ALS call chain.
 	buffer = "S@@_On";
-	strcat(buffer, name);
+	strcat(buffer, ysiname);
 	// Add 1 as the return of "funcidx" doesn't quite match the return of y_amx.
 	if ((idx = funcidx(buffer) + 1))
 	{
@@ -252,14 +252,14 @@ static Hooks_FindAll(name[], &toaddidx, &start, &end)
 	end = toaddidx - 1;
 	// Don't store the end, if the count goes off the end of the addresses array
 	// then we need to just start reading from the AMX directly.
-	P:4("Hooks_FindAll end: %s %d %d", name, toaddidx, end - (start + 1));
+	P:4("Hooks_FindAll end: %s %d %d", ysiname, toaddidx, end - (start + 1));
 	return end - start;
 }
 
 /**--------------------------------------------------------------------------**\
 <summary>Hooks_RemovePublic</summary>
-<param name="from[]">Public function to remove.</param>
-<param name="final">The return address to use instead.</param>
+<param ysiname="from[]">Public function to remove.</param>
+<param ysiname="final">The return address to use instead.</param>
 <returns>
 	The address of "func".
 </returns>
@@ -272,7 +272,7 @@ static Hooks_FindAll(name[], &toaddidx, &start, &end)
 static Hooks_RemovePublic(from[], final)
 {
 	P:4("Hooks_RemovePublic called: \"%s\", %d", from, final);
-	// The macros used add an extra "(" on to the name.  Remove it.
+	// The macros used add an extra "(" on to the ysiname.  Remove it.
 	new
 		addr = strfind(from, "(");
 	from[addr] = '\0';

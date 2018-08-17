@@ -1,5 +1,7 @@
+
+
 #if defined _Levels_Component
-    #endinput
+	#endinput
 #endif
 #define _Levels_Component
 
@@ -15,9 +17,11 @@ enum E_LEVELS
 	exp
 };
 new Level[MAX_LEVELS][E_LEVELS];
+
 Level::OnComponentInit()
 {
 	mysql_tquery(g_SQL, "SELECT * FROM `levels`", "Level_Load", "");
+
 	return 1;
 }
 

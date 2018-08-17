@@ -14,12 +14,13 @@ Desarrollador: FR0Z3NH34R7
 #include <streamer>
 #include <a_actor>
 #include <zcmd>
-#include <YSI\y_hooks>
-// Codigo
-#include "./vendor/config.pwn"
-#include "./vendor/gf/login.pwn" // Login by FR0Z3NH34R7 | table "users" | use bcrypt
-#include "./vendor/gf/levels.pwn" // Levels by FR0Z3NH34R7 | table "levels"
-#include "./vendor/gf/actors.pwn" // Actors by FR0Z3NH34R7 | table "actors"
+
+#include "../vendor/framework/config.p"
+/* Load All Models */
+#include "../vendor/framework/models.p"
+/* Auto Load */
+#include "../autoload.p" 
+
 
 
 main()
@@ -54,22 +55,15 @@ public OnGameModeInit()
 		}
 		else
 		{
-			print("Conexión exitosa con MariaDB");
+			print("Conexion exitosa con MariaDB");
 		}
 		DisableInteriorEnterExits();
 		EnableStuntBonusForAll(0);
 
 		SetNameTagDrawDistance(10.0);
 		ShowPlayerMarkers(0);
-		//Hook
-		#if defined _Actors_Component
-		CallLocalFunction("Actor_OnComponentInit", "");
-		#endif
 		#if defined _Login_Component
-		CallLocalFunction("Login_OnComponentInit", "");
-		#endif
-		#if defined _Levels_Component
-		CallLocalFunction("Level_OnComponentInit", "");
+		print("Login Cargado");
 		#endif
 		return 1;
 }
@@ -112,15 +106,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		if(dialogid == DIALOG_UNUSED) return 1;
 		return 1;
 }
-CMD:level(playerid,params[]) {
-	new idd;
-	if(sscanf(params,"i",idd)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /changeactoranim [actorid]");
-	new string[128];
-	format(string,sizeof(string), "Level %d Exp: %d",Level[idd+1][level],Level[idd+1][exp]);
-	SendClientMessage(playerid,0xFFFFFFFF,string);
 
-	return true;
-}
 CMD:setskin(playerid,params[]) {
 	new target, skinn;
 	if(sscanf(params,"id",target, skinn)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /setskin [userid] [skin]");

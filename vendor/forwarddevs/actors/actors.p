@@ -34,11 +34,11 @@ Actors::Load()
 		orm_addvar_int(ormid, Actor::i(invulnerable), "invulnerable");
 		orm_apply_cache(ormid, i);
 
-		Actor::i(ActorText] = CreateDynamic3DTextLabel(Actor::i(name), 0x008080FF,Actor::i(xPos), Actor::i(yPos), Actor::i(zPos)+1.05, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0);
-		Actor::i(actor] = CreateActor(Actor::i(skin), Actor::i(xPos), Actor::i(yPos), Actor::i(zPos), Actor::i(aPos);
-		SetActorHealth(Actor::i(actor), Actor::i(health);
-		SetActorInvulnerable(Actor::i(actor), Actor::i(invulnerable);
-		printf("Actor %d Cargado", Actor::i(actor);
+		Actor::i(ActorText) = CreateDynamic3DTextLabel(Actor::i(name), 0x008080FF,Actor::i(xPos), Actor::i(yPos), Actor::i(zPos)+1.05, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0);
+		Actor::i(actor) = CreateActor(Actor::i(skin), Actor::i(xPos), Actor::i(yPos), Actor::i(zPos), Actor::i(aPos));
+		SetActorHealth(Actor::i(actor), Actor::i(health));
+		SetActorInvulnerable(Actor::i(actor), Actor::i(invulnerable));
+		printf("Actor %d Cargado", Actor::i(actor));
 	}
 	print("Component: Actors (FR0Z3NH34R7) loaded.");
 	return 1;
