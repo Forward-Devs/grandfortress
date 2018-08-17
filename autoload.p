@@ -1,4 +1,4 @@
-/* To add components use "composer require auth/component" */
+/* To add components use "composer require autor/component" */
 #if defined AUTH_ENABLED
 	#if AUTH_ENABLED==1
 		#include <YSI\y_hooks>
