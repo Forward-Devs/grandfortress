@@ -19,7 +19,8 @@ enum E_PLAYERS
 	P_gender,
 	P_level,
 	P_exp,
-
+	bool: P_admin,
+	bool: P_developer,
 	bool: P_IsLoggedIn,
 	P_LoginAttempts,
 	P_LoginTimer

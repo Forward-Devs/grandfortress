@@ -1,3 +1,4 @@
+#include <YSI\y_hooks>
 
 #if defined _Login_Component
     #endinput
@@ -48,6 +49,8 @@ hook OnPlayerConnect(playerid)
 	orm_addvar_float(ormid, User::playerid(aPos), "aPos");
 	orm_addvar_int(ormid, User::playerid(interior), "interior");
 	orm_addvar_int(ormid, User::playerid(skin), "skin");
+	orm_addvar_int(ormid, User::playerid(admin), "admin");
+	orm_addvar_int(ormid, User::playerid(developer), "developer");
 	orm_addvar_int(ormid, User::playerid(gender), "gender");
 	orm_addvar_int(ormid, User::playerid(level), "level");
 	orm_addvar_int(ormid, User::playerid(exp), "exp");
@@ -120,21 +123,21 @@ Login::OnPlayerDataLoaded(playerid, race_check)
 
 	orm_setkey(User::playerid(ORM_ID), "id");
 
-	new string[115];
+	new string[254];
 	switch (orm_errno(User::playerid(ORM_ID)))
 	{
 		case ERROR_OK:
 		{
-			format(string, sizeof string, "This account (%s) is registered. Please login by entering your password in the field below:", User::playerid(name));
-			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", string, "Login", "Abort");
+			format(string, sizeof(string), "\\c{FFFFFF}Bienvenido de nuevo, {09E627}%s \n \n\\c{FFFFFF}Por favor, escriba su contraseña en el siguiente cuadro.", User::playerid(name));
+			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "\\c{FFFFFF}Login", string, "Jugar", "Salir");
 
 			// A partir de ahora tiene 30 segundos para loguear
 			User::playerid(LoginTimer) = SetTimerEx("Login_OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "d", playerid);
 		}
 		case ERROR_NO_DATA:
 		{
-			format(string, sizeof string, "Welcome %s, you can register by entering your password in the field below:", User::playerid(name));
-			ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Registration", string, "Register", "Abort");
+			format(string, sizeof(string), "\\c{FFFFFF}Bienvenido {09E627}%s \n \n\\c{FFFFFF}Puedes registrarte escribiendo una contraseña en el siguiente cuadro.", User::playerid(name));
+			ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "\\c{FFFFFF}Registro", string, "Registrarme", "Salir");
 		}
 	}
 	return 1;
@@ -145,14 +148,14 @@ Login::OnLoginTimeout(playerid)
 	// Resetea la variable que contiene el timer
 	User::playerid(LoginTimer) = 0;
 
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fuiste kickeado por permanecer mucho tiempo sin loguear", "Aceptar", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "\\c{FFFFFF}Login", "\\c{FFFFFF}Fuiste kickeado por permanecer mucho tiempo sin loguear", "Aceptar", "");
 	DelayedKick(playerid);
 	return 1;
 }
 
 Login::OnPlayerRegister(playerid)
 {
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Registro", "Registraste una cuenta e ingresaste automáticamente.", "Aceptar", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "\\c{FFFFFF}Registro", "\\c{FFFFFF}Registraste una cuenta e ingresaste automáticamente.", "Aceptar", "");
 
 	User::playerid(IsLoggedIn) = true;
 
@@ -189,7 +192,7 @@ Login::OnPasswordChecked(playerid)
   	if (match)
 	{
 	    //Contraseña correcta, spawnea al jugador
-	  	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Ingresaste correctamente al servidor.", "Aceptar", "");
+	  	
 		KillTimer(User::playerid(LoginTimer));
 	    User::playerid(LoginTimer) = 0;
 	    User::playerid(IsLoggedIn) = true;
@@ -202,10 +205,10 @@ Login::OnPasswordChecked(playerid)
 
 	    if (User::playerid(LoginAttempts) >= 3)
 	    {
-			ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Fallaste muchas veces la contraseña (3 veces).", "Aceptar", "");
+			ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "\\c{FFFFFF}Login", "\\c{FFFFFF}Fallaste muchas veces la contraseña (3 veces).", "Aceptar", "");
 	      	DelayedKick(playerid);
 	    }
-	    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Login", "¡Contraseña incorrecta!\nPor favor intentelo nuevamente:", "Aceptar", "Salir");
+	    else ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "\\c{FFFFFF}Login", "\\c{FFFFFF}¡Contraseña incorrecta!\nPor favor intentelo nuevamente:", "Aceptar", "Salir");
 	}
 	return 1;
 }

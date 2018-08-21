@@ -1,5 +1,5 @@
 /*
-Motor principal de Grand Fortress, no modificar codigo de 茅ste archivo.
+Motor principal de Grand Fortress, no modificar codigo de 閟te archivo.
 
 Desarrollador: FR0Z3NH34R7
 
@@ -14,67 +14,42 @@ Desarrollador: FR0Z3NH34R7
 #include <streamer>
 #include <a_actor>
 #include <zcmd>
-
-#include "../vendor/framework/config.p"
-/* Load All Models */
-#include "../vendor/framework/models.p"
-/* Auto Load */
-#include "../autoload.p" 
-
-
+#include <crashdetect>
+#include <DialogCenter>
 
 main()
 {
 
 }
 
+#include "../vendor/framework/config.p"
+/* Load All Models */
+#include "../vendor/framework/models.p"
+/* MYSQL */
+#include "../vendor/framework/schema.p"
+/* Auto Load */
+#include "../autoload.p" 
+
+new SafeZone, PlayZone, SafeArea;
+
+
+
+
 public OnGameModeInit()
 {
-		/*
-		#if defined GetPlayerPoolSize
-		new
-			LAST_PLAYER_ID = GetPlayerPoolSize() + 1,
-			LAST_VEHICLE_ID = GetVehiclePoolSize() + 1,
-			LAST_ACTOR_ID = GetActorPoolSize() + 1;
-		#else
-			#define LAST_PLAYER_ID  MAX_PLAYERS
-			#define LAST_VEHICLE_ID MAX_VEHICLES
-			#define LAST_ACTOR_ID   MAX_ACTORS
-		#endif*/
+	DisableInteriorEnterExits();
+	EnableStuntBonusForAll(0);
+	SetNameTagDrawDistance(10.0);
+	ShowPlayerMarkers(0);
 
-		new MySQLOpt: option_id = mysql_init_options();
-
-		mysql_set_option(option_id, AUTO_RECONNECT, true); // Reconecta autom谩ticamente al perder la conexi贸n.
-
-		g_SQL = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE, option_id); // AUTO_RECONNECT esta activado solo para esta conexi贸n.
-		if (g_SQL == MYSQL_INVALID_HANDLE || mysql_errno(g_SQL) != 0)
-		{
-				print("MariaDB: conexi贸n fallida, cerrando Gamemode.");
-				SendRconCommand("exit"); // Cierra el servidor si no se estableci贸 conexi贸n con Maria DB
-				return 1;
-		}
-		else
-		{
-			print("Conexion exitosa con MariaDB");
-		}
-		DisableInteriorEnterExits();
-		EnableStuntBonusForAll(0);
-
-		SetNameTagDrawDistance(10.0);
-		ShowPlayerMarkers(0);
-		#if defined _Login_Component
-		print("Login Cargado");
-		#endif
-		return 1;
+	PlayZone = GangZoneCreate(-2930.1165, -2979.5657, 82.7065, -353.7682);
+	SafeZone = GangZoneCreate(-2268.1316, -2592.7222, -1916.3226, -2204.0454);
+	SafeArea = CreateDynamicRectangle(-2268.1316, -2592.7222, -1916.3226, -2204.0454);
+	return 1;
 }
 
 public OnGameModeExit()
 {
-
-
-	mysql_close(g_SQL);
-	print("Cerrando Gamemode, por favor espere...");
-
 	return 1;
 }
 public OnPlayerConnect(playerid)
@@ -87,13 +62,39 @@ public OnPlayerDisconnect(playerid, reason)
 
 	return 1;
 }
+public OnPlayerText(playerid, text[])
+{
+    return 1;
+}
 
 public OnPlayerSpawn(playerid)
 {
-
+	SetPlayerWorldBounds(playerid, 82.7065, -2930.1165, -353.7682, -2979.5657);
+	GangZoneShowForPlayer(playerid, PlayZone, 0xEF000055);
+	GangZoneShowForPlayer(playerid, SafeZone, 0x0000EF55);
+	SetPlayerColor(playerid, -1);
 	return 1;
 }
-
+public OnPlayerEnterDynamicArea(playerid, areaid)
+{
+	if(areaid == SafeArea)
+	{
+		new nuevo[120];
+	    format(nuevo, sizeof(nuevo), "~g~Entrando a la zona segura.");
+	    MostrarInfoJugador(playerid, nuevo, 3);
+		SendClientMessage(playerid, 0xFFFFFFEE, "Entrando a la zona segura..");
+	}
+}
+public OnPlayerLeaveDynamicArea(playerid, areaid)
+{
+	if(areaid == SafeArea)
+	{
+		new nuevo[120];
+	    format(nuevo, sizeof(nuevo), "~r~Saliendo de la zona segura.");
+	    MostrarInfoJugador(playerid, nuevo, 3);
+		SendClientMessage(playerid, 0xFFFFFFEE, "Saliendo de la zona segura..");
+	}
+}
 public OnPlayerDeath(playerid, killerid, reason)
 {
 
@@ -107,13 +108,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		return 1;
 }
 
-CMD:setskin(playerid,params[]) {
-	new target, skinn;
-	if(sscanf(params,"id",target, skinn)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /setskin [userid] [skin]");
-	SetPlayerSkin(target, skinn);
-	new string[128];
-	format(string,sizeof(string), "New Skin %d To player: %d",skinn,target);
-	SendClientMessage(playerid,0xFFFFFFFF,string);
+public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
+{
 
-	return true;
+    return 1;
 }

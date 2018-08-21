@@ -1,3 +1,4 @@
+#include <YSI\y_hooks>
 #if defined _Actors_Component
 	#endinput
 #endif

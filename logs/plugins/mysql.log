@@ -46,3 +46,61 @@
 [19:54:24] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:60 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
 [19:54:24] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
 [19:54:24] [WARNING] mysql_connect: no password specified (C:\Users\Forward\Documents\GitHub\grandfortress\gamemodes\base.pwn:49 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:17:22] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/levels/levels.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:17:22] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:61 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:17:22] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:14 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:17:22] [WARNING] mysql_connect: no password specified (C:\Users\Forward\Documents\GitHub\grandfortress\gamemodes\base.pwn:49 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:17:24] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:17:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:17:28] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:17:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:15] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/levels/levels.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:15] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:61 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:15] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:14 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:15] [WARNING] mysql_connect: no password specified (C:\Users\Forward\Documents\GitHub\grandfortress\gamemodes\base.pwn:49 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:17] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:19] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:21] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:23] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:27] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/levels/levels.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:27] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:61 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:27] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:14 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:27] [WARNING] mysql_connect: no password specified (C:\Users\Forward\Documents\GitHub\grandfortress\gamemodes\base.pwn:49 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:29] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:33] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:35] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:52] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/levels/levels.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:52] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:61 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:52] [ERROR] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:14 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:18:52] [WARNING] mysql_connect: no password specified (C:\Users\Forward\Documents\GitHub\grandfortress\gamemodes\base.pwn:49 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:25:31] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[16:52:29] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:13:06] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:19:24] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:28:25] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:30:01] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:30:45] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[18:40:28] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:05:48] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:07:57] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:10:53] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:12:48] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:15:25] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:19:08] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:20:34] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:22:30] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:33:19] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:34:08] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:50:37] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:55:18] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[20:59:23] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:00:29] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:01:45] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:03:07] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:04:22] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:09:04] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:12:15] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:31:00] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:47:38] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
+[21:53:40] [WARNING] mysql_connect: no password specified (../vendor/framework/schema.p:17 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)

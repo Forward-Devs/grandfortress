@@ -1,3 +1,0 @@
-[19:54:24] [plugins/mysql] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/levels/levels.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
-[19:54:24] [plugins/mysql] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/inventory/inventory.p:60 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)
-[19:54:24] [plugins/mysql] mysql_tquery: invalid connection handle '0' (../vendor/forwarddevs/actors/actors.p:13 -> C:\Users\Forward\Documents\GitHub\grandfortress\pawno\include\YSI\y_hooks/impl.inc:483)

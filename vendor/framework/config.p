@@ -32,3 +32,6 @@ enum
 #define LEVELS_ENABLED 1 // Levels by FR0Z3NH34R7 | table "levels"
 #define INVENTORY_ENABLED 1 // Inventory and Items by FR0Z3NH34R7 | table "inventories" & "items"
 #define ACTORS_ENABLED 1 // Actors by FR0Z3NH34R7 | table "actors"
+#define SINTAXIS_ENABLED 1 // Sintaxis by FR0Z3NH34R7
+#define ADMIN_ENABLED 1 // Admin CMDS by FR0Z3NH34R7
+#define PLAYERCMDS_ENABLED 1 // Comandos para Usuario.

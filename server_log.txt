@@ -3933,3 +3933,3807 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [19:54:24] Login Cargado
 [19:54:24] Number of vehicle models: 0
 [19:54:24] New version of CrashDetect is available for download (4.13)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:17:14] filterscripts = ""  (string)
+[16:17:14] 
+[16:17:14] Server Plugins
+[16:17:14] --------------
+[16:17:14]  Loading plugin: crashdetect
+[16:17:15]   CrashDetect v4.12 is OK.
+[16:17:15]   Loaded.
+[16:17:15]  Loading plugin: sscanf
+[16:17:15] 
+
+[16:17:15]  ===============================
+
+[16:17:15]       sscanf plugin loaded.     
+
+[16:17:15]          Version:  2.8.1        
+
+[16:17:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:17:15]  ===============================
+
+[16:17:15]   Loaded.
+[16:17:15]  Loading plugin: streamer
+[16:17:15] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:17:15]   Loaded.
+[16:17:15]  Loading plugin: Whirlpool
+[16:17:16]  
+[16:17:16]  ==================
+[16:17:16]  
+[16:17:16]   Whirlpool loaded
+[16:17:16]  
+[16:17:16]  ==================
+[16:17:16]  
+[16:17:16]   Loaded.
+[16:17:16]  Loading plugin: mysql
+[16:17:17]  >> plugin.mysql: R41-4 successfully loaded.
+[16:17:17]   Loaded.
+[16:17:17]  Loading plugin: bcrypt-samp
+[16:17:17]   plugin.bcrypt v2.2.3 was loaded.
+[16:17:17]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:17:17]   Loaded.
+[16:17:17]  Loading plugin: nativechecker
+[16:17:17]   Loaded.
+[16:17:17]  Loaded 7 plugins.
+
+[16:17:17] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:17:17] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:17:17] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:17:18] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:17:18] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:17:18] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:17:18] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:17:18] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:17:18] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:17:18] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:17:18] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:17:18] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:17:19] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:17:19] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:17:19] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:17:19] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:17:19] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:17:19] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:17:19] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:17:20] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:17:20] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:17:20] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:17:20] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:17:20] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:17:20] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:17:20] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:17:20] 
+[16:17:20] Filterscripts
+[16:17:20] ---------------
+[16:17:20]   Loaded 0 filterscripts.
+
+[16:17:22] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:17:22]  
+[16:17:22]  
+[16:17:22]  
+[16:17:22]  ======================================= 
+[16:17:22]  |                                     | 
+[16:17:22]  |        YSI version 3.09.0684        | 
+[16:17:22]  |        By Alex "Y_Less" Cole        | 
+[16:17:22]  |                                     | 
+[16:17:22]  ======================================= 
+[16:17:22]  
+[16:17:22]  
+[16:17:22]  
+[16:17:22] Component: Login (FR0Z3NH34R7) loaded.
+[16:17:30] MariaDB: conexión fallida, cerrando Gamemode.
+[16:17:30] Number of vehicle models: 0
+[16:17:30] --- Server Shutting Down.
+[16:17:30] Cerrando Gamemode, por favor espere...
+[16:17:30] 
+
+[16:17:30]  ===============================
+
+[16:17:30]      sscanf plugin unloaded.    
+
+[16:17:30]  ===============================
+
+[16:17:30] 
+
+*** Streamer Plugin v2.7.8 by Incognito unloaded ***
+
+[16:17:30]  
+[16:17:30]  ====================
+[16:17:30]  
+[16:17:30]   Whirlpool unloaded
+[16:17:30]  
+[16:17:30]  ====================
+[16:17:30]  
+[16:17:30] plugin.mysql: Unloading plugin...
+[16:17:30] plugin.mysql: Plugin unloaded.
+[16:17:30] plugin.bcrypt: Plugin unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:18:14] filterscripts = ""  (string)
+[16:18:14] 
+[16:18:14] Server Plugins
+[16:18:14] --------------
+[16:18:14]  Loading plugin: crashdetect
+[16:18:14]   CrashDetect v4.12 is OK.
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: sscanf
+[16:18:14] 
+
+[16:18:14]  ===============================
+
+[16:18:14]       sscanf plugin loaded.     
+
+[16:18:14]          Version:  2.8.1        
+
+[16:18:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:18:14]  ===============================
+
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: streamer
+[16:18:14] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: Whirlpool
+[16:18:14]  
+[16:18:14]  ==================
+[16:18:14]  
+[16:18:14]   Whirlpool loaded
+[16:18:14]  
+[16:18:14]  ==================
+[16:18:14]  
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: mysql
+[16:18:14]  >> plugin.mysql: R41-4 successfully loaded.
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: bcrypt-samp
+[16:18:14]   plugin.bcrypt v2.2.3 was loaded.
+[16:18:14]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:18:14]   Loaded.
+[16:18:14]  Loading plugin: nativechecker
+[16:18:14]   Loaded.
+[16:18:14]  Loaded 7 plugins.
+
+[16:18:14] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:18:14] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:18:14] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:18:14] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:18:14] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:18:14] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:18:14] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:18:14] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:18:14] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:18:14] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:18:14] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:18:14] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:18:14] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:18:14] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:18:14] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:18:14] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:18:14] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:18:14] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:18:14] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:18:15] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:18:15] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:18:15] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:18:15] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:18:15] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:18:15] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:18:15] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:18:15] 
+[16:18:15] Filterscripts
+[16:18:15] ---------------
+[16:18:15]   Loaded 0 filterscripts.
+
+[16:18:15] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:18:15]  
+[16:18:15]  
+[16:18:15]  
+[16:18:15]  ======================================= 
+[16:18:15]  |                                     | 
+[16:18:15]  |        YSI version 3.09.0684        | 
+[16:18:15]  |        By Alex "Y_Less" Cole        | 
+[16:18:15]  |                                     | 
+[16:18:15]  ======================================= 
+[16:18:15]  
+[16:18:15]  
+[16:18:15]  
+[16:18:15] Component: Login (FR0Z3NH34R7) loaded.
+[16:18:23] MariaDB: conexión fallida, cerrando Gamemode.
+[16:18:23] Number of vehicle models: 0
+[16:18:23] --- Server Shutting Down.
+[16:18:23] Cerrando Gamemode, por favor espere...
+[16:18:23] 
+
+[16:18:23]  ===============================
+
+[16:18:23]      sscanf plugin unloaded.    
+
+[16:18:23]  ===============================
+
+[16:18:23] 
+
+*** Streamer Plugin v2.7.8 by Incognito unloaded ***
+
+[16:18:23]  
+[16:18:23]  ====================
+[16:18:23]  
+[16:18:23]   Whirlpool unloaded
+[16:18:23]  
+[16:18:23]  ====================
+[16:18:23]  
+[16:18:23] plugin.mysql: Unloading plugin...
+[16:18:23] plugin.mysql: Plugin unloaded.
+[16:18:23] plugin.bcrypt: Plugin unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:18:27] filterscripts = ""  (string)
+[16:18:27] 
+[16:18:27] Server Plugins
+[16:18:27] --------------
+[16:18:27]  Loading plugin: crashdetect
+[16:18:27]   CrashDetect v4.12 is OK.
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: sscanf
+[16:18:27] 
+
+[16:18:27]  ===============================
+
+[16:18:27]       sscanf plugin loaded.     
+
+[16:18:27]          Version:  2.8.1        
+
+[16:18:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:18:27]  ===============================
+
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: streamer
+[16:18:27] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: Whirlpool
+[16:18:27]  
+[16:18:27]  ==================
+[16:18:27]  
+[16:18:27]   Whirlpool loaded
+[16:18:27]  
+[16:18:27]  ==================
+[16:18:27]  
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: mysql
+[16:18:27]  >> plugin.mysql: R41-4 successfully loaded.
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: bcrypt-samp
+[16:18:27]   plugin.bcrypt v2.2.3 was loaded.
+[16:18:27]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:18:27]   Loaded.
+[16:18:27]  Loading plugin: nativechecker
+[16:18:27]   Loaded.
+[16:18:27]  Loaded 7 plugins.
+
+[16:18:27] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:18:27] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:18:27] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:18:27] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:18:27] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:18:27] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:18:27] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:18:27] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:18:27] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:18:27] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:18:27] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:18:27] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:18:27] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:18:27] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:18:27] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:18:27] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:18:27] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:18:27] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:18:27] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:18:27] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:18:27] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:18:27] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:18:27] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:18:27] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:18:27] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:18:27] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:18:27] 
+[16:18:27] Filterscripts
+[16:18:27] ---------------
+[16:18:27]   Loaded 0 filterscripts.
+
+[16:18:27] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:18:27]  
+[16:18:27]  
+[16:18:27]  
+[16:18:27]  ======================================= 
+[16:18:27]  |                                     | 
+[16:18:27]  |        YSI version 3.09.0684        | 
+[16:18:27]  |        By Alex "Y_Less" Cole        | 
+[16:18:27]  |                                     | 
+[16:18:27]  ======================================= 
+[16:18:27]  
+[16:18:27]  
+[16:18:27]  
+[16:18:27] Component: Login (FR0Z3NH34R7) loaded.
+[16:18:35] MariaDB: conexión fallida, cerrando Gamemode.
+[16:18:35] Number of vehicle models: 0
+[16:18:35] --- Server Shutting Down.
+[16:18:35] Cerrando Gamemode, por favor espere...
+[16:18:35] 
+
+[16:18:35]  ===============================
+
+[16:18:35]      sscanf plugin unloaded.    
+
+[16:18:35]  ===============================
+
+[16:18:35] 
+
+*** Streamer Plugin v2.7.8 by Incognito unloaded ***
+
+[16:18:35]  
+[16:18:35]  ====================
+[16:18:35]  
+[16:18:35]   Whirlpool unloaded
+[16:18:35]  
+[16:18:35]  ====================
+[16:18:35]  
+[16:18:35] plugin.mysql: Unloading plugin...
+[16:18:35] plugin.mysql: Plugin unloaded.
+[16:18:35] plugin.bcrypt: Plugin unloaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:18:52] filterscripts = ""  (string)
+[16:18:52] 
+[16:18:52] Server Plugins
+[16:18:52] --------------
+[16:18:52]  Loading plugin: crashdetect
+[16:18:52]   CrashDetect v4.12 is OK.
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: sscanf
+[16:18:52] 
+
+[16:18:52]  ===============================
+
+[16:18:52]       sscanf plugin loaded.     
+
+[16:18:52]          Version:  2.8.1        
+
+[16:18:52]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:18:52]  ===============================
+
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: streamer
+[16:18:52] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: Whirlpool
+[16:18:52]  
+[16:18:52]  ==================
+[16:18:52]  
+[16:18:52]   Whirlpool loaded
+[16:18:52]  
+[16:18:52]  ==================
+[16:18:52]  
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: mysql
+[16:18:52]  >> plugin.mysql: R41-4 successfully loaded.
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: bcrypt-samp
+[16:18:52]   plugin.bcrypt v2.2.3 was loaded.
+[16:18:52]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:18:52]   Loaded.
+[16:18:52]  Loading plugin: nativechecker
+[16:18:52]   Loaded.
+[16:18:52]  Loaded 7 plugins.
+
+[16:18:52] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:18:52] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:18:52] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:18:52] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:18:52] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:18:52] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:18:52] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:18:52] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:18:52] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:18:52] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:18:52] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:18:52] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:18:52] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:18:52] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:18:52] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:18:52] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:18:52] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:18:52] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:18:52] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:18:52] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:18:52] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:18:52] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:18:52] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:18:52] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:18:52] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:18:52] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:18:52] 
+[16:18:52] Filterscripts
+[16:18:52] ---------------
+[16:18:52]   Loaded 0 filterscripts.
+
+[16:18:52] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:18:52]  
+[16:18:52]  
+[16:18:52]  
+[16:18:52]  ======================================= 
+[16:18:52]  |                                     | 
+[16:18:52]  |        YSI version 3.09.0684        | 
+[16:18:52]  |        By Alex "Y_Less" Cole        | 
+[16:18:52]  |                                     | 
+[16:18:52]  ======================================= 
+[16:18:52]  
+[16:18:52]  
+[16:18:52]  
+[16:18:52] Component: Login (FR0Z3NH34R7) loaded.
+[16:18:52] Conexion exitosa con MariaDB
+[16:18:52] Login Cargado
+[16:18:52] Number of vehicle models: 0
+[16:18:52] New version of CrashDetect is available for download (4.13)
+[16:18:53] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:25:30] filterscripts = ""  (string)
+[16:25:30] 
+[16:25:30] Server Plugins
+[16:25:30] --------------
+[16:25:30]  Loading plugin: crashdetect
+[16:25:30]   CrashDetect v4.12 is OK.
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: sscanf
+[16:25:30] 
+
+[16:25:30]  ===============================
+
+[16:25:30]       sscanf plugin loaded.     
+
+[16:25:30]          Version:  2.8.1        
+
+[16:25:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:25:30]  ===============================
+
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: streamer
+[16:25:30] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: Whirlpool
+[16:25:30]  
+[16:25:30]  ==================
+[16:25:30]  
+[16:25:30]   Whirlpool loaded
+[16:25:30]  
+[16:25:30]  ==================
+[16:25:30]  
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: mysql
+[16:25:30]  >> plugin.mysql: R41-4 successfully loaded.
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: bcrypt-samp
+[16:25:30]   plugin.bcrypt v2.2.3 was loaded.
+[16:25:30]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:25:30]   Loaded.
+[16:25:30]  Loading plugin: nativechecker
+[16:25:30]   Loaded.
+[16:25:30]  Loaded 7 plugins.
+
+[16:25:30] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:25:30] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:25:30] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:25:30] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:25:30] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:25:30] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:25:30] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:25:30] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:25:30] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:25:30] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:25:30] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:25:30] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:25:30] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:25:30] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:25:30] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:25:30] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:25:30] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:25:30] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:25:31] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:25:31] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:25:31] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:25:31] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:25:31] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:25:31] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:25:31] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:25:31] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:25:31] 
+[16:25:31] Filterscripts
+[16:25:31] ---------------
+[16:25:31]   Loaded 0 filterscripts.
+
+[16:25:31] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:25:31]  
+[16:25:31]  
+[16:25:31]  
+[16:25:31]  ======================================= 
+[16:25:31]  |                                     | 
+[16:25:31]  |        YSI version 3.09.0684        | 
+[16:25:31]  |        By Alex "Y_Less" Cole        | 
+[16:25:31]  |                                     | 
+[16:25:31]  ======================================= 
+[16:25:31]  
+[16:25:31]  
+[16:25:31]  
+[16:25:31] Conexion exitosa con MariaDB
+[16:25:31] Component: Login (FR0Z3NH34R7) loaded.
+[16:25:31] Number of vehicle models: 0
+[16:25:31] New version of CrashDetect is available for download (4.13)
+[16:25:31] Component: Levels (FR0Z3NH34R7) loaded.
+[16:25:31] plugin.bcrypt: Version check failed.
+[16:25:31] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[16:25:31] Component: Actors (FR0Z3NH34R7) loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:52:28] filterscripts = ""  (string)
+[16:52:28] 
+[16:52:28] Server Plugins
+[16:52:28] --------------
+[16:52:28]  Loading plugin: crashdetect
+[16:52:28]   CrashDetect v4.12 is OK.
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: sscanf
+[16:52:28] 
+
+[16:52:28]  ===============================
+
+[16:52:28]       sscanf plugin loaded.     
+
+[16:52:28]          Version:  2.8.1        
+
+[16:52:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:52:28]  ===============================
+
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: streamer
+[16:52:28] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: Whirlpool
+[16:52:28]  
+[16:52:28]  ==================
+[16:52:28]  
+[16:52:28]   Whirlpool loaded
+[16:52:28]  
+[16:52:28]  ==================
+[16:52:28]  
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: mysql
+[16:52:28]  >> plugin.mysql: R41-4 successfully loaded.
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: bcrypt-samp
+[16:52:28]   plugin.bcrypt v2.2.3 was loaded.
+[16:52:28]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[16:52:28]   Loaded.
+[16:52:28]  Loading plugin: nativechecker
+[16:52:28]   Loaded.
+[16:52:28]  Loaded 7 plugins.
+
+[16:52:28] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[16:52:28] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[16:52:28] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[16:52:28] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[16:52:28] [artwork:crc] inv.dff CRC = 0xC7C21095
+[16:52:28] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[16:52:28] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[16:52:28] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[16:52:28] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[16:52:28] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[16:52:28] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[16:52:28] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[16:52:28] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[16:52:28] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[16:52:28] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[16:52:28] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[16:52:28] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[16:52:28] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[16:52:28] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[16:52:28] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[16:52:28] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[16:52:28] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[16:52:28] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[16:52:28] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[16:52:28] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[16:52:28] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[16:52:29] 
+[16:52:29] Filterscripts
+[16:52:29] ---------------
+[16:52:29]   Loaded 0 filterscripts.
+
+[16:52:29] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[16:52:29]  
+[16:52:29]  
+[16:52:29]  
+[16:52:29]  ======================================= 
+[16:52:29]  |                                     | 
+[16:52:29]  |        YSI version 3.09.0684        | 
+[16:52:29]  |        By Alex "Y_Less" Cole        | 
+[16:52:29]  |                                     | 
+[16:52:29]  ======================================= 
+[16:52:29]  
+[16:52:29]  
+[16:52:29]  
+[16:52:29] Conexion exitosa con MariaDB
+[16:52:29] Component: Login (FR0Z3NH34R7) loaded.
+[16:52:29] Number of vehicle models: 0
+[16:52:29] New version of CrashDetect is available for download (4.13)
+[16:52:29] Component: Levels (FR0Z3NH34R7) loaded.
+[16:52:29] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[16:52:29] Component: Actors (FR0Z3NH34R7) loaded.
+[16:52:29] plugin.bcrypt: Version check failed.
+[16:53:33] [connection] incoming connection: 192.168.0.26:64268 id: 0
+[16:53:33] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:33] [join] Jim_Street has joined the server (0:192.168.0.26)
+[16:53:33] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:34] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:35] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:35] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:35] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:35] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:35] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:39] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:42] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:43] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:55] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:53:56] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:07] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:09] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:22] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:22] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:31] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:32] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:40] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:41] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:49] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:50] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:50] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:51] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:52] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:52] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:54:53] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[17:57:59] [part] Jim_Street has left the server (0:1)
+[17:58:36] [connection] incoming connection: 192.168.0.26:64361 id: 0
+[17:58:36] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[17:58:36] [join] Jim_Streete has joined the server (0:192.168.0.26)
+[17:58:36] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:05:54] [part] Jim_Streete has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:13:02] filterscripts = ""  (string)
+[18:13:02] 
+[18:13:02] Server Plugins
+[18:13:02] --------------
+[18:13:02]  Loading plugin: crashdetect
+[18:13:02]   CrashDetect v4.12 is OK.
+[18:13:02]   Loaded.
+[18:13:02]  Loading plugin: sscanf
+[18:13:02] 
+
+[18:13:02]  ===============================
+
+[18:13:02]       sscanf plugin loaded.     
+
+[18:13:02]          Version:  2.8.1        
+
+[18:13:02]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:13:02]  ===============================
+
+[18:13:02]   Loaded.
+[18:13:02]  Loading plugin: streamer
+[18:13:02] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:13:02]   Loaded.
+[18:13:02]  Loading plugin: Whirlpool
+[18:13:02]  
+[18:13:02]  ==================
+[18:13:02]  
+[18:13:02]   Whirlpool loaded
+[18:13:02]  
+[18:13:02]  ==================
+[18:13:02]  
+[18:13:02]   Loaded.
+[18:13:02]  Loading plugin: mysql
+[18:13:03]  >> plugin.mysql: R41-4 successfully loaded.
+[18:13:03]   Loaded.
+[18:13:03]  Loading plugin: bcrypt-samp
+[18:13:03]   plugin.bcrypt v2.2.3 was loaded.
+[18:13:03]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:13:03]   Loaded.
+[18:13:03]  Loading plugin: nativechecker
+[18:13:03]   Loaded.
+[18:13:03]  Loaded 7 plugins.
+
+[18:13:03] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:13:03] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:13:03] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:13:03] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:13:03] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:13:03] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:13:03] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:13:03] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:13:03] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:13:04] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:13:04] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:13:04] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:13:04] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:13:04] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:13:04] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:13:04] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:13:04] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:13:05] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:13:05] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:13:05] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:13:05] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:13:05] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:13:05] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:13:05] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:13:05] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:13:05] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:13:05] 
+[18:13:05] Filterscripts
+[18:13:05] ---------------
+[18:13:05]   Loaded 0 filterscripts.
+
+[18:13:06] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[18:13:06]  
+[18:13:06]  
+[18:13:06]  
+[18:13:06]  ======================================= 
+[18:13:06]  |                                     | 
+[18:13:06]  |        YSI version 3.09.0684        | 
+[18:13:06]  |        By Alex "Y_Less" Cole        | 
+[18:13:06]  |                                     | 
+[18:13:06]  ======================================= 
+[18:13:06]  
+[18:13:06]  
+[18:13:06]  
+[18:13:06] Conexion exitosa con MariaDB
+[18:13:06] Component: Login (FR0Z3NH34R7) loaded.
+[18:13:06] Number of vehicle models: 0
+[18:13:06] New version of CrashDetect is available for download (4.13)
+[18:13:06] Component: Levels (FR0Z3NH34R7) loaded.
+[18:13:06] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:13:06] Component: Actors (FR0Z3NH34R7) loaded.
+[18:13:07] plugin.bcrypt: Version check failed.
+[18:13:41] [connection] incoming connection: 192.168.0.26:63827 id: 0
+[18:13:41] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:13:41] [join] Jim_Streete has joined the server (0:192.168.0.26)
+[18:13:41] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:19:16] [part] Jim_Streete has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:19:23] filterscripts = ""  (string)
+[18:19:23] 
+[18:19:23] Server Plugins
+[18:19:23] --------------
+[18:19:23]  Loading plugin: crashdetect
+[18:19:23]   CrashDetect v4.12 is OK.
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: sscanf
+[18:19:23] 
+
+[18:19:23]  ===============================
+
+[18:19:23]       sscanf plugin loaded.     
+
+[18:19:23]          Version:  2.8.1        
+
+[18:19:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:19:23]  ===============================
+
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: streamer
+[18:19:23] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: Whirlpool
+[18:19:23]  
+[18:19:23]  ==================
+[18:19:23]  
+[18:19:23]   Whirlpool loaded
+[18:19:23]  
+[18:19:23]  ==================
+[18:19:23]  
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: mysql
+[18:19:23]  >> plugin.mysql: R41-4 successfully loaded.
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: bcrypt-samp
+[18:19:23]   plugin.bcrypt v2.2.3 was loaded.
+[18:19:23]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:19:23]   Loaded.
+[18:19:23]  Loading plugin: nativechecker
+[18:19:23]   Loaded.
+[18:19:23]  Loaded 7 plugins.
+
+[18:19:23] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:19:23] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:19:23] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:19:23] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:19:23] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:19:23] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:19:23] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:19:23] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:19:23] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:19:23] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:19:23] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:19:23] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:19:23] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:19:23] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:19:23] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:19:23] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:19:23] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:19:23] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:19:23] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:19:23] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:19:23] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:19:23] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:19:23] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:19:23] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:19:23] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:19:23] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:19:23] 
+[18:19:23] Filterscripts
+[18:19:23] ---------------
+[18:19:23]   Loaded 0 filterscripts.
+
+[18:19:24] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[18:19:24]  
+[18:19:24]  
+[18:19:24]  
+[18:19:24]  ======================================= 
+[18:19:24]  |                                     | 
+[18:19:24]  |        YSI version 3.09.0684        | 
+[18:19:24]  |        By Alex "Y_Less" Cole        | 
+[18:19:24]  |                                     | 
+[18:19:24]  ======================================= 
+[18:19:24]  
+[18:19:24]  
+[18:19:24]  
+[18:19:24] Conexion exitosa con MariaDB
+[18:19:24] Component: Login (FR0Z3NH34R7) loaded.
+[18:19:24] Number of vehicle models: 0
+[18:19:24] New version of CrashDetect is available for download (4.13)
+[18:19:24] Component: Levels (FR0Z3NH34R7) loaded.
+[18:19:24] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:19:24] Component: Actors (FR0Z3NH34R7) loaded.
+[18:19:24] plugin.bcrypt: Version check failed.
+[18:19:47] [connection] incoming connection: 192.168.0.26:64139 id: 0
+[18:19:47] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:19:47] [join] Jim_Streete has joined the server (0:192.168.0.26)
+[18:19:47] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:20:00] [part] Jim_Streete has left the server (0:1)
+[18:20:23] [connection] incoming connection: 192.168.0.26:65137 id: 0
+[18:20:23] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[18:20:23] [join] Jim_Street has joined the server (0:192.168.0.26)
+[18:20:23] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:28:25] filterscripts = ""  (string)
+[18:28:25] 
+[18:28:25] Server Plugins
+[18:28:25] --------------
+[18:28:25]  Loading plugin: crashdetect
+[18:28:25]   CrashDetect plugin 4.19.1
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: sscanf
+[18:28:25] 
+
+[18:28:25]  ===============================
+
+[18:28:25]       sscanf plugin loaded.     
+
+[18:28:25]          Version:  2.8.1        
+
+[18:28:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:28:25]  ===============================
+
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: streamer
+[18:28:25] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: Whirlpool
+[18:28:25]  
+[18:28:25]  ==================
+[18:28:25]  
+[18:28:25]   Whirlpool loaded
+[18:28:25]  
+[18:28:25]  ==================
+[18:28:25]  
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: mysql
+[18:28:25]  >> plugin.mysql: R41-4 successfully loaded.
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: bcrypt-samp
+[18:28:25]   plugin.bcrypt v2.2.3 was loaded.
+[18:28:25]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:28:25]   Loaded.
+[18:28:25]  Loading plugin: nativechecker
+[18:28:25]   Loaded.
+[18:28:25]  Loaded 7 plugins.
+
+[18:28:25] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:28:25] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:28:25] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:28:25] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:28:25] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:28:25] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:28:25] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:28:25] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:28:25] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:28:25] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:28:25] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:28:25] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:28:25] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:28:25] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:28:25] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:28:25] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:28:25] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:28:25] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:28:25] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:28:25] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:28:25] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:28:25] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:28:25] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:28:25] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:28:25] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:28:25] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:28:25] 
+[18:28:25] Filterscripts
+[18:28:25] ---------------
+[18:28:25]   Loaded 0 filterscripts.
+
+[18:28:25] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x278001) (script might need to be recompiled with the latest include file)
+[18:28:25]  
+[18:28:25]  
+[18:28:25]  
+[18:28:25]  ======================================= 
+[18:28:25]  |                                     | 
+[18:28:25]  |        YSI version 3.09.0684        | 
+[18:28:25]  |        By Alex "Y_Less" Cole        | 
+[18:28:25]  |                                     | 
+[18:28:25]  ======================================= 
+[18:28:25]  
+[18:28:25]  
+[18:28:25]  
+[18:28:25] Conexion exitosa con MariaDB
+[18:28:25] Component: Login (FR0Z3NH34R7) loaded.
+[18:28:25] Number of vehicle models: 0
+[18:28:25] Component: Levels (FR0Z3NH34R7) loaded.
+[18:28:25] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:28:25] Component: Actors (FR0Z3NH34R7) loaded.
+[18:28:25] plugin.bcrypt: Version check failed.
+[18:28:36] [connection] incoming connection: 192.168.0.26:52352 id: 0
+[18:28:36] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:30:00] filterscripts = ""  (string)
+[18:30:00] 
+[18:30:00] Server Plugins
+[18:30:00] --------------
+[18:30:00]  Loading plugin: crashdetect
+[18:30:00]   CrashDetect plugin 4.19.1
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: sscanf
+[18:30:00] 
+
+[18:30:00]  ===============================
+
+[18:30:00]       sscanf plugin loaded.     
+
+[18:30:00]          Version:  2.8.1        
+
+[18:30:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:30:00]  ===============================
+
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: streamer
+[18:30:00] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: Whirlpool
+[18:30:00]  
+[18:30:00]  ==================
+[18:30:00]  
+[18:30:00]   Whirlpool loaded
+[18:30:00]  
+[18:30:00]  ==================
+[18:30:00]  
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: mysql
+[18:30:00]  >> plugin.mysql: R41-4 successfully loaded.
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: bcrypt-samp
+[18:30:00]   plugin.bcrypt v2.2.3 was loaded.
+[18:30:00]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:30:00]   Loaded.
+[18:30:00]  Loading plugin: nativechecker
+[18:30:00]   Loaded.
+[18:30:00]  Loaded 7 plugins.
+
+[18:30:00] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:30:00] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:30:00] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:30:00] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:30:00] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:30:00] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:30:00] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:30:00] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:30:00] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:30:00] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:30:00] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:30:00] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:30:01] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:30:01] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:30:01] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:30:01] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:30:01] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:30:01] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:30:01] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:30:01] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:30:01] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:30:01] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:30:01] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:30:01] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:30:01] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:30:01] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:30:01] 
+[18:30:01] Filterscripts
+[18:30:01] ---------------
+[18:30:01]   Loaded 0 filterscripts.
+
+[18:30:01] *** Streamer Plugin: Include file version (0x27101) does not match plugin version (0x293) (script might need to be recompiled with the correct include file).
+[18:30:01]  
+[18:30:01]  
+[18:30:01]  
+[18:30:01]  ======================================= 
+[18:30:01]  |                                     | 
+[18:30:01]  |        YSI version 3.09.0684        | 
+[18:30:01]  |        By Alex "Y_Less" Cole        | 
+[18:30:01]  |                                     | 
+[18:30:01]  ======================================= 
+[18:30:01]  
+[18:30:01]  
+[18:30:01]  
+[18:30:01] Conexion exitosa con MariaDB
+[18:30:01] Component: Login (FR0Z3NH34R7) loaded.
+[18:30:01] Number of vehicle models: 0
+[18:30:01] Component: Levels (FR0Z3NH34R7) loaded.
+[18:30:01] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:30:01] Component: Actors (FR0Z3NH34R7) loaded.
+[18:30:01] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:30:45] filterscripts = ""  (string)
+[18:30:45] 
+[18:30:45] Server Plugins
+[18:30:45] --------------
+[18:30:45]  Loading plugin: crashdetect
+[18:30:45]   CrashDetect plugin 4.19.1
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: sscanf
+[18:30:45] 
+
+[18:30:45]  ===============================
+
+[18:30:45]       sscanf plugin loaded.     
+
+[18:30:45]          Version:  2.8.1        
+
+[18:30:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:30:45]  ===============================
+
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: streamer
+[18:30:45] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: Whirlpool
+[18:30:45]  
+[18:30:45]  ==================
+[18:30:45]  
+[18:30:45]   Whirlpool loaded
+[18:30:45]  
+[18:30:45]  ==================
+[18:30:45]  
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: mysql
+[18:30:45]  >> plugin.mysql: R41-4 successfully loaded.
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: bcrypt-samp
+[18:30:45]   plugin.bcrypt v2.2.3 was loaded.
+[18:30:45]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:30:45]   Loaded.
+[18:30:45]  Loading plugin: nativechecker
+[18:30:45]   Loaded.
+[18:30:45]  Loaded 7 plugins.
+
+[18:30:45] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:30:45] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:30:45] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:30:45] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:30:45] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:30:45] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:30:45] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:30:45] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:30:45] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:30:45] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:30:45] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:30:45] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:30:45] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:30:45] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:30:45] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:30:45] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:30:45] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:30:45] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:30:45] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:30:45] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:30:45] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:30:45] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:30:45] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:30:45] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:30:45] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:30:45] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:30:45] 
+[18:30:45] Filterscripts
+[18:30:45] ---------------
+[18:30:45]   Loaded 0 filterscripts.
+
+[18:30:45]  
+[18:30:45]  
+[18:30:45]  
+[18:30:45]  ======================================= 
+[18:30:45]  |                                     | 
+[18:30:45]  |        YSI version 3.09.0684        | 
+[18:30:45]  |        By Alex "Y_Less" Cole        | 
+[18:30:45]  |                                     | 
+[18:30:45]  ======================================= 
+[18:30:45]  
+[18:30:45]  
+[18:30:45]  
+[18:30:45] Conexion exitosa con MariaDB
+[18:30:45] Component: Login (FR0Z3NH34R7) loaded.
+[18:30:45] Number of vehicle models: 0
+[18:30:45] Component: Levels (FR0Z3NH34R7) loaded.
+[18:30:45] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:30:45] Component: Actors (FR0Z3NH34R7) loaded.
+[18:30:46] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:40:27] filterscripts = ""  (string)
+[18:40:27] 
+[18:40:27] Server Plugins
+[18:40:27] --------------
+[18:40:27]  Loading plugin: crashdetect
+[18:40:27]   CrashDetect plugin 4.19.1
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: sscanf
+[18:40:27] 
+
+[18:40:27]  ===============================
+
+[18:40:27]       sscanf plugin loaded.     
+
+[18:40:27]          Version:  2.8.1        
+
+[18:40:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:40:27]  ===============================
+
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: streamer
+[18:40:27] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: Whirlpool
+[18:40:27]  
+[18:40:27]  ==================
+[18:40:27]  
+[18:40:27]   Whirlpool loaded
+[18:40:27]  
+[18:40:27]  ==================
+[18:40:27]  
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: mysql
+[18:40:27]  >> plugin.mysql: R41-4 successfully loaded.
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: bcrypt-samp
+[18:40:27]   plugin.bcrypt v2.2.3 was loaded.
+[18:40:27]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[18:40:27]   Loaded.
+[18:40:27]  Loading plugin: nativechecker
+[18:40:27]   Loaded.
+[18:40:27]  Loaded 7 plugins.
+
+[18:40:27] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[18:40:27] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[18:40:27] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[18:40:27] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[18:40:27] [artwork:crc] inv.dff CRC = 0xC7C21095
+[18:40:27] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[18:40:27] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[18:40:27] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[18:40:27] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[18:40:27] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[18:40:27] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[18:40:28] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[18:40:28] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[18:40:28] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[18:40:28] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[18:40:28] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[18:40:28] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[18:40:28] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[18:40:28] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[18:40:28] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[18:40:28] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[18:40:28] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[18:40:28] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[18:40:28] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[18:40:28] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[18:40:28] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[18:40:28] 
+[18:40:28] Filterscripts
+[18:40:28] ---------------
+[18:40:28]   Loaded 0 filterscripts.
+
+[18:40:28]  
+[18:40:28]  
+[18:40:28]  
+[18:40:28]  ======================================= 
+[18:40:28]  |                                     | 
+[18:40:28]  |        YSI version 3.09.0684        | 
+[18:40:28]  |        By Alex "Y_Less" Cole        | 
+[18:40:28]  |                                     | 
+[18:40:28]  ======================================= 
+[18:40:28]  
+[18:40:28]  
+[18:40:28]  
+[18:40:28] Conexion exitosa con MariaDB
+[18:40:28] Component: Login (FR0Z3NH34R7) loaded.
+[18:40:28] Number of vehicle models: 0
+[18:40:28] Component: Levels (FR0Z3NH34R7) loaded.
+[18:40:28] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[18:40:28] Component: Actors (FR0Z3NH34R7) loaded.
+[18:40:28] plugin.bcrypt: Version check failed.
+[18:40:58] [connection] incoming connection: 192.168.0.26:50814 id: 0
+[18:40:58] [join] Jim_Street has joined the server (0:192.168.0.26)
+[19:43:58] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:05:43] filterscripts = ""  (string)
+[20:05:43] 
+[20:05:43] Server Plugins
+[20:05:43] --------------
+[20:05:43]  Loading plugin: crashdetect
+[20:05:43]   CrashDetect plugin 4.19.1
+[20:05:43]   Loaded.
+[20:05:43]  Loading plugin: sscanf
+[20:05:43] 
+
+[20:05:43]  ===============================
+
+[20:05:43]       sscanf plugin loaded.     
+
+[20:05:43]          Version:  2.8.1        
+
+[20:05:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:05:43]  ===============================
+
+[20:05:43]   Loaded.
+[20:05:43]  Loading plugin: streamer
+[20:05:43] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:05:43]   Loaded.
+[20:05:43]  Loading plugin: Whirlpool
+[20:05:43]  
+[20:05:43]  ==================
+[20:05:43]  
+[20:05:43]   Whirlpool loaded
+[20:05:43]  
+[20:05:43]  ==================
+[20:05:43]  
+[20:05:43]   Loaded.
+[20:05:43]  Loading plugin: mysql
+[20:05:43]  >> plugin.mysql: R41-4 successfully loaded.
+[20:05:43]   Loaded.
+[20:05:43]  Loading plugin: bcrypt-samp
+[20:05:44]   plugin.bcrypt v2.2.3 was loaded.
+[20:05:44]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:05:44]   Loaded.
+[20:05:44]  Loading plugin: nativechecker
+[20:05:44]   Loaded.
+[20:05:44]  Loaded 7 plugins.
+
+[20:05:44] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:05:44] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:05:44] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:05:44] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:05:44] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:05:44] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:05:44] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:05:44] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:05:44] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:05:44] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:05:44] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:05:45] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:05:45] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:05:45] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:05:45] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:05:45] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:05:45] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:05:45] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:05:45] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:05:46] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:05:46] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:05:46] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:05:46] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:05:46] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:05:46] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:05:46] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:05:46] 
+[20:05:46] Filterscripts
+[20:05:46] ---------------
+[20:05:46]   Loaded 0 filterscripts.
+
+[20:05:48]  
+[20:05:48]  
+[20:05:48]  
+[20:05:48]  ======================================= 
+[20:05:48]  |                                     | 
+[20:05:48]  |        YSI version 3.09.0684        | 
+[20:05:48]  |        By Alex "Y_Less" Cole        | 
+[20:05:48]  |                                     | 
+[20:05:48]  ======================================= 
+[20:05:48]  
+[20:05:48]  
+[20:05:48]  
+[20:05:48] Conexion exitosa con MariaDB
+[20:05:48] Component: Login (FR0Z3NH34R7) loaded.
+[20:05:48] Number of vehicle models: 0
+[20:05:48] Component: Levels (FR0Z3NH34R7) loaded.
+[20:05:48] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:05:48] Component: Actors (FR0Z3NH34R7) loaded.
+[20:05:48] plugin.bcrypt: Version check failed.
+[20:06:15] [connection] incoming connection: 192.168.0.26:53892 id: 0
+[20:06:15] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:07:57] filterscripts = ""  (string)
+[20:07:57] 
+[20:07:57] Server Plugins
+[20:07:57] --------------
+[20:07:57]  Loading plugin: crashdetect
+[20:07:57]   CrashDetect plugin 4.19.1
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: sscanf
+[20:07:57] 
+
+[20:07:57]  ===============================
+
+[20:07:57]       sscanf plugin loaded.     
+
+[20:07:57]          Version:  2.8.1        
+
+[20:07:57]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:07:57]  ===============================
+
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: streamer
+[20:07:57] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: Whirlpool
+[20:07:57]  
+[20:07:57]  ==================
+[20:07:57]  
+[20:07:57]   Whirlpool loaded
+[20:07:57]  
+[20:07:57]  ==================
+[20:07:57]  
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: mysql
+[20:07:57]  >> plugin.mysql: R41-4 successfully loaded.
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: bcrypt-samp
+[20:07:57]   plugin.bcrypt v2.2.3 was loaded.
+[20:07:57]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:07:57]   Loaded.
+[20:07:57]  Loading plugin: nativechecker
+[20:07:57]   Loaded.
+[20:07:57]  Loaded 7 plugins.
+
+[20:07:57] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:07:57] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:07:57] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:07:57] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:07:57] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:07:57] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:07:57] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:07:57] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:07:57] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:07:57] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:07:57] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:07:57] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:07:57] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:07:57] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:07:57] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:07:57] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:07:57] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:07:57] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:07:57] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:07:57] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:07:57] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:07:57] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:07:57] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:07:57] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:07:57] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:07:57] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:07:57] 
+[20:07:57] Filterscripts
+[20:07:57] ---------------
+[20:07:57]   Loaded 0 filterscripts.
+
+[20:07:57]  
+[20:07:57]  
+[20:07:57]  
+[20:07:57]  ======================================= 
+[20:07:57]  |                                     | 
+[20:07:57]  |        YSI version 3.09.0684        | 
+[20:07:57]  |        By Alex "Y_Less" Cole        | 
+[20:07:57]  |                                     | 
+[20:07:57]  ======================================= 
+[20:07:57]  
+[20:07:57]  
+[20:07:57]  
+[20:07:57] Conexion exitosa con MariaDB
+[20:07:57] Component: Login (FR0Z3NH34R7) loaded.
+[20:07:57] Number of vehicle models: 0
+[20:07:57] Component: Levels (FR0Z3NH34R7) loaded.
+[20:07:57] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:07:57] Component: Actors (FR0Z3NH34R7) loaded.
+[20:07:58] plugin.bcrypt: Version check failed.
+[20:08:28] [connection] incoming connection: 192.168.0.26:51466 id: 0
+[20:08:29] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:09:57] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:10:53] filterscripts = ""  (string)
+[20:10:53] 
+[20:10:53] Server Plugins
+[20:10:53] --------------
+[20:10:53]  Loading plugin: crashdetect
+[20:10:53]   CrashDetect plugin 4.19.1
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: sscanf
+[20:10:53] 
+
+[20:10:53]  ===============================
+
+[20:10:53]       sscanf plugin loaded.     
+
+[20:10:53]          Version:  2.8.1        
+
+[20:10:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:10:53]  ===============================
+
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: streamer
+[20:10:53] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: Whirlpool
+[20:10:53]  
+[20:10:53]  ==================
+[20:10:53]  
+[20:10:53]   Whirlpool loaded
+[20:10:53]  
+[20:10:53]  ==================
+[20:10:53]  
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: mysql
+[20:10:53]  >> plugin.mysql: R41-4 successfully loaded.
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: bcrypt-samp
+[20:10:53]   plugin.bcrypt v2.2.3 was loaded.
+[20:10:53]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:10:53]   Loaded.
+[20:10:53]  Loading plugin: nativechecker
+[20:10:53]   Loaded.
+[20:10:53]  Loaded 7 plugins.
+
+[20:10:53] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:10:53] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:10:53] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:10:53] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:10:53] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:10:53] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:10:53] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:10:53] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:10:53] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:10:53] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:10:53] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:10:53] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:10:53] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:10:53] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:10:53] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:10:53] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:10:53] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:10:53] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:10:53] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:10:53] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:10:53] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:10:53] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:10:53] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:10:53] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:10:53] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:10:53] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:10:53] 
+[20:10:53] Filterscripts
+[20:10:53] ---------------
+[20:10:53]   Loaded 0 filterscripts.
+
+[20:10:53]  
+[20:10:53]  
+[20:10:53]  
+[20:10:53]  ======================================= 
+[20:10:53]  |                                     | 
+[20:10:53]  |        YSI version 3.09.0684        | 
+[20:10:53]  |        By Alex "Y_Less" Cole        | 
+[20:10:53]  |                                     | 
+[20:10:53]  ======================================= 
+[20:10:53]  
+[20:10:53]  
+[20:10:53]  
+[20:10:53] Conexion exitosa con MariaDB
+[20:10:53] Component: Login (FR0Z3NH34R7) loaded.
+[20:10:53] Number of vehicle models: 0
+[20:10:53] Component: Levels (FR0Z3NH34R7) loaded.
+[20:10:53] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:10:53] Component: Actors (FR0Z3NH34R7) loaded.
+[20:10:54] plugin.bcrypt: Version check failed.
+[20:11:15] [connection] incoming connection: 192.168.0.26:52696 id: 0
+[20:11:15] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:11:28] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:12:48] filterscripts = ""  (string)
+[20:12:48] 
+[20:12:48] Server Plugins
+[20:12:48] --------------
+[20:12:48]  Loading plugin: crashdetect
+[20:12:48]   CrashDetect plugin 4.19.1
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: sscanf
+[20:12:48] 
+
+[20:12:48]  ===============================
+
+[20:12:48]       sscanf plugin loaded.     
+
+[20:12:48]          Version:  2.8.1        
+
+[20:12:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:12:48]  ===============================
+
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: streamer
+[20:12:48] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: Whirlpool
+[20:12:48]  
+[20:12:48]  ==================
+[20:12:48]  
+[20:12:48]   Whirlpool loaded
+[20:12:48]  
+[20:12:48]  ==================
+[20:12:48]  
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: mysql
+[20:12:48]  >> plugin.mysql: R41-4 successfully loaded.
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: bcrypt-samp
+[20:12:48]   plugin.bcrypt v2.2.3 was loaded.
+[20:12:48]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:12:48]   Loaded.
+[20:12:48]  Loading plugin: nativechecker
+[20:12:48]   Loaded.
+[20:12:48]  Loaded 7 plugins.
+
+[20:12:48] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:12:48] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:12:48] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:12:48] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:12:48] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:12:48] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:12:48] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:12:48] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:12:48] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:12:48] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:12:48] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:12:48] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:12:48] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:12:48] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:12:48] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:12:48] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:12:48] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:12:48] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:12:48] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:12:48] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:12:48] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:12:48] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:12:48] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:12:48] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:12:48] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:12:48] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:12:48] 
+[20:12:48] Filterscripts
+[20:12:48] ---------------
+[20:12:48]   Loaded 0 filterscripts.
+
+[20:12:48]  
+[20:12:48]  
+[20:12:48]  
+[20:12:48]  ======================================= 
+[20:12:48]  |                                     | 
+[20:12:48]  |        YSI version 3.09.0684        | 
+[20:12:48]  |        By Alex "Y_Less" Cole        | 
+[20:12:48]  |                                     | 
+[20:12:48]  ======================================= 
+[20:12:48]  
+[20:12:48]  
+[20:12:48]  
+[20:12:48] Conexion exitosa con MariaDB
+[20:12:48] Component: Login (FR0Z3NH34R7) loaded.
+[20:12:48] Number of vehicle models: 0
+[20:12:48] Component: Levels (FR0Z3NH34R7) loaded.
+[20:12:48] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:12:48] Component: Actors (FR0Z3NH34R7) loaded.
+[20:12:49] plugin.bcrypt: Version check failed.
+[20:13:15] [connection] incoming connection: 192.168.0.26:53138 id: 0
+[20:13:16] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:15:20] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:15:25] filterscripts = ""  (string)
+[20:15:25] 
+[20:15:25] Server Plugins
+[20:15:25] --------------
+[20:15:25]  Loading plugin: crashdetect
+[20:15:25]   CrashDetect plugin 4.19.1
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: sscanf
+[20:15:25] 
+
+[20:15:25]  ===============================
+
+[20:15:25]       sscanf plugin loaded.     
+
+[20:15:25]          Version:  2.8.1        
+
+[20:15:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:15:25]  ===============================
+
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: streamer
+[20:15:25] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: Whirlpool
+[20:15:25]  
+[20:15:25]  ==================
+[20:15:25]  
+[20:15:25]   Whirlpool loaded
+[20:15:25]  
+[20:15:25]  ==================
+[20:15:25]  
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: mysql
+[20:15:25]  >> plugin.mysql: R41-4 successfully loaded.
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: bcrypt-samp
+[20:15:25]   plugin.bcrypt v2.2.3 was loaded.
+[20:15:25]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:15:25]   Loaded.
+[20:15:25]  Loading plugin: nativechecker
+[20:15:25]   Loaded.
+[20:15:25]  Loaded 7 plugins.
+
+[20:15:25] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:15:25] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:15:25] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:15:25] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:15:25] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:15:25] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:15:25] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:15:25] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:15:25] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:15:25] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:15:25] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:15:25] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:15:25] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:15:25] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:15:25] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:15:25] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:15:25] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:15:25] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:15:25] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:15:25] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:15:25] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:15:25] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:15:25] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:15:25] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:15:25] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:15:25] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:15:25] 
+[20:15:25] Filterscripts
+[20:15:25] ---------------
+[20:15:25]   Loaded 0 filterscripts.
+
+[20:15:25]  
+[20:15:25]  
+[20:15:25]  
+[20:15:25]  ======================================= 
+[20:15:25]  |                                     | 
+[20:15:25]  |        YSI version 3.09.0684        | 
+[20:15:25]  |        By Alex "Y_Less" Cole        | 
+[20:15:25]  |                                     | 
+[20:15:25]  ======================================= 
+[20:15:25]  
+[20:15:25]  
+[20:15:25]  
+[20:15:25] Conexion exitosa con MariaDB
+[20:15:25] Component: Login (FR0Z3NH34R7) loaded.
+[20:15:25] Number of vehicle models: 0
+[20:15:25] Component: Levels (FR0Z3NH34R7) loaded.
+[20:15:25] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:15:25] Component: Actors (FR0Z3NH34R7) loaded.
+[20:15:25] plugin.bcrypt: Version check failed.
+[20:15:49] [connection] incoming connection: 192.168.0.26:62462 id: 0
+[20:15:49] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:19:08] filterscripts = ""  (string)
+[20:19:08] 
+[20:19:08] Server Plugins
+[20:19:08] --------------
+[20:19:08]  Loading plugin: crashdetect
+[20:19:08]   CrashDetect plugin 4.19.1
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: sscanf
+[20:19:08] 
+
+[20:19:08]  ===============================
+
+[20:19:08]       sscanf plugin loaded.     
+
+[20:19:08]          Version:  2.8.1        
+
+[20:19:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:19:08]  ===============================
+
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: streamer
+[20:19:08] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: Whirlpool
+[20:19:08]  
+[20:19:08]  ==================
+[20:19:08]  
+[20:19:08]   Whirlpool loaded
+[20:19:08]  
+[20:19:08]  ==================
+[20:19:08]  
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: mysql
+[20:19:08]  >> plugin.mysql: R41-4 successfully loaded.
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: bcrypt-samp
+[20:19:08]   plugin.bcrypt v2.2.3 was loaded.
+[20:19:08]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:19:08]   Loaded.
+[20:19:08]  Loading plugin: nativechecker
+[20:19:08]   Loaded.
+[20:19:08]  Loaded 7 plugins.
+
+[20:19:08] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:19:08] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:19:08] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:19:08] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:19:08] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:19:08] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:19:08] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:19:08] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:19:08] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:19:08] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:19:08] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:19:08] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:19:08] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:19:08] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:19:08] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:19:08] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:19:08] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:19:08] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:19:08] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:19:08] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:19:08] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:19:08] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:19:08] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:19:08] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:19:08] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:19:08] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:19:08] 
+[20:19:08] Filterscripts
+[20:19:08] ---------------
+[20:19:08]   Loaded 0 filterscripts.
+
+[20:19:08]  
+[20:19:08]  
+[20:19:08]  
+[20:19:08]  ======================================= 
+[20:19:08]  |                                     | 
+[20:19:08]  |        YSI version 3.09.0684        | 
+[20:19:08]  |        By Alex "Y_Less" Cole        | 
+[20:19:08]  |                                     | 
+[20:19:08]  ======================================= 
+[20:19:08]  
+[20:19:08]  
+[20:19:08]  
+[20:19:08] Conexion exitosa con MariaDB
+[20:19:08] Component: Login (FR0Z3NH34R7) loaded.
+[20:19:08] AdminCmds Heler
+[20:19:08] Number of vehicle models: 0
+[20:19:08] Component: Levels (FR0Z3NH34R7) loaded.
+[20:19:08] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:19:08] Component: Actors (FR0Z3NH34R7) loaded.
+[20:19:09] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:20:34] filterscripts = ""  (string)
+[20:20:34] 
+[20:20:34] Server Plugins
+[20:20:34] --------------
+[20:20:34]  Loading plugin: crashdetect
+[20:20:34]   CrashDetect plugin 4.19.1
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: sscanf
+[20:20:34] 
+
+[20:20:34]  ===============================
+
+[20:20:34]       sscanf plugin loaded.     
+
+[20:20:34]          Version:  2.8.1        
+
+[20:20:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:20:34]  ===============================
+
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: streamer
+[20:20:34] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: Whirlpool
+[20:20:34]  
+[20:20:34]  ==================
+[20:20:34]  
+[20:20:34]   Whirlpool loaded
+[20:20:34]  
+[20:20:34]  ==================
+[20:20:34]  
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: mysql
+[20:20:34]  >> plugin.mysql: R41-4 successfully loaded.
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: bcrypt-samp
+[20:20:34]   plugin.bcrypt v2.2.3 was loaded.
+[20:20:34]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:20:34]   Loaded.
+[20:20:34]  Loading plugin: nativechecker
+[20:20:34]   Loaded.
+[20:20:34]  Loaded 7 plugins.
+
+[20:20:34] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:20:34] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:20:34] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:20:34] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:20:34] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:20:34] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:20:34] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:20:34] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:20:34] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:20:34] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:20:34] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:20:34] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:20:34] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:20:34] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:20:34] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:20:34] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:20:34] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:20:34] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:20:34] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:20:34] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:20:34] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:20:34] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:20:34] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:20:34] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:20:34] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:20:34] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:20:34] 
+[20:20:34] Filterscripts
+[20:20:34] ---------------
+[20:20:34]   Loaded 0 filterscripts.
+
+[20:20:34]  
+[20:20:34]  
+[20:20:34]  
+[20:20:34]  ======================================= 
+[20:20:34]  |                                     | 
+[20:20:34]  |        YSI version 3.09.0684        | 
+[20:20:34]  |        By Alex "Y_Less" Cole        | 
+[20:20:34]  |                                     | 
+[20:20:34]  ======================================= 
+[20:20:34]  
+[20:20:34]  
+[20:20:34]  
+[20:20:34] Conexion exitosa con MariaDB
+[20:20:34] Component: Login (FR0Z3NH34R7) loaded.
+[20:20:34] AdminCmds Heler
+[20:20:34] Number of vehicle models: 0
+[20:20:34] Component: Levels (FR0Z3NH34R7) loaded.
+[20:20:34] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:20:34] Component: Actors (FR0Z3NH34R7) loaded.
+[20:20:36] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:22:30] filterscripts = ""  (string)
+[20:22:30] 
+[20:22:30] Server Plugins
+[20:22:30] --------------
+[20:22:30]  Loading plugin: crashdetect
+[20:22:30]   CrashDetect plugin 4.19.1
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: sscanf
+[20:22:30] 
+
+[20:22:30]  ===============================
+
+[20:22:30]       sscanf plugin loaded.     
+
+[20:22:30]          Version:  2.8.1        
+
+[20:22:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:22:30]  ===============================
+
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: streamer
+[20:22:30] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: Whirlpool
+[20:22:30]  
+[20:22:30]  ==================
+[20:22:30]  
+[20:22:30]   Whirlpool loaded
+[20:22:30]  
+[20:22:30]  ==================
+[20:22:30]  
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: mysql
+[20:22:30]  >> plugin.mysql: R41-4 successfully loaded.
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: bcrypt-samp
+[20:22:30]   plugin.bcrypt v2.2.3 was loaded.
+[20:22:30]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:22:30]   Loaded.
+[20:22:30]  Loading plugin: nativechecker
+[20:22:30]   Loaded.
+[20:22:30]  Loaded 7 plugins.
+
+[20:22:30] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:22:30] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:22:30] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:22:30] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:22:30] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:22:30] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:22:30] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:22:30] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:22:30] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:22:30] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:22:30] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:22:30] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:22:30] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:22:30] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:22:30] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:22:30] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:22:30] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:22:30] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:22:30] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:22:30] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:22:30] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:22:30] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:22:30] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:22:30] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:22:30] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:22:30] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:22:30] 
+[20:22:30] Filterscripts
+[20:22:30] ---------------
+[20:22:30]   Loaded 0 filterscripts.
+
+[20:22:30]  
+[20:22:30]  
+[20:22:30]  
+[20:22:30]  ======================================= 
+[20:22:30]  |                                     | 
+[20:22:30]  |        YSI version 3.09.0684        | 
+[20:22:30]  |        By Alex "Y_Less" Cole        | 
+[20:22:30]  |                                     | 
+[20:22:30]  ======================================= 
+[20:22:30]  
+[20:22:30]  
+[20:22:30]  
+[20:22:30] Conexion exitosa con MariaDB
+[20:22:30] Component: Login (FR0Z3NH34R7) loaded.
+[20:22:30] AdminCmds Enabled
+[20:22:30] Number of vehicle models: 0
+[20:22:30] Component: Levels (FR0Z3NH34R7) loaded.
+[20:22:30] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:22:30] Component: Actors (FR0Z3NH34R7) loaded.
+[20:22:30] plugin.bcrypt: Version check failed.
+[20:22:44] [connection] incoming connection: 192.168.0.26:59620 id: 0
+[20:22:44] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:33:18] filterscripts = ""  (string)
+[20:33:18] 
+[20:33:18] Server Plugins
+[20:33:18] --------------
+[20:33:18]  Loading plugin: crashdetect
+[20:33:18]   CrashDetect plugin 4.19.1
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: sscanf
+[20:33:18] 
+
+[20:33:18]  ===============================
+
+[20:33:18]       sscanf plugin loaded.     
+
+[20:33:18]          Version:  2.8.1        
+
+[20:33:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:33:18]  ===============================
+
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: streamer
+[20:33:18] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: Whirlpool
+[20:33:18]  
+[20:33:18]  ==================
+[20:33:18]  
+[20:33:18]   Whirlpool loaded
+[20:33:18]  
+[20:33:18]  ==================
+[20:33:18]  
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: mysql
+[20:33:18]  >> plugin.mysql: R41-4 successfully loaded.
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: bcrypt-samp
+[20:33:18]   plugin.bcrypt v2.2.3 was loaded.
+[20:33:18]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:33:18]   Loaded.
+[20:33:18]  Loading plugin: nativechecker
+[20:33:18]   Loaded.
+[20:33:18]  Loaded 7 plugins.
+
+[20:33:18] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:33:18] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:33:18] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:33:18] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:33:18] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:33:18] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:33:18] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:33:18] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:33:18] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:33:18] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:33:18] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:33:18] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:33:18] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:33:18] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:33:18] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:33:19] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:33:19] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:33:19] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:33:19] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:33:19] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:33:19] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:33:19] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:33:19] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:33:19] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:33:19] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:33:19] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:33:19] 
+[20:33:19] Filterscripts
+[20:33:19] ---------------
+[20:33:19]   Loaded 0 filterscripts.
+
+[20:33:19]  
+[20:33:19]  
+[20:33:19]  
+[20:33:19]  ======================================= 
+[20:33:19]  |                                     | 
+[20:33:19]  |        YSI version 3.09.0684        | 
+[20:33:19]  |        By Alex "Y_Less" Cole        | 
+[20:33:19]  |                                     | 
+[20:33:19]  ======================================= 
+[20:33:19]  
+[20:33:19]  
+[20:33:19]  
+[20:33:19] Conexion exitosa con MariaDB
+[20:33:19] Component: Login (FR0Z3NH34R7) loaded.
+[20:33:19] AdminCmds Enabled
+[20:33:19] Number of vehicle models: 0
+[20:33:19] Component: Levels (FR0Z3NH34R7) loaded.
+[20:33:19] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:33:19] Component: Actors (FR0Z3NH34R7) loaded.
+[20:33:19] plugin.bcrypt: Version check failed.
+[20:33:41] [connection] incoming connection: 192.168.0.26:52931 id: 0
+[20:33:41] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:33:53] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:34:08] filterscripts = ""  (string)
+[20:34:08] 
+[20:34:08] Server Plugins
+[20:34:08] --------------
+[20:34:08]  Loading plugin: crashdetect
+[20:34:08]   CrashDetect plugin 4.19.1
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: sscanf
+[20:34:08] 
+
+[20:34:08]  ===============================
+
+[20:34:08]       sscanf plugin loaded.     
+
+[20:34:08]          Version:  2.8.1        
+
+[20:34:08]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:34:08]  ===============================
+
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: streamer
+[20:34:08] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: Whirlpool
+[20:34:08]  
+[20:34:08]  ==================
+[20:34:08]  
+[20:34:08]   Whirlpool loaded
+[20:34:08]  
+[20:34:08]  ==================
+[20:34:08]  
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: mysql
+[20:34:08]  >> plugin.mysql: R41-4 successfully loaded.
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: bcrypt-samp
+[20:34:08]   plugin.bcrypt v2.2.3 was loaded.
+[20:34:08]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:34:08]   Loaded.
+[20:34:08]  Loading plugin: nativechecker
+[20:34:08]   Loaded.
+[20:34:08]  Loaded 7 plugins.
+
+[20:34:08] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:34:08] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:34:08] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:34:08] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:34:08] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:34:08] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:34:08] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:34:08] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:34:08] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:34:08] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:34:08] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:34:08] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:34:08] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:34:08] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:34:08] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:34:08] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:34:08] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:34:08] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:34:08] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:34:08] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:34:08] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:34:08] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:34:08] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:34:08] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:34:08] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:34:08] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:34:08] 
+[20:34:08] Filterscripts
+[20:34:08] ---------------
+[20:34:08]   Loaded 0 filterscripts.
+
+[20:34:08]  
+[20:34:08]  
+[20:34:08]  
+[20:34:08]  ======================================= 
+[20:34:08]  |                                     | 
+[20:34:08]  |        YSI version 3.09.0684        | 
+[20:34:08]  |        By Alex "Y_Less" Cole        | 
+[20:34:08]  |                                     | 
+[20:34:08]  ======================================= 
+[20:34:08]  
+[20:34:08]  
+[20:34:08]  
+[20:34:08] Conexion exitosa con MariaDB
+[20:34:08] Component: Login (FR0Z3NH34R7) loaded.
+[20:34:08] AdminCmds Enabled
+[20:34:08] Number of vehicle models: 0
+[20:34:08] Component: Levels (FR0Z3NH34R7) loaded.
+[20:34:08] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:34:08] Component: Actors (FR0Z3NH34R7) loaded.
+[20:34:09] plugin.bcrypt: Version check failed.
+[20:34:29] [connection] incoming connection: 192.168.0.26:53955 id: 0
+[20:34:30] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:41:38] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:50:36] filterscripts = ""  (string)
+[20:50:36] 
+[20:50:36] Server Plugins
+[20:50:36] --------------
+[20:50:36]  Loading plugin: crashdetect
+[20:50:36]   CrashDetect plugin 4.19.1
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: sscanf
+[20:50:36] 
+
+[20:50:36]  ===============================
+
+[20:50:36]       sscanf plugin loaded.     
+
+[20:50:36]          Version:  2.8.1        
+
+[20:50:36]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:50:36]  ===============================
+
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: streamer
+[20:50:36] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: Whirlpool
+[20:50:36]  
+[20:50:36]  ==================
+[20:50:36]  
+[20:50:36]   Whirlpool loaded
+[20:50:36]  
+[20:50:36]  ==================
+[20:50:36]  
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: mysql
+[20:50:36]  >> plugin.mysql: R41-4 successfully loaded.
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: bcrypt-samp
+[20:50:36]   plugin.bcrypt v2.2.3 was loaded.
+[20:50:36]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:50:36]   Loaded.
+[20:50:36]  Loading plugin: nativechecker
+[20:50:36]   Loaded.
+[20:50:36]  Loaded 7 plugins.
+
+[20:50:36] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:50:36] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:50:36] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:50:36] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:50:36] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:50:36] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:50:36] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:50:36] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:50:36] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:50:36] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:50:36] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:50:36] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:50:36] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:50:36] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:50:36] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:50:37] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:50:37] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:50:37] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:50:37] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:50:37] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:50:37] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:50:37] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:50:37] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:50:37] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:50:37] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:50:37] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:50:37] 
+[20:50:37] Filterscripts
+[20:50:37] ---------------
+[20:50:37]   Loaded 0 filterscripts.
+
+[20:50:37]  
+[20:50:37]  
+[20:50:37]  
+[20:50:37]  ======================================= 
+[20:50:37]  |                                     | 
+[20:50:37]  |        YSI version 3.09.0684        | 
+[20:50:37]  |        By Alex "Y_Less" Cole        | 
+[20:50:37]  |                                     | 
+[20:50:37]  ======================================= 
+[20:50:37]  
+[20:50:37]  
+[20:50:37]  
+[20:50:37] Conexion exitosa con MariaDB
+[20:50:37] Component: Login (FR0Z3NH34R7) loaded.
+[20:50:37] AdminCmds Enabled
+[20:50:37] Number of vehicle models: 0
+[20:50:37] Component: Levels (FR0Z3NH34R7) loaded.
+[20:50:37] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:50:37] Component: Actors (FR0Z3NH34R7) loaded.
+[20:50:37] plugin.bcrypt: Version check failed.
+[20:50:58] [connection] incoming connection: 192.168.0.26:60564 id: 0
+[20:50:59] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:55:09] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:55:18] filterscripts = ""  (string)
+[20:55:18] 
+[20:55:18] Server Plugins
+[20:55:18] --------------
+[20:55:18]  Loading plugin: crashdetect
+[20:55:18]   CrashDetect plugin 4.19.1
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: sscanf
+[20:55:18] 
+
+[20:55:18]  ===============================
+
+[20:55:18]       sscanf plugin loaded.     
+
+[20:55:18]          Version:  2.8.1        
+
+[20:55:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:55:18]  ===============================
+
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: streamer
+[20:55:18] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: Whirlpool
+[20:55:18]  
+[20:55:18]  ==================
+[20:55:18]  
+[20:55:18]   Whirlpool loaded
+[20:55:18]  
+[20:55:18]  ==================
+[20:55:18]  
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: mysql
+[20:55:18]  >> plugin.mysql: R41-4 successfully loaded.
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: bcrypt-samp
+[20:55:18]   plugin.bcrypt v2.2.3 was loaded.
+[20:55:18]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:55:18]   Loaded.
+[20:55:18]  Loading plugin: nativechecker
+[20:55:18]   Loaded.
+[20:55:18]  Loaded 7 plugins.
+
+[20:55:18] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:55:18] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:55:18] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:55:18] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:55:18] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:55:18] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:55:18] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:55:18] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:55:18] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:55:18] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:55:18] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:55:18] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:55:18] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:55:18] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:55:18] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:55:18] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:55:18] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:55:18] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:55:18] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:55:18] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:55:18] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:55:18] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:55:18] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:55:18] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:55:18] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:55:18] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:55:18] 
+[20:55:18] Filterscripts
+[20:55:18] ---------------
+[20:55:18]   Loaded 0 filterscripts.
+
+[20:55:18]  
+[20:55:18]  
+[20:55:18]  
+[20:55:18]  ======================================= 
+[20:55:18]  |                                     | 
+[20:55:18]  |        YSI version 3.09.0684        | 
+[20:55:18]  |        By Alex "Y_Less" Cole        | 
+[20:55:18]  |                                     | 
+[20:55:18]  ======================================= 
+[20:55:18]  
+[20:55:18]  
+[20:55:18]  
+[20:55:18] Conexion exitosa con MariaDB
+[20:55:18] Component: Login (FR0Z3NH34R7) loaded.
+[20:55:18] AdminCmds Enabled
+[20:55:18] Number of vehicle models: 0
+[20:55:18] Component: Levels (FR0Z3NH34R7) loaded.
+[20:55:18] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:55:18] Component: Actors (FR0Z3NH34R7) loaded.
+[20:55:18] plugin.bcrypt: Version check failed.
+[20:55:39] [connection] incoming connection: 192.168.0.26:50169 id: 0
+[20:55:39] [join] Jim_Street has joined the server (0:192.168.0.26)
+[20:59:15] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:59:22] filterscripts = ""  (string)
+[20:59:22] 
+[20:59:22] Server Plugins
+[20:59:22] --------------
+[20:59:22]  Loading plugin: crashdetect
+[20:59:22]   CrashDetect plugin 4.19.1
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: sscanf
+[20:59:22] 
+
+[20:59:22]  ===============================
+
+[20:59:22]       sscanf plugin loaded.     
+
+[20:59:22]          Version:  2.8.1        
+
+[20:59:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:59:22]  ===============================
+
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: streamer
+[20:59:22] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: Whirlpool
+[20:59:22]  
+[20:59:22]  ==================
+[20:59:22]  
+[20:59:22]   Whirlpool loaded
+[20:59:22]  
+[20:59:22]  ==================
+[20:59:22]  
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: mysql
+[20:59:22]  >> plugin.mysql: R41-4 successfully loaded.
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: bcrypt-samp
+[20:59:22]   plugin.bcrypt v2.2.3 was loaded.
+[20:59:22]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:59:22]   Loaded.
+[20:59:22]  Loading plugin: nativechecker
+[20:59:22]   Loaded.
+[20:59:22]  Loaded 7 plugins.
+
+[20:59:22] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[20:59:22] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[20:59:22] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[20:59:22] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[20:59:22] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:59:22] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:59:22] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:59:22] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:59:22] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:59:22] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:59:22] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:59:22] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:59:22] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:59:22] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:59:22] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:59:23] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:59:23] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:59:23] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:59:23] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:59:23] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:59:23] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:59:23] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:59:23] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:59:23] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:59:23] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:59:23] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:59:23] 
+[20:59:23] Filterscripts
+[20:59:23] ---------------
+[20:59:23]   Loaded 0 filterscripts.
+
+[20:59:23]  
+[20:59:23]  
+[20:59:23]  
+[20:59:23]  ======================================= 
+[20:59:23]  |                                     | 
+[20:59:23]  |        YSI version 3.09.0684        | 
+[20:59:23]  |        By Alex "Y_Less" Cole        | 
+[20:59:23]  |                                     | 
+[20:59:23]  ======================================= 
+[20:59:23]  
+[20:59:23]  
+[20:59:23]  
+[20:59:23] Conexion exitosa con MariaDB
+[20:59:23] Component: Login (FR0Z3NH34R7) loaded.
+[20:59:23] AdminCmds Enabled
+[20:59:23] Number of vehicle models: 0
+[20:59:23] Component: Levels (FR0Z3NH34R7) loaded.
+[20:59:23] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:59:23] Component: Actors (FR0Z3NH34R7) loaded.
+[20:59:23] plugin.bcrypt: Version check failed.
+[20:59:49] [connection] incoming connection: 192.168.0.26:60100 id: 0
+[20:59:49] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:00:22] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:00:29] filterscripts = ""  (string)
+[21:00:29] 
+[21:00:29] Server Plugins
+[21:00:29] --------------
+[21:00:29]  Loading plugin: crashdetect
+[21:00:29]   CrashDetect plugin 4.19.1
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: sscanf
+[21:00:29] 
+
+[21:00:29]  ===============================
+
+[21:00:29]       sscanf plugin loaded.     
+
+[21:00:29]          Version:  2.8.1        
+
+[21:00:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:00:29]  ===============================
+
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: streamer
+[21:00:29] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: Whirlpool
+[21:00:29]  
+[21:00:29]  ==================
+[21:00:29]  
+[21:00:29]   Whirlpool loaded
+[21:00:29]  
+[21:00:29]  ==================
+[21:00:29]  
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: mysql
+[21:00:29]  >> plugin.mysql: R41-4 successfully loaded.
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: bcrypt-samp
+[21:00:29]   plugin.bcrypt v2.2.3 was loaded.
+[21:00:29]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:00:29]   Loaded.
+[21:00:29]  Loading plugin: nativechecker
+[21:00:29]   Loaded.
+[21:00:29]  Loaded 7 plugins.
+
+[21:00:29] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:00:29] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:00:29] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:00:29] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:00:29] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:00:29] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:00:29] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:00:29] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:00:29] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:00:29] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:00:29] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:00:29] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:00:29] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:00:29] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:00:29] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:00:29] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:00:29] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:00:29] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:00:29] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:00:29] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:00:29] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:00:29] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:00:29] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:00:29] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:00:29] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:00:29] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:00:29] 
+[21:00:29] Filterscripts
+[21:00:29] ---------------
+[21:00:29]   Loaded 0 filterscripts.
+
+[21:00:29]  
+[21:00:29]  
+[21:00:29]  
+[21:00:29]  ======================================= 
+[21:00:29]  |                                     | 
+[21:00:29]  |        YSI version 3.09.0684        | 
+[21:00:29]  |        By Alex "Y_Less" Cole        | 
+[21:00:29]  |                                     | 
+[21:00:29]  ======================================= 
+[21:00:29]  
+[21:00:29]  
+[21:00:29]  
+[21:00:30] Conexion exitosa con MariaDB
+[21:00:30] Component: Login (FR0Z3NH34R7) loaded.
+[21:00:30] AdminCmds Enabled
+[21:00:30] Number of vehicle models: 0
+[21:00:30] Component: Levels (FR0Z3NH34R7) loaded.
+[21:00:30] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:00:30] Component: Actors (FR0Z3NH34R7) loaded.
+[21:00:30] plugin.bcrypt: Version check failed.
+[21:00:50] [connection] incoming connection: 192.168.0.26:59002 id: 0
+[21:00:50] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:01:39] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:01:44] filterscripts = ""  (string)
+[21:01:44] 
+[21:01:44] Server Plugins
+[21:01:44] --------------
+[21:01:44]  Loading plugin: crashdetect
+[21:01:44]   CrashDetect plugin 4.19.1
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: sscanf
+[21:01:44] 
+
+[21:01:44]  ===============================
+
+[21:01:44]       sscanf plugin loaded.     
+
+[21:01:44]          Version:  2.8.1        
+
+[21:01:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:01:44]  ===============================
+
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: streamer
+[21:01:44] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: Whirlpool
+[21:01:44]  
+[21:01:44]  ==================
+[21:01:44]  
+[21:01:44]   Whirlpool loaded
+[21:01:44]  
+[21:01:44]  ==================
+[21:01:44]  
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: mysql
+[21:01:44]  >> plugin.mysql: R41-4 successfully loaded.
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: bcrypt-samp
+[21:01:44]   plugin.bcrypt v2.2.3 was loaded.
+[21:01:44]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:01:44]   Loaded.
+[21:01:44]  Loading plugin: nativechecker
+[21:01:44]   Loaded.
+[21:01:44]  Loaded 7 plugins.
+
+[21:01:44] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:01:44] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:01:44] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:01:44] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:01:44] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:01:44] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:01:44] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:01:44] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:01:44] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:01:44] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:01:44] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:01:44] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:01:44] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:01:44] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:01:44] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:01:44] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:01:44] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:01:44] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:01:44] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:01:44] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:01:44] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:01:44] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:01:44] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:01:44] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:01:44] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:01:44] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:01:45] 
+[21:01:45] Filterscripts
+[21:01:45] ---------------
+[21:01:45]   Loaded 0 filterscripts.
+
+[21:01:45]  
+[21:01:45]  
+[21:01:45]  
+[21:01:45]  ======================================= 
+[21:01:45]  |                                     | 
+[21:01:45]  |        YSI version 3.09.0684        | 
+[21:01:45]  |        By Alex "Y_Less" Cole        | 
+[21:01:45]  |                                     | 
+[21:01:45]  ======================================= 
+[21:01:45]  
+[21:01:45]  
+[21:01:45]  
+[21:01:45] Conexion exitosa con MariaDB
+[21:01:45] Component: Login (FR0Z3NH34R7) loaded.
+[21:01:45] AdminCmds Enabled
+[21:01:45] Number of vehicle models: 0
+[21:01:45] Component: Levels (FR0Z3NH34R7) loaded.
+[21:01:45] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:01:45] Component: Actors (FR0Z3NH34R7) loaded.
+[21:01:45] plugin.bcrypt: Version check failed.
+[21:02:21] [connection] incoming connection: 192.168.0.26:52818 id: 0
+[21:02:21] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:02:55] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:03:06] filterscripts = ""  (string)
+[21:03:06] 
+[21:03:06] Server Plugins
+[21:03:06] --------------
+[21:03:06]  Loading plugin: crashdetect
+[21:03:06]   CrashDetect plugin 4.19.1
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: sscanf
+[21:03:06] 
+
+[21:03:06]  ===============================
+
+[21:03:06]       sscanf plugin loaded.     
+
+[21:03:06]          Version:  2.8.1        
+
+[21:03:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:03:06]  ===============================
+
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: streamer
+[21:03:06] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: Whirlpool
+[21:03:06]  
+[21:03:06]  ==================
+[21:03:06]  
+[21:03:06]   Whirlpool loaded
+[21:03:06]  
+[21:03:06]  ==================
+[21:03:06]  
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: mysql
+[21:03:06]  >> plugin.mysql: R41-4 successfully loaded.
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: bcrypt-samp
+[21:03:06]   plugin.bcrypt v2.2.3 was loaded.
+[21:03:06]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:03:06]   Loaded.
+[21:03:06]  Loading plugin: nativechecker
+[21:03:06]   Loaded.
+[21:03:06]  Loaded 7 plugins.
+
+[21:03:06] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:03:06] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:03:06] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:03:06] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:03:06] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:03:06] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:03:06] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:03:06] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:03:06] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:03:06] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:03:06] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:03:06] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:03:06] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:03:06] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:03:06] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:03:06] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:03:06] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:03:06] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:03:06] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:03:06] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:03:06] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:03:06] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:03:06] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:03:06] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:03:06] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:03:06] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:03:06] 
+[21:03:06] Filterscripts
+[21:03:06] ---------------
+[21:03:06]   Loaded 0 filterscripts.
+
+[21:03:06]  
+[21:03:06]  
+[21:03:06]  
+[21:03:06]  ======================================= 
+[21:03:06]  |                                     | 
+[21:03:06]  |        YSI version 3.09.0684        | 
+[21:03:06]  |        By Alex "Y_Less" Cole        | 
+[21:03:06]  |                                     | 
+[21:03:06]  ======================================= 
+[21:03:06]  
+[21:03:06]  
+[21:03:07]  
+[21:03:07] Conexion exitosa con MariaDB
+[21:03:07] Component: Login (FR0Z3NH34R7) loaded.
+[21:03:07] AdminCmds Enabled
+[21:03:07] Number of vehicle models: 0
+[21:03:07] Component: Levels (FR0Z3NH34R7) loaded.
+[21:03:07] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:03:07] Component: Actors (FR0Z3NH34R7) loaded.
+[21:03:07] plugin.bcrypt: Version check failed.
+[21:03:27] [connection] incoming connection: 192.168.0.26:57592 id: 0
+[21:03:28] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:04:18] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:04:22] filterscripts = ""  (string)
+[21:04:22] 
+[21:04:22] Server Plugins
+[21:04:22] --------------
+[21:04:22]  Loading plugin: crashdetect
+[21:04:22]   CrashDetect plugin 4.19.1
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: sscanf
+[21:04:22] 
+
+[21:04:22]  ===============================
+
+[21:04:22]       sscanf plugin loaded.     
+
+[21:04:22]          Version:  2.8.1        
+
+[21:04:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:04:22]  ===============================
+
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: streamer
+[21:04:22] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: Whirlpool
+[21:04:22]  
+[21:04:22]  ==================
+[21:04:22]  
+[21:04:22]   Whirlpool loaded
+[21:04:22]  
+[21:04:22]  ==================
+[21:04:22]  
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: mysql
+[21:04:22]  >> plugin.mysql: R41-4 successfully loaded.
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: bcrypt-samp
+[21:04:22]   plugin.bcrypt v2.2.3 was loaded.
+[21:04:22]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:04:22]   Loaded.
+[21:04:22]  Loading plugin: nativechecker
+[21:04:22]   Loaded.
+[21:04:22]  Loaded 7 plugins.
+
+[21:04:22] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:04:22] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:04:22] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:04:22] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:04:22] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:04:22] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:04:22] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:04:22] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:04:22] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:04:22] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:04:22] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:04:22] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:04:22] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:04:22] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:04:22] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:04:22] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:04:22] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:04:22] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:04:22] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:04:22] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:04:22] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:04:22] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:04:22] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:04:22] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:04:22] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:04:22] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:04:22] 
+[21:04:22] Filterscripts
+[21:04:22] ---------------
+[21:04:22]   Loaded 0 filterscripts.
+
+[21:04:22]  
+[21:04:22]  
+[21:04:22]  
+[21:04:22]  ======================================= 
+[21:04:22]  |                                     | 
+[21:04:22]  |        YSI version 3.09.0684        | 
+[21:04:22]  |        By Alex "Y_Less" Cole        | 
+[21:04:22]  |                                     | 
+[21:04:22]  ======================================= 
+[21:04:22]  
+[21:04:22]  
+[21:04:22]  
+[21:04:22] Conexion exitosa con MariaDB
+[21:04:22] Component: Login (FR0Z3NH34R7) loaded.
+[21:04:22] AdminCmds Enabled
+[21:04:22] Number of vehicle models: 0
+[21:04:22] Component: Levels (FR0Z3NH34R7) loaded.
+[21:04:22] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:04:22] Component: Actors (FR0Z3NH34R7) loaded.
+[21:04:22] plugin.bcrypt: Version check failed.
+[21:04:43] [connection] incoming connection: 192.168.0.26:60589 id: 0
+[21:04:43] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:09:00] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:09:04] filterscripts = ""  (string)
+[21:09:04] 
+[21:09:04] Server Plugins
+[21:09:04] --------------
+[21:09:04]  Loading plugin: crashdetect
+[21:09:04]   CrashDetect plugin 4.19.1
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: sscanf
+[21:09:04] 
+
+[21:09:04]  ===============================
+
+[21:09:04]       sscanf plugin loaded.     
+
+[21:09:04]          Version:  2.8.1        
+
+[21:09:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:09:04]  ===============================
+
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: streamer
+[21:09:04] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: Whirlpool
+[21:09:04]  
+[21:09:04]  ==================
+[21:09:04]  
+[21:09:04]   Whirlpool loaded
+[21:09:04]  
+[21:09:04]  ==================
+[21:09:04]  
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: mysql
+[21:09:04]  >> plugin.mysql: R41-4 successfully loaded.
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: bcrypt-samp
+[21:09:04]   plugin.bcrypt v2.2.3 was loaded.
+[21:09:04]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:09:04]   Loaded.
+[21:09:04]  Loading plugin: nativechecker
+[21:09:04]   Loaded.
+[21:09:04]  Loaded 7 plugins.
+
+[21:09:04] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:09:04] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:09:04] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:09:04] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:09:04] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:09:04] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:09:04] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:09:04] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:09:04] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:09:04] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:09:04] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:09:04] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:09:04] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:09:04] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:09:04] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:09:04] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:09:04] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:09:04] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:09:04] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:09:04] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:09:04] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:09:04] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:09:04] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:09:04] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:09:04] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:09:04] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:09:04] 
+[21:09:04] Filterscripts
+[21:09:04] ---------------
+[21:09:04]   Loaded 0 filterscripts.
+
+[21:09:04]  
+[21:09:04]  
+[21:09:04]  
+[21:09:04]  ======================================= 
+[21:09:04]  |                                     | 
+[21:09:04]  |        YSI version 3.09.0684        | 
+[21:09:04]  |        By Alex "Y_Less" Cole        | 
+[21:09:04]  |                                     | 
+[21:09:04]  ======================================= 
+[21:09:04]  
+[21:09:04]  
+[21:09:04]  
+[21:09:04] Conexion exitosa con MariaDB
+[21:09:04] Component: Login (FR0Z3NH34R7) loaded.
+[21:09:04] AdminCmds Enabled
+[21:09:04] Number of vehicle models: 0
+[21:09:04] Component: Levels (FR0Z3NH34R7) loaded.
+[21:09:04] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:09:04] Component: Actors (FR0Z3NH34R7) loaded.
+[21:09:05] plugin.bcrypt: Version check failed.
+[21:09:26] [connection] incoming connection: 192.168.0.26:55266 id: 0
+[21:09:26] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:12:09] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:12:14] filterscripts = ""  (string)
+[21:12:14] 
+[21:12:14] Server Plugins
+[21:12:14] --------------
+[21:12:14]  Loading plugin: crashdetect
+[21:12:14]   CrashDetect plugin 4.19.1
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: sscanf
+[21:12:14] 
+
+[21:12:14]  ===============================
+
+[21:12:14]       sscanf plugin loaded.     
+
+[21:12:14]          Version:  2.8.1        
+
+[21:12:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:12:14]  ===============================
+
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: streamer
+[21:12:14] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: Whirlpool
+[21:12:14]  
+[21:12:14]  ==================
+[21:12:14]  
+[21:12:14]   Whirlpool loaded
+[21:12:14]  
+[21:12:14]  ==================
+[21:12:14]  
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: mysql
+[21:12:14]  >> plugin.mysql: R41-4 successfully loaded.
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: bcrypt-samp
+[21:12:14]   plugin.bcrypt v2.2.3 was loaded.
+[21:12:14]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:12:14]   Loaded.
+[21:12:14]  Loading plugin: nativechecker
+[21:12:14]   Loaded.
+[21:12:14]  Loaded 7 plugins.
+
+[21:12:14] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:12:14] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:12:14] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:12:14] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:12:14] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:12:14] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:12:14] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:12:14] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:12:14] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:12:14] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:12:14] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:12:14] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:12:14] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:12:14] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:12:14] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:12:14] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:12:14] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:12:14] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:12:14] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:12:14] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:12:14] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:12:14] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:12:14] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:12:14] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:12:14] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:12:14] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:12:14] 
+[21:12:15] Filterscripts
+[21:12:15] ---------------
+[21:12:15]   Loaded 0 filterscripts.
+
+[21:12:15]  
+[21:12:15]  
+[21:12:15]  
+[21:12:15]  ======================================= 
+[21:12:15]  |                                     | 
+[21:12:15]  |        YSI version 3.09.0684        | 
+[21:12:15]  |        By Alex "Y_Less" Cole        | 
+[21:12:15]  |                                     | 
+[21:12:15]  ======================================= 
+[21:12:15]  
+[21:12:15]  
+[21:12:15]  
+[21:12:15] Conexion exitosa con MariaDB
+[21:12:15] Component: Login (FR0Z3NH34R7) loaded.
+[21:12:15] AdminCmds Enabled
+[21:12:15] Number of vehicle models: 0
+[21:12:15] Component: Levels (FR0Z3NH34R7) loaded.
+[21:12:15] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:12:15] Component: Actors (FR0Z3NH34R7) loaded.
+[21:12:15] plugin.bcrypt: Version check failed.
+[21:12:35] [connection] incoming connection: 192.168.0.26:60050 id: 0
+[21:12:35] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:30:59] filterscripts = ""  (string)
+[21:30:59] 
+[21:30:59] Server Plugins
+[21:30:59] --------------
+[21:30:59]  Loading plugin: crashdetect
+[21:30:59]   CrashDetect plugin 4.19.1
+[21:30:59]   Loaded.
+[21:30:59]  Loading plugin: sscanf
+[21:30:59] 
+
+[21:30:59]  ===============================
+
+[21:30:59]       sscanf plugin loaded.     
+
+[21:30:59]          Version:  2.8.1        
+
+[21:30:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:30:59]  ===============================
+
+[21:30:59]   Loaded.
+[21:30:59]  Loading plugin: streamer
+[21:30:59] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:30:59]   Loaded.
+[21:30:59]  Loading plugin: Whirlpool
+[21:30:59]  
+[21:30:59]  ==================
+[21:30:59]  
+[21:30:59]   Whirlpool loaded
+[21:30:59]  
+[21:30:59]  ==================
+[21:30:59]  
+[21:30:59]   Loaded.
+[21:30:59]  Loading plugin: mysql
+[21:30:59]  >> plugin.mysql: R41-4 successfully loaded.
+[21:31:00]   Loaded.
+[21:31:00]  Loading plugin: bcrypt-samp
+[21:31:00]   plugin.bcrypt v2.2.3 was loaded.
+[21:31:00]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:31:00]   Loaded.
+[21:31:00]  Loading plugin: nativechecker
+[21:31:00]   Loaded.
+[21:31:00]  Loaded 7 plugins.
+
+[21:31:00] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:31:00] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:31:00] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:31:00] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:31:00] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:31:00] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:31:00] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:31:00] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:31:00] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:31:00] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:31:00] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:31:00] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:31:00] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:31:00] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:31:00] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:31:00] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:31:00] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:31:00] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:31:00] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:31:00] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:31:00] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:31:00] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:31:00] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:31:00] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:31:00] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:31:00] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:31:00] 
+[21:31:00] Filterscripts
+[21:31:00] ---------------
+[21:31:00]   Loaded 0 filterscripts.
+
+[21:31:00]  
+[21:31:00]  
+[21:31:00]  
+[21:31:00]  ======================================= 
+[21:31:00]  |                                     | 
+[21:31:00]  |        YSI version 3.09.0684        | 
+[21:31:00]  |        By Alex "Y_Less" Cole        | 
+[21:31:00]  |                                     | 
+[21:31:00]  ======================================= 
+[21:31:00]  
+[21:31:00]  
+[21:31:00]  
+[21:31:00] Conexion exitosa con MariaDB
+[21:31:00] Component: Login (FR0Z3NH34R7) loaded.
+[21:31:00] AdminCmds Enabled
+[21:31:00] Number of vehicle models: 0
+[21:31:00] Component: Levels (FR0Z3NH34R7) loaded.
+[21:31:00] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:31:00] Component: Actors (FR0Z3NH34R7) loaded.
+[21:31:01] plugin.bcrypt: Version check failed.
+[21:31:24] [connection] incoming connection: 192.168.0.26:54999 id: 0
+[21:31:25] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:47:30] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:47:37] filterscripts = ""  (string)
+[21:47:37] 
+[21:47:37] Server Plugins
+[21:47:37] --------------
+[21:47:37]  Loading plugin: crashdetect
+[21:47:37]   CrashDetect plugin 4.19.1
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: sscanf
+[21:47:37] 
+
+[21:47:37]  ===============================
+
+[21:47:37]       sscanf plugin loaded.     
+
+[21:47:37]          Version:  2.8.1        
+
+[21:47:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:47:37]  ===============================
+
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: streamer
+[21:47:37] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: Whirlpool
+[21:47:37]  
+[21:47:37]  ==================
+[21:47:37]  
+[21:47:37]   Whirlpool loaded
+[21:47:37]  
+[21:47:37]  ==================
+[21:47:37]  
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: mysql
+[21:47:37]  >> plugin.mysql: R41-4 successfully loaded.
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: bcrypt-samp
+[21:47:37]   plugin.bcrypt v2.2.3 was loaded.
+[21:47:37]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:47:37]   Loaded.
+[21:47:37]  Loading plugin: nativechecker
+[21:47:37]   Loaded.
+[21:47:37]  Loaded 7 plugins.
+
+[21:47:37] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:47:37] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:47:37] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:47:37] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:47:37] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:47:37] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:47:37] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:47:37] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:47:37] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:47:37] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:47:37] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:47:37] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:47:37] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:47:37] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:47:37] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:47:37] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:47:37] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:47:37] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:47:37] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:47:37] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:47:37] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:47:37] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:47:37] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:47:37] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:47:37] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:47:37] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:47:37] 
+[21:47:37] Filterscripts
+[21:47:37] ---------------
+[21:47:37]   Loaded 0 filterscripts.
+
+[21:47:37]  
+[21:47:37]  
+[21:47:37]  
+[21:47:37]  ======================================= 
+[21:47:37]  |                                     | 
+[21:47:37]  |        YSI version 3.09.0684        | 
+[21:47:37]  |        By Alex "Y_Less" Cole        | 
+[21:47:37]  |                                     | 
+[21:47:37]  ======================================= 
+[21:47:37]  
+[21:47:37]  
+[21:47:37]  
+[21:47:38] Conexion exitosa con MariaDB
+[21:47:38] Component: Login (FR0Z3NH34R7) loaded.
+[21:47:38] AdminCmds Enabled
+[21:47:38] Number of vehicle models: 0
+[21:47:38] Component: Levels (FR0Z3NH34R7) loaded.
+[21:47:38] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:47:38] Component: Actors (FR0Z3NH34R7) loaded.
+[21:47:38] plugin.bcrypt: Version check failed.
+[21:47:59] [connection] incoming connection: 192.168.0.26:54619 id: 0
+[21:47:59] [join] Jim_Street has joined the server (0:192.168.0.26)
+[21:53:26] [part] Jim_Street has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:53:40] filterscripts = ""  (string)
+[21:53:40] 
+[21:53:40] Server Plugins
+[21:53:40] --------------
+[21:53:40]  Loading plugin: crashdetect
+[21:53:40]   CrashDetect plugin 4.19.1
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: sscanf
+[21:53:40] 
+
+[21:53:40]  ===============================
+
+[21:53:40]       sscanf plugin loaded.     
+
+[21:53:40]          Version:  2.8.1        
+
+[21:53:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:53:40]  ===============================
+
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: streamer
+[21:53:40] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: Whirlpool
+[21:53:40]  
+[21:53:40]  ==================
+[21:53:40]  
+[21:53:40]   Whirlpool loaded
+[21:53:40]  
+[21:53:40]  ==================
+[21:53:40]  
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: mysql
+[21:53:40]  >> plugin.mysql: R41-4 successfully loaded.
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: bcrypt-samp
+[21:53:40]   plugin.bcrypt v2.2.3 was loaded.
+[21:53:40]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[21:53:40]   Loaded.
+[21:53:40]  Loading plugin: nativechecker
+[21:53:40]   Loaded.
+[21:53:40]  Loaded 7 plugins.
+
+[21:53:40] [artwork:crc] lvpdpc2.dff CRC = 0xFBD1EA7C
+[21:53:40] [artwork:crc] lvpdpc2.txd CRC = 0xDC92731E
+[21:53:40] [artwork:crc] lapdpd2.dff CRC = 0xA558D422
+[21:53:40] [artwork:crc] lapdpd2.txd CRC = 0xA442E2DA
+[21:53:40] [artwork:crc] inv.dff CRC = 0xC7C21095
+[21:53:40] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[21:53:40] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[21:53:40] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[21:53:40] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[21:53:40] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[21:53:40] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[21:53:40] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[21:53:40] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[21:53:40] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[21:53:40] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[21:53:40] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[21:53:40] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[21:53:40] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[21:53:40] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[21:53:40] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[21:53:40] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[21:53:40] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[21:53:40] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[21:53:40] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[21:53:40] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[21:53:40] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[21:53:40] 
+[21:53:40] Filterscripts
+[21:53:40] ---------------
+[21:53:40]   Loaded 0 filterscripts.
+
+[21:53:40]  
+[21:53:40]  
+[21:53:40]  
+[21:53:40]  ======================================= 
+[21:53:40]  |                                     | 
+[21:53:40]  |        YSI version 3.09.0684        | 
+[21:53:40]  |        By Alex "Y_Less" Cole        | 
+[21:53:40]  |                                     | 
+[21:53:40]  ======================================= 
+[21:53:40]  
+[21:53:40]  
+[21:53:40]  
+[21:53:40] Conexion exitosa con MariaDB
+[21:53:40] Component: Login (FR0Z3NH34R7) loaded.
+[21:53:40] AdminCmds Enabled
+[21:53:40] Number of vehicle models: 0
+[21:53:40] Component: Levels (FR0Z3NH34R7) loaded.
+[21:53:40] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[21:53:40] Component: Actors (FR0Z3NH34R7) loaded.
+[21:53:41] plugin.bcrypt: Version check failed.
+[21:54:02] [connection] incoming connection: 192.168.0.26:51291 id: 0
+[21:54:03] [join] Jim_Street has joined the server (0:192.168.0.26)

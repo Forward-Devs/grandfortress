@@ -1,3 +1,4 @@
+#include <YSI\y_hooks>
 #if defined _Inventories_Component
 	#endinput
 #endif

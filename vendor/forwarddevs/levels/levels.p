@@ -1,11 +1,10 @@
-
+#include <YSI\y_hooks>
 #if defined _Levels_Component
 	#endinput
 #endif
 #define _Levels_Component
 
 #define Levels::%0(%1) forward Levels_%0(%1);public Levels_%0(%1)
-
 
 
 hook OnGameModeInit()
