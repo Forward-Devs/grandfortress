@@ -1,11 +1,7 @@
 /*
-<<<<<<< HEAD
-Grand Fortress main code does not change!
-=======
-Motor principal de Grand Fortress, no modificar codigo de éste archivo.
->>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
 
-Developer: FR0Z3NH34R7 (Oscar Fern�ndez)
+Grand Fortress main code does not change!
+Developer: FR0Z3NH34R7 (Oscar Fernández)
 
 */
 // Core
@@ -120,5 +116,4 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid)
 
     return 1;
 }
-=======
->>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
+
