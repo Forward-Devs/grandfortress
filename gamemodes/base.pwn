@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
 Grand Fortress main code does not change!
+=======
+Motor principal de Grand Fortress, no modificar codigo de Ã©ste archivo.
+>>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
 
 Developer: FR0Z3NH34R7 (Oscar Fernández)
 
@@ -18,6 +22,11 @@ Developer: FR0Z3NH34R7 (Oscar Fernández)
 #include <DialogCenter>
 #include <FAI>
 
+
+// Temporal fix to "bypass" recursion of y_amx
+#if __Pawn == 778 && __Pawn != 0x030A
+	#pragma disablerecursion
+#endif
 
 main()
 {
@@ -99,6 +108,7 @@ public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
 
     return 1;
 }
+<<<<<<< HEAD
 
 public OnPlayerRequestDownload(playerid, type, crc)
 {
@@ -110,3 +120,5 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid)
 
     return 1;
 }
+=======
+>>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
