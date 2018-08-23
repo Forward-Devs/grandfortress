@@ -1,5 +1,5 @@
 /*
-Motor principal de Grand Fortress, no modificar codigo de éste archivo.
+Motor principal de Grand Fortress, no modificar codigo de Ã©ste archivo.
 
 Desarrollador: FR0Z3NH34R7
 
@@ -16,6 +16,11 @@ Desarrollador: FR0Z3NH34R7
 #include <zcmd>
 #include <crashdetect>
 #include <DialogCenter>
+
+// Temporal fix to "bypass" recursion of y_amx
+#if __Pawn == 778 && __Pawn != 0x030A
+	#pragma disablerecursion
+#endif
 
 main()
 {
