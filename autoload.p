@@ -34,6 +34,13 @@
 
 #if defined PLAYERCMDS_ENABLED
 	#if PLAYERCMDS_ENABLED==1
-		#include "../vendor/forwarddevs/playercmds/chat.p"
+		
+		#include "../vendor/forwarddevs/playercmds/pcmds.p"
+	#endif
+#endif
+
+#if defined SAFEZONE_ENABLED
+	#if SAFEZONE_ENABLED==1
+		#include "../vendor/forwarddevs/safezone/safezone.p"
 	#endif
 #endif

@@ -20,7 +20,7 @@ stock ReturnPlayerIp( playerid )
 	GetPlayerIp( playerid, Ip, sizeof( Ip ) );
 	return Ip;
 }
-CMD:spawn(playerid,params[]) {
+CMD:gotospawn(playerid,params[]) {
 	if(User::playerid(admin))
 	{
 		User::playerid(xPos) = DEFAULT_POS_X;

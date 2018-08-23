@@ -1,21 +1,23 @@
 /*
-Motor principal de Grand Fortress, no modificar codigo de éste archivo.
+Grand Fortress main code does not change!
 
-Desarrollador: FR0Z3NH34R7
+Developer: FR0Z3NH34R7 (Oscar Fernández)
 
 */
 // Core
 #include <a_samp>
-#include <a_mysql> // R41-4 Descarga: https://github.com/pBlueG/SA-MP-MySQL/releases/tag/R41-4
+#include <a_mysql> // R41-4 Download: https://github.com/pBlueG/SA-MP-MySQL/releases/tag/R41-4
 #include <foreach>
 #include <easyDialog>
-#include <bcrypt> // 2.2.3 Descarga: https://github.com/lassir/bcrypt-samp/releases/tag/v2.2.3
+#include <bcrypt> // 2.2.3 Download: https://github.com/lassir/bcrypt-samp/releases/tag/v2.2.3
 #include <sscanf2>
 #include <streamer>
 #include <a_actor>
 #include <zcmd>
 #include <crashdetect>
 #include <DialogCenter>
+#include <FAI>
+
 
 main()
 {
@@ -30,7 +32,7 @@ main()
 /* Auto Load */
 #include "../autoload.p" 
 
-new SafeZone, PlayZone, SafeArea;
+
 
 
 
@@ -42,9 +44,9 @@ public OnGameModeInit()
 	SetNameTagDrawDistance(10.0);
 	ShowPlayerMarkers(0);
 
-	PlayZone = GangZoneCreate(-2930.1165, -2979.5657, 82.7065, -353.7682);
-	SafeZone = GangZoneCreate(-2268.1316, -2592.7222, -1916.3226, -2204.0454);
-	SafeArea = CreateDynamicRectangle(-2268.1316, -2592.7222, -1916.3226, -2204.0454);
+
+	new bossid = FAI_CreateBoss("Jim_Streeeet");
+	FCNPC_Spawn(FAI_GetBossNPCID(bossid), 149, 1086.9752, 1074.7021, 10.8382);
 	return 1;
 }
 
@@ -69,35 +71,19 @@ public OnPlayerText(playerid, text[])
 
 public OnPlayerSpawn(playerid)
 {
-	SetPlayerWorldBounds(playerid, 82.7065, -2930.1165, -353.7682, -2979.5657);
-	GangZoneShowForPlayer(playerid, PlayZone, 0xEF000055);
-	GangZoneShowForPlayer(playerid, SafeZone, 0x0000EF55);
 	SetPlayerColor(playerid, -1);
 	return 1;
 }
 public OnPlayerEnterDynamicArea(playerid, areaid)
 {
-	if(areaid == SafeArea)
-	{
-		new nuevo[120];
-	    format(nuevo, sizeof(nuevo), "~g~Entrando a la zona segura.");
-	    MostrarInfoJugador(playerid, nuevo, 3);
-		SendClientMessage(playerid, 0xFFFFFFEE, "Entrando a la zona segura..");
-	}
+	return 1;
 }
 public OnPlayerLeaveDynamicArea(playerid, areaid)
 {
-	if(areaid == SafeArea)
-	{
-		new nuevo[120];
-	    format(nuevo, sizeof(nuevo), "~r~Saliendo de la zona segura.");
-	    MostrarInfoJugador(playerid, nuevo, 3);
-		SendClientMessage(playerid, 0xFFFFFFEE, "Saliendo de la zona segura..");
-	}
+	return 1;
 }
 public OnPlayerDeath(playerid, killerid, reason)
 {
-
 	return 1;
 }
 
@@ -109,6 +95,17 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 }
 
 public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
+{
+
+    return 1;
+}
+
+public OnPlayerRequestDownload(playerid, type, crc)
+{
+
+	return 1;
+}
+public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid)
 {
 
     return 1;

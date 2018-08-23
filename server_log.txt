@@ -7737,3 +7737,1910 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [21:53:41] plugin.bcrypt: Version check failed.
 [21:54:02] [connection] incoming connection: 192.168.0.26:51291 id: 0
 [21:54:03] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[08:18:31] filterscripts = ""  (string)
+[08:18:31] 
+[08:18:31] Server Plugins
+[08:18:31] --------------
+[08:18:31]  Loading plugin: crashdetect
+[08:18:32]   CrashDetect plugin 4.19.1
+[08:18:32]   Loaded.
+[08:18:32]  Loading plugin: sscanf
+[08:18:32] 
+
+[08:18:32]  ===============================
+
+[08:18:32]       sscanf plugin loaded.     
+
+[08:18:32]          Version:  2.8.1        
+
+[08:18:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[08:18:32]  ===============================
+
+[08:18:32]   Loaded.
+[08:18:32]  Loading plugin: streamer
+[08:18:32] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[08:18:32]   Loaded.
+[08:18:32]  Loading plugin: Whirlpool
+[08:18:32]  
+[08:18:32]  ==================
+[08:18:32]  
+[08:18:32]   Whirlpool loaded
+[08:18:32]  
+[08:18:32]  ==================
+[08:18:32]  
+[08:18:32]   Loaded.
+[08:18:32]  Loading plugin: mysql
+[08:18:33]  >> plugin.mysql: R41-4 successfully loaded.
+[08:18:33]   Loaded.
+[08:18:33]  Loading plugin: bcrypt-samp
+[08:18:33]   plugin.bcrypt v2.2.3 was loaded.
+[08:18:33]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[08:18:33]   Loaded.
+[08:18:33]  Loading plugin: FCNPC
+[08:18:33] 
+[08:18:33] -------------------------------------------------
+[08:18:33]      FCNPC - Fully Controllable NPC v1.8.2
+[08:18:33]          Windows SA-MP Unknown
+[08:18:33]           Jan  8 2018 at 01:14:48
+[08:18:33] 
+[08:18:33]   Author:       OrMisicL (2013 - 2015)
+[08:18:33]   Continued by: ziggi (2016 - present)
+[08:18:33]   Contributors: kurta999, Neutralneu
+[08:18:33] -------------------------------------------------
+[08:18:33] 
+[08:18:33] Loading...
+[08:18:33]   Loaded.
+[08:18:33]  Loading plugin: MapAndreas
+[08:18:33]   Loaded.
+[08:18:33]  Loading plugin: nativechecker
+[08:18:33]   Loaded.
+[08:18:33]  Loaded 9 plugins.
+
+[08:18:34] [artwork:crc] inv.dff CRC = 0xC7C21095
+[08:18:34] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[08:18:34] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[08:18:34] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[08:18:34] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[08:18:34] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[08:18:34] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[08:18:35] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[08:18:35] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[08:18:35] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[08:18:35] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[08:18:35] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[08:18:35] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[08:18:35] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[08:18:35] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[08:18:36] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[08:18:36] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[08:18:36] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[08:18:36] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[08:18:36] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[08:18:36] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[08:18:36] [artwork:crc] triboss.txd CRC = 0x5F086408
+[08:18:36] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[08:18:36] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[08:18:36] I couldn't load any gamemode scripts. Please verify your server.cfg
+[08:18:36] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[08:25:21] filterscripts = ""  (string)
+[08:25:21] 
+[08:25:21] Server Plugins
+[08:25:21] --------------
+[08:25:21]  Loading plugin: crashdetect
+[08:25:21]   CrashDetect plugin 4.19.1
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: sscanf
+[08:25:21] 
+
+[08:25:21]  ===============================
+
+[08:25:21]       sscanf plugin loaded.     
+
+[08:25:21]          Version:  2.8.1        
+
+[08:25:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[08:25:21]  ===============================
+
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: streamer
+[08:25:21] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: Whirlpool
+[08:25:21]  
+[08:25:21]  ==================
+[08:25:21]  
+[08:25:21]   Whirlpool loaded
+[08:25:21]  
+[08:25:21]  ==================
+[08:25:21]  
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: mysql
+[08:25:21]  >> plugin.mysql: R41-4 successfully loaded.
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: bcrypt-samp
+[08:25:21]   plugin.bcrypt v2.2.3 was loaded.
+[08:25:21]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: FCNPC
+[08:25:21] 
+[08:25:21] -------------------------------------------------
+[08:25:21]      FCNPC - Fully Controllable NPC v1.8.2
+[08:25:21]          Windows SA-MP Unknown
+[08:25:21]           Jan  8 2018 at 01:14:48
+[08:25:21] 
+[08:25:21]   Author:       OrMisicL (2013 - 2015)
+[08:25:21]   Continued by: ziggi (2016 - present)
+[08:25:21]   Contributors: kurta999, Neutralneu
+[08:25:21] -------------------------------------------------
+[08:25:21] 
+[08:25:21] Loading...
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: MapAndreas
+[08:25:21]   Loaded.
+[08:25:21]  Loading plugin: nativechecker
+[08:25:21]   Loaded.
+[08:25:21]  Loaded 9 plugins.
+
+[08:25:21] [artwork:crc] inv.dff CRC = 0xC7C21095
+[08:25:21] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[08:25:21] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[08:25:21] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[08:25:21] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[08:25:21] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[08:25:21] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[08:25:21] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[08:25:21] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[08:25:21] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[08:25:21] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[08:25:22] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[08:25:22] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[08:25:22] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[08:25:22] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[08:25:22] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[08:25:22] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[08:25:22] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[08:25:22] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[08:25:22] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[08:25:22] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[08:25:22] [artwork:crc] triboss.txd CRC = 0x5F086408
+[08:25:22] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[08:25:22] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[08:25:22] 
+[08:25:22] Filterscripts
+[08:25:22] ---------------
+[08:25:22]   Loaded 0 filterscripts.
+
+[08:25:24] [FCNPC] Warning: Crash possible. The maxplayers limit in server.cfg is less than the maxnpc limit.
+[08:25:24]  
+[08:25:24]  
+[08:25:24]  
+[08:25:24]  ======================================= 
+[08:25:24]  |                                     | 
+[08:25:24]  |        YSI version 3.09.0684        | 
+[08:25:24]  |        By Alex "Y_Less" Cole        | 
+[08:25:24]  |                                     | 
+[08:25:24]  ======================================= 
+[08:25:24]  
+[08:25:24]  
+[08:25:24]  
+[08:25:24] Conexion exitosa con MariaDB
+[08:25:24] Component: Login (FR0Z3NH34R7) loaded.
+[08:25:24] AdminCmds Enabled
+[08:25:24] ---------------------
+[08:25:24]   FCNPC A.I. loaded  
+[08:25:24] - Version: 1.1.1     
+[08:25:24] - Author: Freaksken  
+[08:25:24] ---------------------
+[08:25:24] Number of vehicle models: 0
+[08:25:24] plugin.bcrypt: Version check failed.
+[08:25:24] Component: Levels (FR0Z3NH34R7) loaded.
+[08:25:24] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[08:25:24] Component: Actors (FR0Z3NH34R7) loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[08:25:58] filterscripts = ""  (string)
+[08:25:58] 
+[08:25:58] Server Plugins
+[08:25:58] --------------
+[08:25:58]  Loading plugin: crashdetect
+[08:25:58]   CrashDetect plugin 4.19.1
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: sscanf
+[08:25:58] 
+
+[08:25:58]  ===============================
+
+[08:25:58]       sscanf plugin loaded.     
+
+[08:25:58]          Version:  2.8.1        
+
+[08:25:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[08:25:58]  ===============================
+
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: streamer
+[08:25:58] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: Whirlpool
+[08:25:58]  
+[08:25:58]  ==================
+[08:25:58]  
+[08:25:58]   Whirlpool loaded
+[08:25:58]  
+[08:25:58]  ==================
+[08:25:58]  
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: mysql
+[08:25:58]  >> plugin.mysql: R41-4 successfully loaded.
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: bcrypt-samp
+[08:25:58]   plugin.bcrypt v2.2.3 was loaded.
+[08:25:58]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: FCNPC
+[08:25:58] 
+[08:25:58] -------------------------------------------------
+[08:25:58]      FCNPC - Fully Controllable NPC v1.8.2
+[08:25:58]          Windows SA-MP Unknown
+[08:25:58]           Jan  8 2018 at 01:14:48
+[08:25:58] 
+[08:25:58]   Author:       OrMisicL (2013 - 2015)
+[08:25:58]   Continued by: ziggi (2016 - present)
+[08:25:58]   Contributors: kurta999, Neutralneu
+[08:25:58] -------------------------------------------------
+[08:25:58] 
+[08:25:58] Loading...
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: MapAndreas
+[08:25:58]   Loaded.
+[08:25:58]  Loading plugin: nativechecker
+[08:25:58]   Loaded.
+[08:25:58]  Loaded 9 plugins.
+
+[08:25:58] [artwork:crc] inv.dff CRC = 0xC7C21095
+[08:25:58] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[08:25:58] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[08:25:58] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[08:25:58] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[08:25:58] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[08:25:58] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[08:25:58] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[08:25:58] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[08:25:58] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[08:25:58] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[08:25:59] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[08:25:59] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[08:25:59] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[08:25:59] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[08:25:59] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[08:25:59] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[08:25:59] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[08:25:59] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[08:25:59] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[08:25:59] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[08:25:59] [artwork:crc] triboss.txd CRC = 0x5F086408
+[08:25:59] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[08:25:59] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[08:25:59] 
+[08:25:59] Filterscripts
+[08:25:59] ---------------
+[08:25:59]   Loaded 0 filterscripts.
+
+[08:25:59]  
+[08:25:59]  
+[08:25:59]  
+[08:25:59]  ======================================= 
+[08:25:59]  |                                     | 
+[08:25:59]  |        YSI version 3.09.0684        | 
+[08:25:59]  |        By Alex "Y_Less" Cole        | 
+[08:25:59]  |                                     | 
+[08:25:59]  ======================================= 
+[08:25:59]  
+[08:25:59]  
+[08:25:59]  
+[08:25:59] Conexion exitosa con MariaDB
+[08:25:59] Component: Login (FR0Z3NH34R7) loaded.
+[08:25:59] AdminCmds Enabled
+[08:25:59] ---------------------
+[08:25:59]   FCNPC A.I. loaded  
+[08:25:59] - Version: 1.1.1     
+[08:25:59] - Author: Freaksken  
+[08:25:59] ---------------------
+[08:25:59] Number of vehicle models: 0
+[08:25:59] Component: Levels (FR0Z3NH34R7) loaded.
+[08:25:59] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[08:25:59] Component: Actors (FR0Z3NH34R7) loaded.
+[08:25:59] plugin.bcrypt: Version check failed.
+[08:26:11] [connection] incoming connection: 192.168.0.26:61239 id: 0
+[08:27:10] [connection] incoming connection: 192.168.0.26:49973 id: 0
+[08:27:11] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[08:54:30] filterscripts = ""  (string)
+[08:54:30] 
+[08:54:30] Server Plugins
+[08:54:30] --------------
+[08:54:30]  Loading plugin: crashdetect
+[08:54:31]   CrashDetect plugin 4.19.1
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: sscanf
+[08:54:31] 
+
+[08:54:31]  ===============================
+
+[08:54:31]       sscanf plugin loaded.     
+
+[08:54:31]          Version:  2.8.1        
+
+[08:54:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[08:54:31]  ===============================
+
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: streamer
+[08:54:31] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: Whirlpool
+[08:54:31]  
+[08:54:31]  ==================
+[08:54:31]  
+[08:54:31]   Whirlpool loaded
+[08:54:31]  
+[08:54:31]  ==================
+[08:54:31]  
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: mysql
+[08:54:31]  >> plugin.mysql: R41-4 successfully loaded.
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: bcrypt-samp
+[08:54:31]   plugin.bcrypt v2.2.3 was loaded.
+[08:54:31]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: FCNPC
+[08:54:31] 
+[08:54:31] -------------------------------------------------
+[08:54:31]      FCNPC - Fully Controllable NPC v1.8.2
+[08:54:31]          Windows SA-MP Unknown
+[08:54:31]           Jan  8 2018 at 01:14:48
+[08:54:31] 
+[08:54:31]   Author:       OrMisicL (2013 - 2015)
+[08:54:31]   Continued by: ziggi (2016 - present)
+[08:54:31]   Contributors: kurta999, Neutralneu
+[08:54:31] -------------------------------------------------
+[08:54:31] 
+[08:54:31] Loading...
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: MapAndreas
+[08:54:31]   Loaded.
+[08:54:31]  Loading plugin: nativechecker
+[08:54:31]   Loaded.
+[08:54:31]  Loaded 9 plugins.
+
+[08:54:31] [artwork:crc] inv.dff CRC = 0xC7C21095
+[08:54:31] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[08:54:31] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[08:54:31] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[08:54:31] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[08:54:31] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[08:54:31] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[08:54:32] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[08:54:32] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[08:54:32] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[08:54:32] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[08:54:32] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[08:54:32] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[08:54:32] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[08:54:32] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[08:54:33] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[08:54:33] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[08:54:33] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[08:54:33] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[08:54:33] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[08:54:33] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[08:54:33] [artwork:crc] triboss.txd CRC = 0x5F086408
+[08:54:33] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[08:54:33] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[08:54:33] 
+[08:54:33] Filterscripts
+[08:54:33] ---------------
+[08:54:33]   Loaded 0 filterscripts.
+
+[08:54:33]  
+[08:54:33]  
+[08:54:33]  
+[08:54:33]  ======================================= 
+[08:54:33]  |                                     | 
+[08:54:33]  |        YSI version 3.09.0684        | 
+[08:54:33]  |        By Alex "Y_Less" Cole        | 
+[08:54:33]  |                                     | 
+[08:54:33]  ======================================= 
+[08:54:33]  
+[08:54:33]  
+[08:54:33]  
+[08:54:33] Conexion exitosa con MariaDB
+[08:54:33] Component: Login (FR0Z3NH34R7) loaded.
+[08:54:33] AdminCmds Enabled
+[08:54:35] ---------------------
+[08:54:35]   FCNPC A.I. loaded  
+[08:54:35] - Version: 1.1.1     
+[08:54:35] - Author: Freaksken  
+[08:54:35] ---------------------
+[08:54:35] Number of vehicle models: 0
+[08:54:35] plugin.bcrypt: Version check failed.
+[08:54:35] Component: Levels (FR0Z3NH34R7) loaded.
+[08:54:35] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[08:54:35] Component: Actors (FR0Z3NH34R7) loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:00:04] filterscripts = ""  (string)
+[09:00:04] 
+[09:00:04] Server Plugins
+[09:00:04] --------------
+[09:00:04]  Loading plugin: crashdetect
+[09:00:04]   CrashDetect plugin 4.19.1
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: sscanf
+[09:00:04] 
+
+[09:00:04]  ===============================
+
+[09:00:04]       sscanf plugin loaded.     
+
+[09:00:04]          Version:  2.8.1        
+
+[09:00:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:00:04]  ===============================
+
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: streamer
+[09:00:04] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: Whirlpool
+[09:00:04]  
+[09:00:04]  ==================
+[09:00:04]  
+[09:00:04]   Whirlpool loaded
+[09:00:04]  
+[09:00:04]  ==================
+[09:00:04]  
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: mysql
+[09:00:04]  >> plugin.mysql: R41-4 successfully loaded.
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: bcrypt-samp
+[09:00:04]   plugin.bcrypt v2.2.3 was loaded.
+[09:00:04]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[09:00:04]   Loaded.
+[09:00:04]  Loading plugin: FCNPC
+[09:00:05] 
+[09:00:05] -------------------------------------------------
+[09:00:05]      FCNPC - Fully Controllable NPC v1.8.2
+[09:00:05]          Windows SA-MP Unknown
+[09:00:05]           Jan  8 2018 at 01:14:48
+[09:00:05] 
+[09:00:05]   Author:       OrMisicL (2013 - 2015)
+[09:00:05]   Continued by: ziggi (2016 - present)
+[09:00:05]   Contributors: kurta999, Neutralneu
+[09:00:05] -------------------------------------------------
+[09:00:05] 
+[09:00:05] Loading...
+[09:00:05]   Loaded.
+[09:00:05]  Loading plugin: MapAndreas
+[09:00:05]   Loaded.
+[09:00:05]  Loading plugin: nativechecker
+[09:00:05]   Loaded.
+[09:00:05]  Loaded 9 plugins.
+
+[09:00:05] [artwork:crc] inv.dff CRC = 0xC7C21095
+[09:00:05] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[09:00:05] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[09:00:05] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[09:00:05] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[09:00:05] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[09:00:05] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[09:00:05] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[09:00:05] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[09:00:05] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[09:00:05] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[09:00:05] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[09:00:05] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[09:00:05] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[09:00:05] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[09:00:05] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[09:00:05] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[09:00:05] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[09:00:05] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[09:00:05] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[09:00:05] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[09:00:05] [artwork:crc] triboss.txd CRC = 0x5F086408
+[09:00:05] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[09:00:05] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[09:00:05] 
+[09:00:05] Filterscripts
+[09:00:05] ---------------
+[09:00:05]   Loaded 0 filterscripts.
+
+[09:00:05]  
+[09:00:05]  
+[09:00:05]  
+[09:00:05]  ======================================= 
+[09:00:05]  |                                     | 
+[09:00:05]  |        YSI version 3.09.0684        | 
+[09:00:05]  |        By Alex "Y_Less" Cole        | 
+[09:00:05]  |                                     | 
+[09:00:05]  ======================================= 
+[09:00:05]  
+[09:00:05]  
+[09:00:05]  
+[09:00:05] ---------------------
+[09:00:05]   FCNPC A.I. loaded  
+[09:00:05] - Version: 1.1.1     
+[09:00:05] - Author: Freaksken  
+[09:00:05] ---------------------
+[09:00:06] Conexion exitosa con MariaDB
+[09:00:06] Component: Login (FR0Z3NH34R7) loaded.
+[09:00:06] AdminCmds Enabled
+[09:00:06] [npc:join] BigSmoke has joined the server (49:127.0.0.1)
+[09:00:06] [npc:part] BigSmoke has left the server (49:0)
+[09:00:06] [FCNPC] Error: NPC 'BigSmoke' not created. Name 'BigSmoke' is invalid or the maxnpc limit in server.cfg has been reached.
+[09:00:06] Number of vehicle models: 0
+[09:00:06] Component: Levels (FR0Z3NH34R7) loaded.
+[09:00:06] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[09:00:06] Component: Actors (FR0Z3NH34R7) loaded.
+[09:00:06] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:01:14] filterscripts = ""  (string)
+[09:01:14] 
+[09:01:14] Server Plugins
+[09:01:14] --------------
+[09:01:14]  Loading plugin: crashdetect
+[09:01:14]   CrashDetect plugin 4.19.1
+[09:01:14]   Loaded.
+[09:01:14]  Loading plugin: sscanf
+[09:01:14] 
+
+[09:01:14]  ===============================
+
+[09:01:14]       sscanf plugin loaded.     
+
+[09:01:14]          Version:  2.8.1        
+
+[09:01:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:01:14]  ===============================
+
+[09:01:14]   Loaded.
+[09:01:14]  Loading plugin: streamer
+[09:01:14] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[09:01:14]   Loaded.
+[09:01:14]  Loading plugin: Whirlpool
+[09:01:14]  
+[09:01:14]  ==================
+[09:01:14]  
+[09:01:14]   Whirlpool loaded
+[09:01:14]  
+[09:01:14]  ==================
+[09:01:14]  
+[09:01:14]   Loaded.
+[09:01:14]  Loading plugin: mysql
+[09:01:15]  >> plugin.mysql: R41-4 successfully loaded.
+[09:01:15]   Loaded.
+[09:01:15]  Loading plugin: bcrypt-samp
+[09:01:15]   plugin.bcrypt v2.2.3 was loaded.
+[09:01:15]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[09:01:15]   Loaded.
+[09:01:15]  Loading plugin: FCNPC
+[09:01:15] 
+[09:01:15] -------------------------------------------------
+[09:01:15]      FCNPC - Fully Controllable NPC v1.8.2
+[09:01:15]          Windows SA-MP Unknown
+[09:01:15]           Jan  8 2018 at 01:14:48
+[09:01:15] 
+[09:01:15]   Author:       OrMisicL (2013 - 2015)
+[09:01:15]   Continued by: ziggi (2016 - present)
+[09:01:15]   Contributors: kurta999, Neutralneu
+[09:01:15] -------------------------------------------------
+[09:01:15] 
+[09:01:15] Loading...
+[09:01:15]   Loaded.
+[09:01:15]  Loading plugin: MapAndreas
+[09:01:15]   Loaded.
+[09:01:15]  Loading plugin: nativechecker
+[09:01:15]   Loaded.
+[09:01:15]  Loaded 9 plugins.
+
+[09:01:15] [artwork:crc] inv.dff CRC = 0xC7C21095
+[09:01:15] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[09:01:15] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[09:01:15] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[09:01:15] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[09:01:15] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[09:01:15] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[09:01:15] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[09:01:15] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[09:01:15] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[09:01:15] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[09:01:15] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[09:01:15] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[09:01:15] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[09:01:15] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[09:01:15] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[09:01:15] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[09:01:15] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[09:01:15] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[09:01:15] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[09:01:15] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[09:01:15] [artwork:crc] triboss.txd CRC = 0x5F086408
+[09:01:15] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[09:01:15] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[09:01:15] 
+[09:01:15] Filterscripts
+[09:01:15] ---------------
+[09:01:15]   Loaded 0 filterscripts.
+
+[09:01:15]  
+[09:01:15]  
+[09:01:15]  
+[09:01:15]  ======================================= 
+[09:01:15]  |                                     | 
+[09:01:15]  |        YSI version 3.09.0684        | 
+[09:01:15]  |        By Alex "Y_Less" Cole        | 
+[09:01:15]  |                                     | 
+[09:01:15]  ======================================= 
+[09:01:15]  
+[09:01:15]  
+[09:01:15]  
+[09:01:15] ---------------------
+[09:01:15]   FCNPC A.I. loaded  
+[09:01:15] - Version: 1.1.1     
+[09:01:15] - Author: Freaksken  
+[09:01:15] ---------------------
+[09:01:16] Conexion exitosa con MariaDB
+[09:01:16] Component: Login (FR0Z3NH34R7) loaded.
+[09:01:16] AdminCmds Enabled
+[09:01:16] [npc:join] BigSmoke has joined the server (49:127.0.0.1)
+[09:01:16] [npc:part] BigSmoke has left the server (49:0)
+[09:01:16] [FCNPC] Error: NPC 'BigSmoke' not created. Name 'BigSmoke' is invalid or the maxnpc limit in server.cfg has been reached.
+[09:01:16] Number of vehicle models: 0
+[09:01:16] Component: Levels (FR0Z3NH34R7) loaded.
+[09:01:16] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[09:01:16] Component: Actors (FR0Z3NH34R7) loaded.
+[09:01:16] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:01:44] filterscripts = ""  (string)
+[09:01:44] 
+[09:01:44] Server Plugins
+[09:01:44] --------------
+[09:01:44]  Loading plugin: crashdetect
+[09:01:44]   CrashDetect plugin 4.19.1
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: sscanf
+[09:01:44] 
+
+[09:01:44]  ===============================
+
+[09:01:44]       sscanf plugin loaded.     
+
+[09:01:44]          Version:  2.8.1        
+
+[09:01:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:01:44]  ===============================
+
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: streamer
+[09:01:44] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: Whirlpool
+[09:01:44]  
+[09:01:44]  ==================
+[09:01:44]  
+[09:01:44]   Whirlpool loaded
+[09:01:44]  
+[09:01:44]  ==================
+[09:01:44]  
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: mysql
+[09:01:44]  >> plugin.mysql: R41-4 successfully loaded.
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: bcrypt-samp
+[09:01:44]   plugin.bcrypt v2.2.3 was loaded.
+[09:01:44]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: FCNPC
+[09:01:44] 
+[09:01:44] -------------------------------------------------
+[09:01:44]      FCNPC - Fully Controllable NPC v1.8.2
+[09:01:44]          Windows SA-MP Unknown
+[09:01:44]           Jan  8 2018 at 01:14:48
+[09:01:44] 
+[09:01:44]   Author:       OrMisicL (2013 - 2015)
+[09:01:44]   Continued by: ziggi (2016 - present)
+[09:01:44]   Contributors: kurta999, Neutralneu
+[09:01:44] -------------------------------------------------
+[09:01:44] 
+[09:01:44] Loading...
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: MapAndreas
+[09:01:44]   Loaded.
+[09:01:44]  Loading plugin: nativechecker
+[09:01:44]   Loaded.
+[09:01:44]  Loaded 9 plugins.
+
+[09:01:44] [artwork:crc] inv.dff CRC = 0xC7C21095
+[09:01:44] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[09:01:44] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[09:01:44] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[09:01:44] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[09:01:44] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[09:01:44] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[09:01:44] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[09:01:44] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[09:01:44] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[09:01:44] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[09:01:44] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[09:01:44] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[09:01:44] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[09:01:44] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[09:01:44] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[09:01:44] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[09:01:44] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[09:01:44] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[09:01:44] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[09:01:44] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[09:01:44] [artwork:crc] triboss.txd CRC = 0x5F086408
+[09:01:44] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[09:01:44] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[09:01:44] 
+[09:01:44] Filterscripts
+[09:01:44] ---------------
+[09:01:44]   Loaded 0 filterscripts.
+
+[09:01:44]  
+[09:01:44]  
+[09:01:44]  
+[09:01:44]  ======================================= 
+[09:01:44]  |                                     | 
+[09:01:44]  |        YSI version 3.09.0684        | 
+[09:01:44]  |        By Alex "Y_Less" Cole        | 
+[09:01:44]  |                                     | 
+[09:01:44]  ======================================= 
+[09:01:44]  
+[09:01:44]  
+[09:01:45]  
+[09:01:45] ---------------------
+[09:01:45]   FCNPC A.I. loaded  
+[09:01:45] - Version: 1.1.1     
+[09:01:45] - Author: Freaksken  
+[09:01:45] ---------------------
+[09:01:45] Conexion exitosa con MariaDB
+[09:01:45] Component: Login (FR0Z3NH34R7) loaded.
+[09:01:45] AdminCmds Enabled
+[09:01:45] [npc:join] BigSmoke has joined the server (49:127.0.0.1)
+[09:01:45] [npc:part] BigSmoke has left the server (49:0)
+[09:01:45] [FCNPC] Error: NPC 'BigSmoke' not created. Name 'BigSmoke' is invalid or the maxnpc limit in server.cfg has been reached.
+[09:01:45] Number of vehicle models: 0
+[09:01:45] Component: Levels (FR0Z3NH34R7) loaded.
+[09:01:45] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[09:01:45] Component: Actors (FR0Z3NH34R7) loaded.
+[09:01:45] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:01:54] filterscripts = ""  (string)
+[09:01:54] 
+[09:01:54] Server Plugins
+[09:01:54] --------------
+[09:01:54]  Loading plugin: crashdetect
+[09:01:54]   CrashDetect plugin 4.19.1
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: sscanf
+[09:01:54] 
+
+[09:01:54]  ===============================
+
+[09:01:54]       sscanf plugin loaded.     
+
+[09:01:54]          Version:  2.8.1        
+
+[09:01:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:01:54]  ===============================
+
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: streamer
+[09:01:54] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: Whirlpool
+[09:01:54]  
+[09:01:54]  ==================
+[09:01:54]  
+[09:01:54]   Whirlpool loaded
+[09:01:54]  
+[09:01:54]  ==================
+[09:01:54]  
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: mysql
+[09:01:54]  >> plugin.mysql: R41-4 successfully loaded.
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: bcrypt-samp
+[09:01:54]   plugin.bcrypt v2.2.3 was loaded.
+[09:01:54]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: FCNPC
+[09:01:54] 
+[09:01:54] -------------------------------------------------
+[09:01:54]      FCNPC - Fully Controllable NPC v1.8.2
+[09:01:54]          Windows SA-MP Unknown
+[09:01:54]           Jan  8 2018 at 01:14:48
+[09:01:54] 
+[09:01:54]   Author:       OrMisicL (2013 - 2015)
+[09:01:54]   Continued by: ziggi (2016 - present)
+[09:01:54]   Contributors: kurta999, Neutralneu
+[09:01:54] -------------------------------------------------
+[09:01:54] 
+[09:01:54] Loading...
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: MapAndreas
+[09:01:54]   Loaded.
+[09:01:54]  Loading plugin: nativechecker
+[09:01:54]   Loaded.
+[09:01:54]  Loaded 9 plugins.
+
+[09:01:54] [artwork:crc] inv.dff CRC = 0xC7C21095
+[09:01:54] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[09:01:54] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[09:01:54] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[09:01:54] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[09:01:54] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[09:01:54] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[09:01:54] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[09:01:54] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[09:01:54] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[09:01:54] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[09:01:54] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[09:01:54] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[09:01:54] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[09:01:54] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[09:01:54] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[09:01:54] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[09:01:54] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[09:01:54] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[09:01:54] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[09:01:54] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[09:01:54] [artwork:crc] triboss.txd CRC = 0x5F086408
+[09:01:54] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[09:01:54] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[09:01:54] 
+[09:01:54] Filterscripts
+[09:01:54] ---------------
+[09:01:54]   Loaded 0 filterscripts.
+
+[09:01:55]  
+[09:01:55]  
+[09:01:55]  
+[09:01:55]  ======================================= 
+[09:01:55]  |                                     | 
+[09:01:55]  |        YSI version 3.09.0684        | 
+[09:01:55]  |        By Alex "Y_Less" Cole        | 
+[09:01:55]  |                                     | 
+[09:01:55]  ======================================= 
+[09:01:55]  
+[09:01:55]  
+[09:01:55]  
+[09:01:55] ---------------------
+[09:01:55]   FCNPC A.I. loaded  
+[09:01:55] - Version: 1.1.1     
+[09:01:55] - Author: Freaksken  
+[09:01:55] ---------------------
+[09:01:55] Conexion exitosa con MariaDB
+[09:01:55] Component: Login (FR0Z3NH34R7) loaded.
+[09:01:55] AdminCmds Enabled
+[09:01:55] [npc:join] npcidle has joined the server (49:127.0.0.1)
+[09:01:55] [npc:part] npcidle has left the server (49:0)
+[09:01:55] [FCNPC] Error: NPC 'npcidle' not created. Name 'npcidle' is invalid or the maxnpc limit in server.cfg has been reached.
+[09:01:55] Number of vehicle models: 0
+[09:01:55] Component: Levels (FR0Z3NH34R7) loaded.
+[09:01:55] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[09:01:55] Component: Actors (FR0Z3NH34R7) loaded.
+[09:01:55] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:04:31] filterscripts = ""  (string)
+[09:04:31] 
+[09:04:31] Server Plugins
+[09:04:31] --------------
+[09:04:31]  Loading plugin: crashdetect
+[09:04:31]   CrashDetect plugin 4.19.1
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: sscanf
+[09:04:31] 
+
+[09:04:31]  ===============================
+
+[09:04:31]       sscanf plugin loaded.     
+
+[09:04:31]          Version:  2.8.1        
+
+[09:04:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[09:04:31]  ===============================
+
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: streamer
+[09:04:31] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: Whirlpool
+[09:04:31]  
+[09:04:31]  ==================
+[09:04:31]  
+[09:04:31]   Whirlpool loaded
+[09:04:31]  
+[09:04:31]  ==================
+[09:04:31]  
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: mysql
+[09:04:31]  >> plugin.mysql: R41-4 successfully loaded.
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: bcrypt-samp
+[09:04:31]   plugin.bcrypt v2.2.3 was loaded.
+[09:04:31]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: FCNPC
+[09:04:31] 
+[09:04:31] -------------------------------------------------
+[09:04:31]      FCNPC - Fully Controllable NPC v1.8.2
+[09:04:31]          Windows SA-MP Unknown
+[09:04:31]           Jan  8 2018 at 01:14:48
+[09:04:31] 
+[09:04:31]   Author:       OrMisicL (2013 - 2015)
+[09:04:31]   Continued by: ziggi (2016 - present)
+[09:04:31]   Contributors: kurta999, Neutralneu
+[09:04:31] -------------------------------------------------
+[09:04:31] 
+[09:04:31] Loading...
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: MapAndreas
+[09:04:31]   Loaded.
+[09:04:31]  Loading plugin: nativechecker
+[09:04:31]   Loaded.
+[09:04:31]  Loaded 9 plugins.
+
+[09:04:31] [artwork:crc] inv.dff CRC = 0xC7C21095
+[09:04:31] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[09:04:31] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[09:04:31] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[09:04:31] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[09:04:31] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[09:04:31] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[09:04:31] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[09:04:31] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[09:04:31] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[09:04:31] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[09:04:31] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[09:04:31] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[09:04:31] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[09:04:31] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[09:04:31] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[09:04:31] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[09:04:31] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[09:04:31] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[09:04:31] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[09:04:31] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[09:04:31] [artwork:crc] triboss.txd CRC = 0x5F086408
+[09:04:31] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[09:04:31] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[09:04:31] 
+[09:04:31] Filterscripts
+[09:04:31] ---------------
+[09:04:31]   Loaded 0 filterscripts.
+
+[09:04:32] [FCNPC] Warning: Unable to create NPCs. The maxnpc limit in server.cfg is 0.
+[09:04:32]  
+[09:04:32]  
+[09:04:32]  
+[09:04:32]  ======================================= 
+[09:04:32]  |                                     | 
+[09:04:32]  |        YSI version 3.09.0684        | 
+[09:04:32]  |        By Alex "Y_Less" Cole        | 
+[09:04:32]  |                                     | 
+[09:04:32]  ======================================= 
+[09:04:32]  
+[09:04:32]  
+[09:04:32]  
+[09:04:32] ---------------------
+[09:04:32]   FCNPC A.I. loaded  
+[09:04:32] - Version: 1.1.1     
+[09:04:32] - Author: Freaksken  
+[09:04:32] ---------------------
+[09:04:32] Conexion exitosa con MariaDB
+[09:04:32] Component: Login (FR0Z3NH34R7) loaded.
+[09:04:32] AdminCmds Enabled
+[09:04:32] [FCNPC] Error: NPC 'npcidle' not created. Name 'npcidle' is invalid or the maxnpc limit in server.cfg has been reached.
+[09:04:32] Number of vehicle models: 0
+[09:04:32] Component: Levels (FR0Z3NH34R7) loaded.
+[09:04:32] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[09:04:32] Component: Actors (FR0Z3NH34R7) loaded.
+[09:04:32] plugin.bcrypt: Version check failed.
+[16:07:50] [connection] incoming connection: 192.168.0.26:64807 id: 0
+[16:07:50] [join] Jim_Street has joined the server (0:192.168.0.26)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[11:11:56] filterscripts = ""  (string)
+[11:11:57] 
+[11:11:57] Server Plugins
+[11:11:57] --------------
+[11:11:57]  Loading plugin: crashdetect
+[11:11:58]   CrashDetect plugin 4.19.1
+[11:11:58]   Loaded.
+[11:11:58]  Loading plugin: sscanf
+[11:11:59] 
+
+[11:11:59]  ===============================
+
+[11:11:59]       sscanf plugin loaded.     
+
+[11:11:59]          Version:  2.8.1        
+
+[11:11:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:11:59]  ===============================
+
+[11:11:59]   Loaded.
+[11:11:59]  Loading plugin: streamer
+[11:11:59] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[11:11:59]   Loaded.
+[11:11:59]  Loading plugin: Whirlpool
+[11:12:00]  
+[11:12:00]  ==================
+[11:12:00]  
+[11:12:00]   Whirlpool loaded
+[11:12:00]  
+[11:12:00]  ==================
+[11:12:00]  
+[11:12:00]   Loaded.
+[11:12:00]  Loading plugin: mysql
+[11:12:01]  >> plugin.mysql: R41-4 successfully loaded.
+[11:12:01]   Loaded.
+[11:12:01]  Loading plugin: bcrypt-samp
+[11:12:02]   plugin.bcrypt v2.2.3 was loaded.
+[11:12:02]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: FCNPC
+[11:12:02] 
+[11:12:02] -------------------------------------------------
+[11:12:02]      FCNPC - Fully Controllable NPC v1.8.2
+[11:12:02]          Windows SA-MP Unknown
+[11:12:02]           Jan  8 2018 at 01:14:48
+[11:12:02] 
+[11:12:02]   Author:       OrMisicL (2013 - 2015)
+[11:12:02]   Continued by: ziggi (2016 - present)
+[11:12:02]   Contributors: kurta999, Neutralneu
+[11:12:02] -------------------------------------------------
+[11:12:02] 
+[11:12:02] Loading...
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: MapAndreas
+[11:12:02]   Loaded.
+[11:12:02]  Loading plugin: nativechecker
+[11:12:02]   Loaded.
+[11:12:02]  Loaded 9 plugins.
+
+[11:12:02] [artwork:crc] inv.dff CRC = 0xC7C21095
+[11:12:02] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[11:12:02] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[11:12:02] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[11:12:02] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[11:12:03] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[11:12:03] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[11:12:03] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[11:12:03] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[11:12:03] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[11:12:03] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[11:12:03] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[11:12:03] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[11:12:04] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[11:12:04] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[11:12:04] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[11:12:04] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[11:12:04] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[11:12:04] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[11:12:04] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[11:12:04] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[11:12:04] [artwork:crc] triboss.txd CRC = 0x5F086408
+[11:12:04] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[11:12:04] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[11:12:04] 
+[11:12:04] Filterscripts
+[11:12:04] ---------------
+[11:12:04]   Loaded 0 filterscripts.
+
+[11:12:06]  
+[11:12:06]  
+[11:12:06]  
+[11:12:06]  ======================================= 
+[11:12:06]  |                                     | 
+[11:12:06]  |        YSI version 3.09.0684        | 
+[11:12:06]  |        By Alex "Y_Less" Cole        | 
+[11:12:06]  |                                     | 
+[11:12:06]  ======================================= 
+[11:12:06]  
+[11:12:06]  
+[11:12:06]  
+[11:12:06] ---------------------
+[11:12:06]   FCNPC A.I. loaded  
+[11:12:06] - Version: 1.1.1     
+[11:12:06] - Author: Freaksken  
+[11:12:06] ---------------------
+[11:12:07] Conexion exitosa con MariaDB
+[11:12:07] Component: Login (FR0Z3NH34R7) loaded.
+[11:12:07] AdminCmds Enabled
+[11:12:07] Component: SafeZone loaded.
+[11:12:07] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[11:12:07] [npc:part] Jim_Streeeet has left the server (49:0)
+[11:12:07] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[11:12:07] Number of vehicle models: 0
+[11:12:07] plugin.bcrypt: Version check failed.
+[11:12:07] Component: Levels (FR0Z3NH34R7) loaded.
+[11:12:07] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[11:12:07] Component: Actors (FR0Z3NH34R7) loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[11:15:19] filterscripts = ""  (string)
+[11:15:19] 
+[11:15:19] Server Plugins
+[11:15:19] --------------
+[11:15:19]  Loading plugin: crashdetect
+[11:15:19]   CrashDetect plugin 4.19.1
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: sscanf
+[11:15:19] 
+
+[11:15:19]  ===============================
+
+[11:15:19]       sscanf plugin loaded.     
+
+[11:15:19]          Version:  2.8.1        
+
+[11:15:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:15:19]  ===============================
+
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: streamer
+[11:15:19] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: Whirlpool
+[11:15:19]  
+[11:15:19]  ==================
+[11:15:19]  
+[11:15:19]   Whirlpool loaded
+[11:15:19]  
+[11:15:19]  ==================
+[11:15:19]  
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: mysql
+[11:15:19]  >> plugin.mysql: R41-4 successfully loaded.
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: bcrypt-samp
+[11:15:19]   plugin.bcrypt v2.2.3 was loaded.
+[11:15:19]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: FCNPC
+[11:15:19] 
+[11:15:19] -------------------------------------------------
+[11:15:19]      FCNPC - Fully Controllable NPC v1.8.2
+[11:15:19]          Windows SA-MP Unknown
+[11:15:19]           Jan  8 2018 at 01:14:48
+[11:15:19] 
+[11:15:19]   Author:       OrMisicL (2013 - 2015)
+[11:15:19]   Continued by: ziggi (2016 - present)
+[11:15:19]   Contributors: kurta999, Neutralneu
+[11:15:19] -------------------------------------------------
+[11:15:19] 
+[11:15:19] Loading...
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: MapAndreas
+[11:15:19]   Loaded.
+[11:15:19]  Loading plugin: nativechecker
+[11:15:19]   Loaded.
+[11:15:19]  Loaded 9 plugins.
+
+[11:15:19] [artwork:crc] inv.dff CRC = 0xC7C21095
+[11:15:19] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[11:15:19] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[11:15:19] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[11:15:20] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[11:15:20] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[11:15:20] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[11:15:20] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[11:15:20] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[11:15:20] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[11:15:20] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[11:15:20] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[11:15:20] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[11:15:20] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[11:15:20] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[11:15:20] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[11:15:20] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[11:15:20] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[11:15:20] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[11:15:20] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[11:15:20] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[11:15:20] [artwork:crc] triboss.txd CRC = 0x5F086408
+[11:15:20] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[11:15:20] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[11:15:20] 
+[11:15:20] Filterscripts
+[11:15:20] ---------------
+[11:15:20]   Loaded 0 filterscripts.
+
+[11:15:20]  
+[11:15:20]  
+[11:15:20]  
+[11:15:20]  ======================================= 
+[11:15:20]  |                                     | 
+[11:15:20]  |        YSI version 3.09.0684        | 
+[11:15:20]  |        By Alex "Y_Less" Cole        | 
+[11:15:20]  |                                     | 
+[11:15:20]  ======================================= 
+[11:15:20]  
+[11:15:20]  
+[11:15:20]  
+[11:15:20] ---------------------
+[11:15:20]   FCNPC A.I. loaded  
+[11:15:20] - Version: 1.1.1     
+[11:15:20] - Author: Freaksken  
+[11:15:20] ---------------------
+[11:15:20] Conexion exitosa con MariaDB
+[11:15:20] Component: Login (FR0Z3NH34R7) loaded.
+[11:15:20] AdminCmds Enabled
+[11:15:20] Component: SafeZone loaded.
+[11:15:20] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[11:15:20] [npc:part] Jim_Streeeet has left the server (49:0)
+[11:15:20] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[11:15:20] Number of vehicle models: 0
+[11:15:20] Component: Levels (FR0Z3NH34R7) loaded.
+[11:15:20] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[11:15:20] Component: Actors (FR0Z3NH34R7) loaded.
+[11:15:21] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[11:16:22] filterscripts = ""  (string)
+[11:16:22] 
+[11:16:22] Server Plugins
+[11:16:22] --------------
+[11:16:22]  Loading plugin: crashdetect
+[11:16:22]   CrashDetect plugin 4.19.1
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: sscanf
+[11:16:22] 
+
+[11:16:22]  ===============================
+
+[11:16:22]       sscanf plugin loaded.     
+
+[11:16:22]          Version:  2.8.1        
+
+[11:16:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:16:22]  ===============================
+
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: streamer
+[11:16:22] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: Whirlpool
+[11:16:22]  
+[11:16:22]  ==================
+[11:16:22]  
+[11:16:22]   Whirlpool loaded
+[11:16:22]  
+[11:16:22]  ==================
+[11:16:22]  
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: mysql
+[11:16:22]  >> plugin.mysql: R41-4 successfully loaded.
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: bcrypt-samp
+[11:16:22]   plugin.bcrypt v2.2.3 was loaded.
+[11:16:22]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: FCNPC
+[11:16:22] 
+[11:16:22] -------------------------------------------------
+[11:16:22]      FCNPC - Fully Controllable NPC v1.8.2
+[11:16:22]          Windows SA-MP Unknown
+[11:16:22]           Jan  8 2018 at 01:14:48
+[11:16:22] 
+[11:16:22]   Author:       OrMisicL (2013 - 2015)
+[11:16:22]   Continued by: ziggi (2016 - present)
+[11:16:22]   Contributors: kurta999, Neutralneu
+[11:16:22] -------------------------------------------------
+[11:16:22] 
+[11:16:22] Loading...
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: MapAndreas
+[11:16:22]   Loaded.
+[11:16:22]  Loading plugin: nativechecker
+[11:16:22]   Loaded.
+[11:16:22]  Loaded 9 plugins.
+
+[11:16:22] [artwork:crc] inv.dff CRC = 0xC7C21095
+[11:16:22] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[11:16:22] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[11:16:22] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[11:16:22] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[11:16:22] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[11:16:22] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[11:16:22] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[11:16:22] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[11:16:22] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[11:16:22] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[11:16:22] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[11:16:22] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[11:16:22] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[11:16:22] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[11:16:22] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[11:16:22] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[11:16:22] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[11:16:22] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[11:16:22] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[11:16:22] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[11:16:22] [artwork:crc] triboss.txd CRC = 0x5F086408
+[11:16:22] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[11:16:22] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[11:16:22] 
+[11:16:22] Filterscripts
+[11:16:22] ---------------
+[11:16:22]   Loaded 0 filterscripts.
+
+[11:16:23]  
+[11:16:23]  
+[11:16:23]  
+[11:16:23]  ======================================= 
+[11:16:23]  |                                     | 
+[11:16:23]  |        YSI version 3.09.0684        | 
+[11:16:23]  |        By Alex "Y_Less" Cole        | 
+[11:16:23]  |                                     | 
+[11:16:23]  ======================================= 
+[11:16:23]  
+[11:16:23]  
+[11:16:23]  
+[11:16:23] ---------------------
+[11:16:23]   FCNPC A.I. loaded  
+[11:16:23] - Version: 1.1.1     
+[11:16:23] - Author: Freaksken  
+[11:16:23] ---------------------
+[11:16:23] Conexion exitosa con MariaDB
+[11:16:23] Component: Login (FR0Z3NH34R7) loaded.
+[11:16:23] AdminCmds Enabled
+[11:16:23] Component: SafeZone loaded.
+[11:16:23] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[11:16:23] [npc:part] Jim_Streeeet has left the server (49:0)
+[11:16:23] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[11:16:23] Number of vehicle models: 0
+[11:16:23] Component: Levels (FR0Z3NH34R7) loaded.
+[11:16:23] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[11:16:23] Component: Actors (FR0Z3NH34R7) loaded.
+[11:16:23] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:29:22] filterscripts = ""  (string)
+[20:29:22] 
+[20:29:22] Server Plugins
+[20:29:22] --------------
+[20:29:22]  Loading plugin: crashdetect
+[20:29:23]   CrashDetect plugin 4.19.1
+[20:29:23]   Loaded.
+[20:29:23]  Loading plugin: sscanf
+[20:29:23] 
+
+[20:29:23]  ===============================
+
+[20:29:23]       sscanf plugin loaded.     
+
+[20:29:23]          Version:  2.8.1        
+
+[20:29:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:29:23]  ===============================
+
+[20:29:23]   Loaded.
+[20:29:23]  Loading plugin: streamer
+[20:29:24] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:29:24]   Loaded.
+[20:29:24]  Loading plugin: Whirlpool
+[20:29:25]  
+[20:29:25]  ==================
+[20:29:25]  
+[20:29:25]   Whirlpool loaded
+[20:29:25]  
+[20:29:25]  ==================
+[20:29:25]  
+[20:29:25]   Loaded.
+[20:29:25]  Loading plugin: mysql
+[20:29:29]  >> plugin.mysql: R41-4 successfully loaded.
+[20:29:29]   Loaded.
+[20:29:29]  Loading plugin: bcrypt-samp
+[20:29:30]   plugin.bcrypt v2.2.3 was loaded.
+[20:29:30]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:29:30]   Loaded.
+[20:29:30]  Loading plugin: FCNPC
+[20:29:30] 
+[20:29:30] -------------------------------------------------
+[20:29:30]      FCNPC - Fully Controllable NPC v1.8.2
+[20:29:30]          Windows SA-MP Unknown
+[20:29:30]           Jan  8 2018 at 01:14:48
+[20:29:30] 
+[20:29:30]   Author:       OrMisicL (2013 - 2015)
+[20:29:30]   Continued by: ziggi (2016 - present)
+[20:29:30]   Contributors: kurta999, Neutralneu
+[20:29:30] -------------------------------------------------
+[20:29:30] 
+[20:29:30] Loading...
+[20:29:30]   Loaded.
+[20:29:30]  Loading plugin: MapAndreas
+[20:29:30]   Loaded.
+[20:29:30]  Loading plugin: nativechecker
+[20:29:30]   Loaded.
+[20:29:30]  Loaded 9 plugins.
+
+[20:29:30] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:29:30] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:29:30] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:29:30] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:29:31] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:29:31] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:29:31] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:29:31] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:29:31] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:29:31] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:29:31] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:29:32] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:29:32] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:29:32] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:29:32] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:29:32] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:29:32] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:29:32] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:29:32] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:29:32] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:29:32] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[20:29:32] [artwork:crc] triboss.txd CRC = 0x5F086408
+[20:29:33] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:29:33] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:29:33] 
+[20:29:33] Filterscripts
+[20:29:33] ---------------
+[20:29:33]   Loaded 0 filterscripts.
+
+[20:29:35]  
+[20:29:35]  
+[20:29:35]  
+[20:29:35]  ======================================= 
+[20:29:35]  |                                     | 
+[20:29:35]  |        YSI version 3.09.0684        | 
+[20:29:35]  |        By Alex "Y_Less" Cole        | 
+[20:29:35]  |                                     | 
+[20:29:35]  ======================================= 
+[20:29:35]  
+[20:29:35]  
+[20:29:35]  
+[20:29:35] ---------------------
+[20:29:35]   FCNPC A.I. loaded  
+[20:29:35] - Version: 1.1.1     
+[20:29:35] - Author: Freaksken  
+[20:29:35] ---------------------
+[20:29:36] Conexion exitosa con MariaDB
+[20:29:36] Component: Login (FR0Z3NH34R7) loaded.
+[20:29:36] AdminCmds Enabled
+[20:29:36] Component: SafeZone loaded.
+[20:29:36] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[20:29:36] [npc:part] Jim_Streeeet has left the server (49:0)
+[20:29:36] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[20:29:36] Number of vehicle models: 0
+[20:29:36] plugin.bcrypt: Version check failed.
+[20:29:36] Component: Levels (FR0Z3NH34R7) loaded.
+[20:29:36] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:29:36] Component: Actors (FR0Z3NH34R7) loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:31:26] filterscripts = ""  (string)
+[20:31:26] 
+[20:31:26] Server Plugins
+[20:31:26] --------------
+[20:31:26]  Loading plugin: crashdetect
+[20:31:26]   CrashDetect plugin 4.19.1
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: sscanf
+[20:31:26] 
+
+[20:31:26]  ===============================
+
+[20:31:26]       sscanf plugin loaded.     
+
+[20:31:26]          Version:  2.8.1        
+
+[20:31:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:31:26]  ===============================
+
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: streamer
+[20:31:26] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: Whirlpool
+[20:31:26]  
+[20:31:26]  ==================
+[20:31:26]  
+[20:31:26]   Whirlpool loaded
+[20:31:26]  
+[20:31:26]  ==================
+[20:31:26]  
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: mysql
+[20:31:26]  >> plugin.mysql: R41-4 successfully loaded.
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: bcrypt-samp
+[20:31:26]   plugin.bcrypt v2.2.3 was loaded.
+[20:31:26]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: FCNPC
+[20:31:26] 
+[20:31:26] -------------------------------------------------
+[20:31:26]      FCNPC - Fully Controllable NPC v1.8.2
+[20:31:26]          Windows SA-MP Unknown
+[20:31:26]           Jan  8 2018 at 01:14:48
+[20:31:26] 
+[20:31:26]   Author:       OrMisicL (2013 - 2015)
+[20:31:26]   Continued by: ziggi (2016 - present)
+[20:31:26]   Contributors: kurta999, Neutralneu
+[20:31:26] -------------------------------------------------
+[20:31:26] 
+[20:31:26] Loading...
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: MapAndreas
+[20:31:26]   Loaded.
+[20:31:26]  Loading plugin: nativechecker
+[20:31:26]   Loaded.
+[20:31:26]  Loaded 9 plugins.
+
+[20:31:26] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:31:26] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:31:26] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:31:26] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:31:26] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:31:26] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:31:26] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:31:26] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:31:26] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:31:26] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:31:26] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:31:26] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:31:26] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:31:26] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:31:26] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:31:26] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:31:26] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:31:26] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:31:26] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:31:26] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:31:26] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[20:31:26] [artwork:crc] triboss.txd CRC = 0x5F086408
+[20:31:26] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:31:26] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:31:26] 
+[20:31:26] Filterscripts
+[20:31:26] ---------------
+[20:31:26]   Loaded 0 filterscripts.
+
+[20:31:27]  
+[20:31:27]  
+[20:31:27]  
+[20:31:27]  ======================================= 
+[20:31:27]  |                                     | 
+[20:31:27]  |        YSI version 3.09.0684        | 
+[20:31:27]  |        By Alex "Y_Less" Cole        | 
+[20:31:27]  |                                     | 
+[20:31:27]  ======================================= 
+[20:31:27]  
+[20:31:27]  
+[20:31:27]  
+[20:31:27] ---------------------
+[20:31:27]   FCNPC A.I. loaded  
+[20:31:27] - Version: 1.1.1     
+[20:31:27] - Author: Freaksken  
+[20:31:27] ---------------------
+[20:31:27] Conexion exitosa con MariaDB
+[20:31:27] Component: Login (FR0Z3NH34R7) loaded.
+[20:31:27] AdminCmds Enabled
+[20:31:27] Component: SafeZone loaded.
+[20:31:27] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[20:31:27] [npc:part] Jim_Streeeet has left the server (49:0)
+[20:31:27] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[20:31:27] Number of vehicle models: 0
+[20:31:27] Component: Levels (FR0Z3NH34R7) loaded.
+[20:31:27] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:31:27] Component: Actors (FR0Z3NH34R7) loaded.
+[20:31:27] plugin.bcrypt: Version check failed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[20:37:42] filterscripts = ""  (string)
+[20:37:42] 
+[20:37:42] Server Plugins
+[20:37:42] --------------
+[20:37:42]  Loading plugin: crashdetect
+[20:37:42]   CrashDetect plugin 4.19.1
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: sscanf
+[20:37:42] 
+
+[20:37:42]  ===============================
+
+[20:37:42]       sscanf plugin loaded.     
+
+[20:37:42]          Version:  2.8.1        
+
+[20:37:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:37:42]  ===============================
+
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: streamer
+[20:37:42] 
+
+*** Streamer Plugin v2.9.3 by Incognito loaded ***
+
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: Whirlpool
+[20:37:42]  
+[20:37:42]  ==================
+[20:37:42]  
+[20:37:42]   Whirlpool loaded
+[20:37:42]  
+[20:37:42]  ==================
+[20:37:42]  
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: mysql
+[20:37:42]  >> plugin.mysql: R41-4 successfully loaded.
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: bcrypt-samp
+[20:37:42]   plugin.bcrypt v2.2.3 was loaded.
+[20:37:42]   plugin.bcrypt: 4 cores detected, 3 threads will be used.
+[20:37:42]   Loaded.
+[20:37:42]  Loading plugin: FCNPC
+[20:37:43] 
+[20:37:43] -------------------------------------------------
+[20:37:43]      FCNPC - Fully Controllable NPC v1.8.2
+[20:37:43]          Windows SA-MP Unknown
+[20:37:43]           Jan  8 2018 at 01:14:48
+[20:37:43] 
+[20:37:43]   Author:       OrMisicL (2013 - 2015)
+[20:37:43]   Continued by: ziggi (2016 - present)
+[20:37:43]   Contributors: kurta999, Neutralneu
+[20:37:43] -------------------------------------------------
+[20:37:43] 
+[20:37:43] Loading...
+[20:37:43]   Loaded.
+[20:37:43]  Loading plugin: MapAndreas
+[20:37:43]   Loaded.
+[20:37:43]  Loading plugin: nativechecker
+[20:37:43]   Loaded.
+[20:37:43]  Loaded 9 plugins.
+
+[20:37:43] [artwork:crc] inv.dff CRC = 0xC7C21095
+[20:37:43] [artwork:crc] inv.txd CRC = 0xA496E5C3
+[20:37:43] [artwork:crc] lisa.dff CRC = 0x415A0BFB
+[20:37:43] [artwork:crc] lisa.txd CRC = 0xC4BE0D12
+[20:37:43] [artwork:crc] Merryweather1.dff CRC = 0xE43661DF
+[20:37:43] [artwork:crc] Merryweather1.txd CRC = 0x2C702AE0
+[20:37:43] [artwork:crc] Merryweather2.dff CRC = 0xE0A49F95
+[20:37:43] [artwork:crc] Merryweather2.txd CRC = 0xD120894A
+[20:37:43] [artwork:crc] Merryweather3.dff CRC = 0xAAF272BA
+[20:37:43] [artwork:crc] Merryweather3.txd CRC = 0x90AB492
+[20:37:43] [artwork:crc] Merryweather4.dff CRC = 0xA2C8F5A3
+[20:37:43] [artwork:crc] Merryweather4.txd CRC = 0x13DB8D3B
+[20:37:43] [artwork:crc] Merryweather5.dff CRC = 0x6CC33A13
+[20:37:43] [artwork:crc] Merryweather5.txd CRC = 0xEFE82F07
+[20:37:43] [artwork:crc] Merryweather6.dff CRC = 0x6C0653C4
+[20:37:43] [artwork:crc] Merryweather6.txd CRC = 0x71F98A55
+[20:37:43] [artwork:crc] bmost.dff CRC = 0xA018E37B
+[20:37:43] [artwork:crc] bmost.txd CRC = 0x15E6146C
+[20:37:43] [artwork:crc] masteryi.dff CRC = 0x21B9ED9
+[20:37:43] [artwork:crc] masteryi.txd CRC = 0x764B4539
+[20:37:43] [artwork:crc] triboss.dff CRC = 0x3323B7B3
+[20:37:43] [artwork:crc] triboss.txd CRC = 0x5F086408
+[20:37:43] [artwork:crc] wallzzz.dff CRC = 0x4BC6EDFF
+[20:37:43] [artwork:crc] wallzzz.txd CRC = 0x235E3EEB
+[20:37:43] 
+[20:37:43] Filterscripts
+[20:37:43] ---------------
+[20:37:43]   Loaded 0 filterscripts.
+
+[20:37:43]  
+[20:37:43]  
+[20:37:43]  
+[20:37:43]  ======================================= 
+[20:37:43]  |                                     | 
+[20:37:43]  |        YSI version 3.09.0684        | 
+[20:37:43]  |        By Alex "Y_Less" Cole        | 
+[20:37:43]  |                                     | 
+[20:37:43]  ======================================= 
+[20:37:43]  
+[20:37:43]  
+[20:37:43]  
+[20:37:44] ---------------------
+[20:37:44]   FCNPC A.I. loaded  
+[20:37:44] - Version: 1.1.1     
+[20:37:44] - Author: Freaksken  
+[20:37:44] ---------------------
+[20:37:44] Conexion exitosa con MariaDB
+[20:37:44] Component: Login (FR0Z3NH34R7) loaded.
+[20:37:44] AdminCmds Enabled
+[20:37:44] Component: Player CMDS loaded.
+[20:37:44] Component: SafeZone loaded.
+[20:37:44] [npc:join] Jim_Streeeet has joined the server (49:127.0.0.1)
+[20:37:44] [npc:part] Jim_Streeeet has left the server (49:0)
+[20:37:44] [FCNPC] Error: NPC 'Jim_Streeeet' not created. Name 'Jim_Streeeet' is invalid or the maxnpc limit in server.cfg has been reached.
+[20:37:44] Number of vehicle models: 0
+[20:37:44] Component: Levels (FR0Z3NH34R7) loaded.
+[20:37:44] Component: Items (FR0Z3NH34R7) loaded (0 Items).
+[20:37:44] Component: Actors (FR0Z3NH34R7) loaded.
+[20:37:44] plugin.bcrypt: Version check failed.

@@ -23,7 +23,8 @@ enum E_PLAYERS
 	bool: P_developer,
 	bool: P_IsLoggedIn,
 	P_LoginAttempts,
-	P_LoginTimer
+	P_LoginTimer,
+	P_HomeTimer
 };
 
 new Player[MAX_PLAYERS][E_PLAYERS];

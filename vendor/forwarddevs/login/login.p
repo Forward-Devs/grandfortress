@@ -8,6 +8,8 @@
 #define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1)
 #define BCRYPT_COST 12
 
+#define	 SECONDS_TO_LOGIN 		120 // Cantidad de segundos para loguear
+
 
 
 new g_MysqlRaceCheck[MAX_PLAYERS];
@@ -27,6 +29,10 @@ hook OnGameModeExit()
 
 hook OnPlayerConnect(playerid)
 {
+	if(IsPlayerNPC(playerid))
+	{
+		return 1;
+	}
   	g_MysqlRaceCheck[playerid]++;
 
   	// reset player data
@@ -62,6 +68,10 @@ hook OnPlayerConnect(playerid)
 
 hook OnPlayerDisconnect(playerid, reason)
 {
+	if(IsPlayerNPC(playerid))
+	{
+		return 1;
+	}
 	g_MysqlRaceCheck[playerid]++;
 
 	UpdatePlayerData(playerid, reason);
@@ -80,6 +90,10 @@ hook OnPlayerDisconnect(playerid, reason)
 
 hook OnPlayerSpawn(playerid)
 {
+	if(IsPlayerNPC(playerid))
+	{
+		return 1;
+	}
 	// spawnea el jugador en su ultima ubicación.
 	SetPlayerInterior(playerid, User::playerid(interior));
 	SetPlayerPos(playerid, User::playerid(xPos), User::playerid(yPos), User::playerid(zPos));
@@ -91,9 +105,13 @@ hook OnPlayerSpawn(playerid)
 
 hook OnPlayerDeath(playerid, killerid, reason)
 {
-  UpdatePlayerDeaths(playerid);
-  UpdatePlayerKills(killerid);
-  return 1;
+	if(IsPlayerNPC(playerid))
+	{
+		return 1;
+	}
+	UpdatePlayerDeaths(playerid);
+	UpdatePlayerKills(killerid);
+	return 1;
 }
 hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
@@ -109,6 +127,12 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
     bcrypt_hash(inputtext, BCRYPT_COST, "Login_OnPasswordHashed", "d", playerid);
 	}
   return 1;
+}
+hook OnPlayerRequestDownload(playerid, type, crc)
+{
+	KillTimer(User::playerid(LoginTimer));
+	User::playerid(LoginTimer) = 0;
+	return 1;
 }
 hook OnGameModeInit()
 {

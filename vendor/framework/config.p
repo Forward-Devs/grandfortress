@@ -16,11 +16,9 @@ enum
 	DIALOG_REGISTER
 };
 
-#define BCRYPT_COST 12
 
 #undef 		MAX_PLAYERS
 #define 	MAX_PLAYERS 		50 //Máximo de jugadores
-#define	 SECONDS_TO_LOGIN 		120 // Cantidad de segundos para loguear
 #define 	DEFAULT_POS_X 		-2113.0093 // Punto de Spawn por defecto.
 #define 	DEFAULT_POS_Y 		-2407.8127 // Punto de Spawn por defecto.
 #define 	DEFAULT_POS_Z 		31.3024 // Punto de Spawn por defecto.
@@ -34,4 +32,5 @@ enum
 #define ACTORS_ENABLED 1 // Actors by FR0Z3NH34R7 | table "actors"
 #define SINTAXIS_ENABLED 1 // Sintaxis by FR0Z3NH34R7
 #define ADMIN_ENABLED 1 // Admin CMDS by FR0Z3NH34R7
-#define PLAYERCMDS_ENABLED 1 // Comandos para Usuario.
+#define PLAYERCMDS_ENABLED 1 // Comandos para Usuario by FR0Z3NH34R7
+#define SAFEZONE_ENABLED 1 // Zona Segura by FR0Z3NH34R7 

@@ -1,5 +1,4 @@
-AddCharModel(305, 20001, "lvpdpc2.dff", "lvpdpc2.txd");
-AddCharModel(305, 20002, "lapdpd2.dff", "lapdpd2.txd");
+
 AddCharModel(305, 20003, "inv.dff", "inv.txd");
 AddCharModel(305, 20004, "lisa.dff", "lisa.txd");
 AddCharModel(305, 20005, "Merryweather1.dff", "Merryweather1.txd");
@@ -10,4 +9,5 @@ AddCharModel(305, 20009, "Merryweather5.dff", "Merryweather5.txd");
 AddCharModel(305, 20010, "Merryweather6.dff", "Merryweather6.txd");
 AddCharModel(305, 20011, "bmost.dff", "bmost.txd");
 AddCharModel(305, 20012, "masteryi.dff", "masteryi.txd");
+AddCharModel(305, 20100, "triboss.dff", "triboss.txd");
 AddSimpleModel(-1,19379, -2000, "wallzzz.dff", "wallzzz.txd");
