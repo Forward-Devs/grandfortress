@@ -19,7 +19,7 @@ Developer: FR0Z3NH34R7 (Oscar Fernández)
 #include <FAI>
 
 
-// Temporal fix to "bypass" recursion of y_amx
+// Temporal fix to "bypass" recursion of y_amx by FedesUy
 #if __Pawn == 778 && __Pawn != 0x030A
 	#pragma disablerecursion
 #endif
