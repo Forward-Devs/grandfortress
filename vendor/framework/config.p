@@ -16,6 +16,7 @@ enum
 	DIALOG_REGISTER
 };
 
+ // Hasta aquí es del Mysql y parte del login
 
 #undef 		MAX_PLAYERS
 #define 	MAX_PLAYERS 		50 //Máximo de jugadores

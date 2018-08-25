@@ -5,14 +5,14 @@
 #endif
 #define _Login_Component
 
-#define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1)
-#define BCRYPT_COST 12
+#define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1) // Crea un PRE-Procesador , solo para tener mas ordenado el código, no es necesario
+#define BCRYPT_COST 12 // Caracteres de la encriptación
 
 #define	 SECONDS_TO_LOGIN 		120 // Cantidad de segundos para loguear
 
 
 
-new g_MysqlRaceCheck[MAX_PLAYERS];
+new g_MysqlRaceCheck[MAX_PLAYERS]; // Esto es para seguridad, inicia un conteo para que otros usuarios no puedan cargar la misma info
 
 hook OnGameModeExit()
 {
@@ -21,13 +21,13 @@ hook OnGameModeExit()
 		if (IsPlayerConnected(i))
 		{
 	      	// La razón es 1 para una salida normal
-	    	OnPlayerDisconnect(i, 1);
+	    	OnPlayerDisconnect(i, 1); // Si el gamemode se cierra, toma a los usuarios como DESCONEXIÓN normal para que guarde los datos.
 	    }
 	  }
 	return 1;
 }
 
-hook OnPlayerConnect(playerid)
+hook OnPlayerConnect(playerid) // Se conecta el usuario.
 {
 	if(IsPlayerNPC(playerid))
 	{
@@ -35,22 +35,22 @@ hook OnPlayerConnect(playerid)
 	}
   	g_MysqlRaceCheck[playerid]++;
 
-  	// reset player data
+  	// reset player data RESETEA LA VARIABLE de usuario, deja todo en blanco.
   	static const empty_player[E_PLAYERS];
 	Player[playerid] = empty_player;
 
-	GetPlayerName(playerid, User::playerid(name), MAX_PLAYER_NAME);
+	GetPlayerName(playerid, User::playerid(name), MAX_PLAYER_NAME); // Obtiene el nombre y lo manda a nuestra var de usuario.
 
 	// Crea una instancia orm y carga todas las variables requeridas
-	new ORM: ormid = User::playerid(ORM_ID) = orm_create("users", g_SQL);
+	new ORM: ormid = User::playerid(ORM_ID) = orm_create("users", g_SQL); // Crea un ORM  de la tabla users y lo guarda en nuestra var de usuario.
 
-	orm_addvar_int(ormid, User::playerid(id), "id");
-	orm_addvar_string(ormid, User::playerid(name), MAX_PLAYER_NAME, "name");
+	orm_addvar_int(ormid, User::playerid(id), "id"); // Carga el id, lo guarda en nuestra var de usuario , esto lo entrelaza, si cambiamos la var de usuario, tambien se cambia en la Base de datos
+	orm_addvar_string(ormid, User::playerid(name), MAX_PLAYER_NAME, "name"); // Lo mismo, Integer o String.
 	orm_addvar_string(ormid, User::playerid(password), BCRYPT_HASH_LENGTH, "password");
 	orm_addvar_int(ormid, User::playerid(kills), "kills");
 	orm_addvar_int(ormid, User::playerid(deaths), "deaths");
 	orm_addvar_float(ormid, User::playerid(xPos), "xPos");
-	orm_addvar_float(ormid, User::playerid(yPos), "yPos");
+	orm_addvar_float(ormid, User::playerid(yPos), "yPos"); //Float
 	orm_addvar_float(ormid, User::playerid(zPos), "zPos");
 	orm_addvar_float(ormid, User::playerid(aPos), "aPos");
 	orm_addvar_int(ormid, User::playerid(interior), "interior");
@@ -60,9 +60,9 @@ hook OnPlayerConnect(playerid)
 	orm_addvar_int(ormid, User::playerid(gender), "gender");
 	orm_addvar_int(ormid, User::playerid(level), "level");
 	orm_addvar_int(ormid, User::playerid(exp), "exp");
-	orm_setkey(ormid, "name");
+	orm_setkey(ormid, "name"); // La clave que usaremos para seleccionar que cuenta es , es name , es decir, se buscará la cuenta por el nombre del jugador
 
-	orm_load(ormid, "Login_OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]);
+	orm_load(ormid, "Login_OnPlayerDataLoaded", "dd", playerid, g_MysqlRaceCheck[playerid]); // Carga toda la info, y lo manda a OnPlayerDataLoaded
 	return 1;
 }
 
@@ -74,7 +74,7 @@ hook OnPlayerDisconnect(playerid, reason)
 	}
 	g_MysqlRaceCheck[playerid]++;
 
-	UpdatePlayerData(playerid, reason);
+	UpdatePlayerData(playerid, reason); // Lo manda a guardar la información.
 
   // Si el jugador fue kickeado por timeout, elimina el timer
 	if (User::playerid(LoginTimer))
@@ -140,17 +140,17 @@ hook OnGameModeInit()
 	return 1;
 }
 
-Login::OnPlayerDataLoaded(playerid, race_check)
+Login::OnPlayerDataLoaded(playerid, race_check) // Login::OnPlayerDataLoaded es igual a Login_OnPlayerDataLoaded gracias a nuestro Preprocesador.
 {
 
 	if (race_check != g_MysqlRaceCheck[playerid]) return Kick(playerid);
 
-	orm_setkey(User::playerid(ORM_ID), "id");
+	orm_setkey(User::playerid(ORM_ID), "id"); // Ahora se utilizará el ID como clave.
 
 	new string[254];
 	switch (orm_errno(User::playerid(ORM_ID)))
 	{
-		case ERROR_OK:
+		case ERROR_OK: // Si encuentra la cuenta
 		{
 			format(string, sizeof(string), "\\c{FFFFFF}Bienvenido de nuevo, {09E627}%s \n \n\\c{FFFFFF}Por favor, escriba su contraseña en el siguiente cuadro.", User::playerid(name));
 			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "\\c{FFFFFF}Login", string, "Jugar", "Salir");
@@ -158,7 +158,7 @@ Login::OnPlayerDataLoaded(playerid, race_check)
 			// A partir de ahora tiene 30 segundos para loguear
 			User::playerid(LoginTimer) = SetTimerEx("Login_OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "d", playerid);
 		}
-		case ERROR_NO_DATA:
+		case ERROR_NO_DATA: // Si no la encuentra
 		{
 			format(string, sizeof(string), "\\c{FFFFFF}Bienvenido {09E627}%s \n \n\\c{FFFFFF}Puedes registrarte escribiendo una contraseña en el siguiente cuadro.", User::playerid(name));
 			ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "\\c{FFFFFF}Registro", string, "Registrarme", "Salir");
@@ -177,7 +177,7 @@ Login::OnLoginTimeout(playerid)
 	return 1;
 }
 
-Login::OnPlayerRegister(playerid)
+Login::OnPlayerRegister(playerid) // Al registrar el usuario.
 {
 	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "\\c{FFFFFF}Registro", "\\c{FFFFFF}Registraste una cuenta e ingresaste automáticamente.", "Aceptar", "");
 
@@ -199,7 +199,7 @@ Login::KickPlayerDelayed(playerid)
 	return 1;
 }
 
-Login::OnPasswordHashed(playerid)
+Login::OnPasswordHashed(playerid) // Obtiene la contraseña encriptada.
 {
 	bcrypt_get_hash(User::playerid(password));
 
@@ -249,22 +249,22 @@ DelayedKick(playerid, time = 500)
 
 UpdatePlayerData(playerid, reason)
 {
-	if (User::playerid(IsLoggedIn) == false) return 0;
+	if (User::playerid(IsLoggedIn) == false) return 0; // Verifica si esta logueado.
 
 	// si se crashea el cliente no es posible recuperar la posición en la que estaba
 	// asi que se usa la ultima posición guardada (en caso de que crashee en el registro, la posición es la predeterminada)
 	if (reason == 1)
 	{
-		GetPlayerPos(playerid, User::playerid(xPos), User::playerid(yPos), User::playerid(zPos));
+		GetPlayerPos(playerid, User::playerid(xPos), User::playerid(yPos), User::playerid(zPos)); // Aca usa nuestra variable player para setearlo.
 		GetPlayerFacingAngle(playerid, User::playerid(aPos));
 	}
-
+    // Es decir que envia desde GetPlayerPos a nuestra variable de usuario.
 	// Esto es importante para guardar todas las variables en el ORM
 	User::playerid(interior) = GetPlayerInterior(playerid);
 
 	// se guardan los datos
-	orm_save(User::playerid(ORM_ID));
-	orm_destroy(User::playerid(ORM_ID));
+	orm_save(User::playerid(ORM_ID)); // Guardamos la información en la base de datos, así de fácil.
+	orm_destroy(User::playerid(ORM_ID)); //Borramos el ORM
 	return 1;
 }
 
@@ -294,3 +294,5 @@ hook OnPlayerFinishedDownloading(playerid, virtualworld)
     SendClientMessage(playerid, 0xffffffff, "Downloads finished.");
     return 1;
 }
+
+//Ahora vamos al modelo, nuestra variable de usuario.

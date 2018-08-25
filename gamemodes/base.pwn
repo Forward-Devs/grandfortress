@@ -1,9 +1,6 @@
 /*
-<<<<<<< HEAD
+
 Grand Fortress main code does not change!
-=======
-Motor principal de Grand Fortress, no modificar codigo de Ã©ste archivo.
->>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
 
 Developer: FR0Z3NH34R7 (Oscar Fernández)
 
@@ -22,6 +19,7 @@ Developer: FR0Z3NH34R7 (Oscar Fernández)
 #include <DialogCenter>
 #include <FAI>
 
+#define GM_VERSION "1.0.4"
 
 // Temporal fix to "bypass" recursion of y_amx
 #if __Pawn == 778 && __Pawn != 0x030A
@@ -32,13 +30,13 @@ main()
 {
 
 }
-
+/* Carga la configuración */
 #include "../vendor/framework/config.p"
 /* Load All Models */
 #include "../vendor/framework/models.p"
 /* MYSQL */
 #include "../vendor/framework/schema.p"
-/* Auto Load */
+/* Auto Load Un archivo para cargar componentes */
 #include "../autoload.p" 
 
 
@@ -108,7 +106,6 @@ public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
 
     return 1;
 }
-<<<<<<< HEAD
 
 public OnPlayerRequestDownload(playerid, type, crc)
 {
@@ -120,5 +117,4 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid)
 
     return 1;
 }
-=======
->>>>>>> 78651aaa6b087288761aea99d191c012b0e6d96c
+ // SOLO 120 LINEAS, TOTALMENTE VACÍO

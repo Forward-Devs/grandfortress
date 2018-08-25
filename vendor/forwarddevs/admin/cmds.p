@@ -1,6 +1,8 @@
 
 #include <YSI\y_hooks>
 
+#define ACMDS_ERROR401 "Error 401: No estás autorizado."
+
 hook OnGameModeInit()
 {
 	print("AdminCmds Enabled");
@@ -33,7 +35,7 @@ CMD:gotospawn(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }
@@ -50,7 +52,7 @@ CMD:veh(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }
@@ -72,7 +74,7 @@ CMD:setskin(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }
@@ -91,7 +93,7 @@ CMD:banear(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }
@@ -114,7 +116,7 @@ CMD:suspender(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }
@@ -134,7 +136,7 @@ CMD:desbanear(playerid,params[]) {
 	}
 	else
 	{
-		return SendClientMessage(playerid,0xFFFFFFFF,"Error 401: No estás autorizado.");
+		return SendClientMessage(playerid,0xFFFFFFFF,ACMDS_ERROR401);
 	}
 	return true;
 }

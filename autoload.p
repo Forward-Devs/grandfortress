@@ -1,8 +1,8 @@
 
 /* To add components use "composer require autor/component" */
-#if defined AUTH_ENABLED
-	#if AUTH_ENABLED==1
-		#include "../vendor/forwarddevs/login/login.p"
+#if defined AUTH_ENABLED // Verifica si se usa el componente, lo definimos en config.p
+	#if AUTH_ENABLED==1 // Aca verifica si el componente esta en uso.
+		#include "../vendor/forwarddevs/login/login.p" // Incluye el archivo.
 	#endif
 #endif
 #if defined LEVELS_ENABLED

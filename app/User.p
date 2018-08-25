@@ -1,5 +1,5 @@
 /* User Model */
-#define User::%0(%1) Player[%0][P_%1]
+#define User::%0(%1) Player[%0][P_%1] // Creamos un preprocesador, para utilizar nuestra variable así: User::playerid(name) == Player[playerid][P_name]
 
 enum E_PLAYERS
 {
@@ -28,3 +28,4 @@ enum E_PLAYERS
 };
 
 new Player[MAX_PLAYERS][E_PLAYERS];
+
