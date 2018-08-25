@@ -1,8 +1,8 @@
 /*
 
-Grand Fortress main code does not change!
 
-Developer: FR0Z3NH34R7 (Oscar Fernández)
+Grand Fortress main code does not change!
+Developer: FR0Z3NH34R7 (Oscar Fernandez)
 
 */
 // Core
@@ -21,7 +21,7 @@ Developer: FR0Z3NH34R7 (Oscar Fernández)
 
 #define GM_VERSION "1.0.4"
 
-// Temporal fix to "bypass" recursion of y_amx
+// Temporal fix to "bypass" recursion of y_amx by FedesUy
 #if __Pawn == 778 && __Pawn != 0x030A
 	#pragma disablerecursion
 #endif
@@ -117,4 +117,4 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid)
 
     return 1;
 }
- // SOLO 120 LINEAS, TOTALMENTE VACÍO
+
