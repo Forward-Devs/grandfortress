@@ -1,9 +1,6 @@
 /*
-
-
 Grand Fortress main code does not change!
 Developer: FR0Z3NH34R7 (Oscar Fernandez)
-
 */
 // Core
 #include <a_samp>
@@ -30,7 +27,7 @@ main()
 {
 
 }
-/* Carga la configuración */
+/* Carga la configuraciÃ³n */
 #include "../vendor/framework/config.p"
 /* Load All Models */
 #include "../vendor/framework/models.p"
