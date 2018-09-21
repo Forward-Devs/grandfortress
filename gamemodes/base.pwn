@@ -14,7 +14,6 @@ Developer: FR0Z3NH34R7 (Oscar Fernandez)
 #include <zcmd>
 #include <crashdetect>
 #include <DialogCenter>
-#include <FAI>
 
 #define GM_VERSION "1.0.4"
 
@@ -31,8 +30,11 @@ main()
 #include "../vendor/framework/config.p"
 /* Load All Models */
 #include "../vendor/framework/models.p"
+
 /* MYSQL */
 #include "../vendor/framework/schema.p"
+/* Load Helpers */
+#include "../vendor/framework/helpers.p"
 /* Auto Load Un archivo para cargar componentes */
 #include "../autoload.p" 
 
@@ -47,10 +49,6 @@ public OnGameModeInit()
 	EnableStuntBonusForAll(0);
 	SetNameTagDrawDistance(10.0);
 	ShowPlayerMarkers(0);
-
-
-	new bossid = FAI_CreateBoss("Jim_Streeeet");
-	FCNPC_Spawn(FAI_GetBossNPCID(bossid), 149, 1086.9752, 1074.7021, 10.8382);
 	return 1;
 }
 

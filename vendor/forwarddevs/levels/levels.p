@@ -1,7 +1,7 @@
 #include <YSI\y_hooks>
 
 #define Levels::%0(%1) forward Levels_%0(%1);public Levels_%0(%1)
-
+new LevelsCount = 0;
 
 hook OnGameModeInit()
 {
@@ -20,6 +20,7 @@ Levels::Load()
 		orm_addvar_int(ormid, Level::i(level), "level");
 		orm_addvar_int(ormid, Level::i(exp), "exp");
 		orm_apply_cache(ormid, i);
+		LevelsCount++;
 
 	}
 	print("Component: Levels (FR0Z3NH34R7) loaded.");
@@ -32,7 +33,55 @@ Levels::GetExp(level_id)
 	expe = Level::level_id(exp);
 	return expe;
 }
-
+Levels::GetLevelId(level_n)
+{
+	new levelid = -1;
+	for(new i=0; i < LevelsCount+1; ++i)
+	{
+		if(Level::i(level) == level_n)
+		{
+			levelid = i;
+		}
+	}
+	return levelid;
+}
+Global::SetPlayerLevel(playerid, newlevel)
+{
+	if(newlevel <= LevelsCount)
+	{
+		User::playerid(level) = newlevel;
+		OnPlayerReceiveExperience(playerid);
+	}
+	return 1;
+}
+Global::SetPlayerExperience(playerid, experience)
+{
+	User::playerid(exp) = experience;
+	OnPlayerReceiveExperience(playerid);
+	return 1;
+}
+Global::GivePlayerExperience(playerid, experience)
+{
+	User::playerid(exp) = User::playerid(exp)+experience;
+	OnPlayerReceiveExperience(playerid);
+	return 1;
+}
+Global::OnPlayerReceiveExperience(playerid)
+{
+	new playerExp = User::playerid(exp);
+	new playerLevel = User::playerid(level);
+	if(playerLevel <= LevelsCount)
+	{
+		new levelId = Levels_GetLevelId(playerLevel);
+		if(playerExp >= Level::levelId(exp))
+		{
+			User::playerid(level)++;
+			User::playerid(exp) = User::playerid(exp)-Level::levelId(exp);
+		}
+	}
+	
+	return true;
+}
 CMD:level(playerid,params[]) {
 	new idd;
 	if(sscanf(params,"i",idd)) return SendClientMessage(playerid,0xFFFFFFFF,"Usage: /level [Level ID]");

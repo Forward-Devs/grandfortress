@@ -90,6 +90,7 @@ CMD:inv(playerid,params[]) {
 
 	return true;
 }
+
 Items::GetItemById(iditem)
 {
 	for(new i=0; i < MAX_ITEMS; ++i)

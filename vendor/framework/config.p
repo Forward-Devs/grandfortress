@@ -1,9 +1,10 @@
 #define MYSQL_HOST          "localhost"
 #define MYSQL_USER          "root"
 #define MYSQL_PASSWORD      ""
-#define MYSQL_DATABASE      "pcu"
+#define MYSQL_DATABASE      "forwardgames"
 #define DEFAULT_MYSQL_HANDLE 1
 
+#define Global::%0(%1) forward %0(%1);public %0(%1)
 // MySQL connection handle
 new MySQL: g_SQL;
 
@@ -34,4 +35,5 @@ enum
 #define SINTAXIS_ENABLED 1 // Sintaxis by FR0Z3NH34R7
 #define ADMIN_ENABLED 1 // Admin CMDS by FR0Z3NH34R7
 #define PLAYERCMDS_ENABLED 1 // Comandos para Usuario by FR0Z3NH34R7
-#define SAFEZONE_ENABLED 1 // Zona Segura by FR0Z3NH34R7 
+#define SAFEZONE_ENABLED 0 // Zona Segura by FR0Z3NH34R7 
+

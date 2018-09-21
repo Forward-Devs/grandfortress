@@ -5,14 +5,14 @@
 #endif
 #define _Login_Component
 
-#define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1) // Crea un PRE-Procesador , solo para tener mas ordenado el código, no es necesario
-#define BCRYPT_COST 12 // Caracteres de la encriptación
-
-#define	 SECONDS_TO_LOGIN 		120 // Cantidad de segundos para loguear
-
-
+#define Login::%0(%1) forward Login_%0(%1);public Login_%0(%1) 
+#define BCRYPT_COST 12 
+#define	 SECONDS_TO_LOGIN 		120 // Number of seconds to login
 
 new g_MysqlRaceCheck[MAX_PLAYERS]; // Esto es para seguridad, inicia un conteo para que otros usuarios no puedan cargar la misma info
+
+/* It is executed when the GameMode is closed
+@return true */ 
 
 hook OnGameModeExit()
 {
@@ -27,7 +27,9 @@ hook OnGameModeExit()
 	return 1;
 }
 
-hook OnPlayerConnect(playerid) // Se conecta el usuario.
+/* It is executed when the player connects
+@return true */ 
+hook OnPlayerConnect(playerid)
 {
 	if(IsPlayerNPC(playerid))
 	{
@@ -66,6 +68,8 @@ hook OnPlayerConnect(playerid) // Se conecta el usuario.
 	return 1;
 }
 
+/* It is executed when the player disconnect
+@return true */ 
 hook OnPlayerDisconnect(playerid, reason)
 {
 	if(IsPlayerNPC(playerid))
@@ -76,14 +80,14 @@ hook OnPlayerDisconnect(playerid, reason)
 
 	UpdatePlayerData(playerid, reason); // Lo manda a guardar la información.
 
-  // Si el jugador fue kickeado por timeout, elimina el timer
+  	// Si el jugador fue kickeado por timeout, elimina el timer
 	if (User::playerid(LoginTimer))
 	{
-  	KillTimer(User::playerid(LoginTimer));
-  	User::playerid(LoginTimer) = 0;
-  }
+  		KillTimer(User::playerid(LoginTimer));
+  		User::playerid(LoginTimer) = 0;
+  	}
 
-  // setea "IsLoggedIn" en false cuando el jugador se desconecta, esto previene guardar la información cuando se usa el "gmx"
+  	// setea "IsLoggedIn" en false cuando el jugador se desconecta, esto previene guardar la información cuando se usa el "gmx"
 	User::playerid(IsLoggedIn) = false;
 	return 1;
 }
